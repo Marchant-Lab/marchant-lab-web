@@ -16,8 +16,8 @@
   descripcion: Participación de la UIS en el convenio con AGROSAVIA.
   socios: AGROSAVIA
 - titulo: Recuperación de aguacates criollos y antillanos en El Carmen de Chucurí y Montes de María
-  estado: actual   # CvLAC no tiene fecha de fin: confirmar
-  anios: 2019–
+  estado: pasado   # CvLAC no tiene fecha de fin; sin actividad reciente en el servidor. Confirmar con acta de cierre.
+  anios: "2019"
 - titulo: Aprovechamiento de la biodiversidad en agraz y papa para cultivos promisorios en Santander
   estado: pasado
   anios: 2022–2025
