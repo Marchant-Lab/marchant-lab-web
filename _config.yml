@@ -4,4 +4,4 @@ lang: es
 # Si el sitio se publica en https://marchant-lab.github.io/<repo>/, poner baseurl: /<repo>
 baseurl: ""
 contacto: "PENDIENTE: correo público del laboratorio"
-exclude: [README.md, AGENTS.md]
+exclude: [README.md, AGENTS.md, environment.yml, scripts]
