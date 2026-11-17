@@ -8,6 +8,7 @@ Todo el contenido está en `_data/`. Se edita el YAML, se hace commit y push, y 
 
 | Qué cambiar | Archivo | Clave |
 |---|---|---|
+| Noticias (portada muestra las 3 más recientes) | `_data/noticias.yml` | más reciente arriba; `fecha`, `categoria`, `titulo`, `texto`, `enlace`, `foto` opcional |
 | Líneas de investigación | `_data/lineas.yml` | `nombre`, `descripcion` |
 | Proyectos actuales / pasados | `_data/proyectos.yml` | `estado: actual` o `estado: pasado` |
 | Estudiantes actuales / egresados | `_data/personas.yml` | `estado: actual` o `estado: egresado` (+ `anio`) |

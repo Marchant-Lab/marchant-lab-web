@@ -1,0 +1,95 @@
+# Noticias del laboratorio, de la más reciente a la más antigua.
+# Campos: fecha (AAAA-MM-DD), categoria (Publicación | Grado | Proyecto | Congreso), titulo, texto;
+# opcionales: enlace (URL externa o ruta interna como /proyectos/) y foto (ruta en assets/fotos/).
+# Cada titulo y texto nuevo necesita su traducción en _data/traduccion_en.yml.
+# Fuente de las fechas: Crossref (artículos), Noesis (grados), actas y certificados (proyectos y congresos).
+
+- fecha: 2026-09-18
+  categoria: Proyecto
+  titulo: Inicia el proyecto SGR de bioinnovación en páramo y bosque húmedo tropical
+  texto: Con la firma del convenio 2278-07 entre la UIS y AGROSAVIA arranca nuestra participación en este proyecto del Sistema General de Regalías. El laboratorio liderará la caracterización de comunidades biológicas con ADN ambiental.
+  enlace: /proyectos/
+
+- fecha: 2026-08-20
+  categoria: Grado
+  titulo: Diana Carolina Torres Gómez se gradúa como bióloga
+  texto: Su trabajo de grado diseñó material didáctico para visibilizar el reino Fungi en la Sala de Exhibición del Museo de Historia Natural de la UIS.
+  enlace: https://noesis.uis.edu.co/handle/20.500.14071/48266
+
+- fecha: 2026-06-10
+  categoria: Grado
+  titulo: Katherin López Lizarazo se gradúa como bióloga
+  texto: Su tesis reconstruyó la historia demográfica del tiburón ballena (Rhincodon typus) a partir de ADN mitocondrial.
+  enlace: https://noesis.uis.edu.co/handle/20.500.14071/47863
+
+- fecha: 2026-05-28
+  categoria: Grado
+  titulo: Leonardo Villalba Campos obtiene su maestría en Biología
+  texto: Su tesis estudió la variación genética y morfológica del nematodo quiste de la papa, Globodera pallida, en el centro y nororiente de Colombia.
+  enlace: https://noesis.uis.edu.co/handle/20.500.14071/47668
+
+- fecha: 2026-05-22
+  categoria: Grado
+  titulo: Sergio Andrés Sepúlveda Ortiz se gradúa como biólogo
+  texto: Su tesis usó filogenómica para delimitar especies de Fusarium con potencial para biotransformar plásticos.
+  enlace: https://noesis.uis.edu.co/handle/20.500.14071/47523
+
+- fecha: 2026-02-10
+  categoria: Publicación
+  titulo: Dos especies nuevas de sinfílidos en cultivos de piña
+  texto: Publicamos en ZooKeys la identificación morfológica y molecular de sinfílidos (Myriapoda, Symphyla) de cultivos de piña de Colombia, con la descripción de dos especies nuevas.
+  enlace: https://doi.org/10.3897/zookeys.1268.159237
+
+- fecha: 2026-01-29
+  categoria: Congreso
+  titulo: Dos trabajos aceptados en el Congreso Brasileño de Zoología
+  texto: El 36.º Congreso Brasileño de Zoología aceptó dos trabajos de José Luis Poveda Cuéllar sobre morfometría de peces de agua dulce con inteligencia artificial.
+  enlace: /congresos/
+
+- fecha: 2025-11-21
+  categoria: Proyecto
+  titulo: Inicia el proyecto de gestión del paisaje en la estación Sebastopol
+  texto: Firmamos el acta de inicio del convenio con Cenit para la gestión participativa del paisaje socioecológico alrededor de la estación Sebastopol, en el Magdalena Medio, que incluye monitoreo con ADN ambiental.
+  enlace: /proyectos/
+
+- fecha: 2025-11-07
+  categoria: Grado
+  titulo: Diego Alejandro Castro Blanco se gradúa como biólogo
+  texto: Su trabajo diseñó y evaluó una experiencia de aprendizaje para la enseñanza de la evolución biológica en la Sala de Exhibición del Museo de Historia Natural de la UIS.
+  enlace: https://noesis.uis.edu.co/handle/20.500.14071/46476
+
+- fecha: 2025-10-30
+  categoria: Publicación
+  titulo: Aprendizaje profundo para medir la diversidad de peces de agua dulce
+  texto: El artículo de José Luis Poveda Cuéllar, estudiante de doctorado, en Zoomorphology usa fotografías de campo y aprendizaje profundo para describir la diversidad morfométrica de peces colombianos.
+  enlace: https://doi.org/10.1007/s00435-025-00747-x
+
+- fecha: 2025-10-30
+  categoria: Grado
+  titulo: Nicolle Alejandra Saavedra Valderrama se gradúa como bióloga
+  texto: Su tesis estimó la diversidad y la estructura genética del tiburón ballena (Rhincodon typus) con ADN mitocondrial.
+  enlace: https://noesis.uis.edu.co/handle/20.500.14071/46435
+
+- fecha: 2025-09-01
+  categoria: Congreso
+  titulo: El laboratorio en la reunión anual de ONTA en Cali
+  texto: Presentamos una ponencia y un póster en la 55.ª reunión anual de la Organización de Nematólogos de los Trópicos Americanos (ONTA), en Cali.
+  enlace: /congresos/
+
+- fecha: 2025-08-17
+  categoria: Publicación
+  titulo: ¿Se conservan las vitelogeninas en un lagarto placentotrófico?
+  texto: Publicamos en Journal of Experimental Zoology Part B un estudio sobre la conservación de las vitelogeninas en un lagarto con placentotrofía.
+  enlace: https://doi.org/10.1002/jez.b.23325
+
+- fecha: 2025-03-19
+  categoria: Publicación
+  titulo: Manual para diagnosticar la muerte descendente del aguacate
+  texto: Con AGROSAVIA publicamos un manual sobre el reconocimiento y el diagnóstico de la muerte descendente causada por Lasiodiplodia spp. en aguacate de Santander.
+  enlace: https://doi.org/10.21930/agrosavia.manual.7407907
+
+- fecha: 2025-02-17
+  categoria: Grado
+  titulo: Silvia Juliana Corrales Murillo obtiene su maestría en Química
+  texto: Su tesis, codirigida con la Escuela de Química, identificó marcadores metabólicos de la biodegradación de plásticos por hongos nativos del género Fusarium.
+  enlace: https://noesis.uis.edu.co/handle/20.500.14071/45280

@@ -1,6 +1,6 @@
 # Textos fijos de la interfaz en cada idioma. Las páginas en inglés viven en en/.
 es:
-  menu: [["/", "Inicio"], ["/investigador/", "Investigador"], ["/proyectos/", "Proyectos"], ["/publicaciones/", "Publicaciones"], ["/congresos/", "Congresos"], ["/docencia/", "Docencia"], ["/equipo/", "Equipo"], ["/vinculate/", "Vincúlate"]]
+  menu: [["/", "Inicio"], ["/noticias/", "Noticias"], ["/investigador/", "Investigador"], ["/proyectos/", "Proyectos"], ["/publicaciones/", "Publicaciones"], ["/congresos/", "Congresos"], ["/docencia/", "Docencia"], ["/equipo/", "Equipo"], ["/vinculate/", "Vincúlate"]]
   cambiar_idioma: "EN"
   cambiar_idioma_titulo: "View this page in English"
   descripcion: Genómica, diversidad y bioinformática de organismos de interés agrícola y ambiental — Universidad Industrial de Santander (UIS)
@@ -32,19 +32,24 @@ es:
   perfiles: Perfiles
   tipos: {}
   grupos_congresos: [Congresos internacionales, Congresos nacionales]
+  noticias_recientes: Noticias recientes
+  todas_noticias: Todas las noticias →
+  meses: [ene., feb., mar., abr., may., jun., jul., ago., sep., oct., nov., dic.]
+  categorias: {}
   grupos_publicaciones: [Artículos científicos, Libros y capítulos, Memorias de congreso]
   titulo_categorias: Tipos de publicación
   tipos_trabajo: {}
   paginas:
+    noticias: {titulo: Noticias, subtitulo: "Publicaciones, grados, proyectos y congresos del laboratorio."}
     investigador: {titulo: Investigador principal}
     proyectos: {titulo: Proyectos, subtitulo: Proyectos de investigación y extensión en los que participa el laboratorio.}
     publicaciones: {titulo: Publicaciones, subtitulo: "Artículos, libros y memorias, actualizados desde ORCID."}
-    congresos: {titulo: Congresos, subtitulo: Ponencias, pósteres y evaluación de resúmenes en congresos nacionales e internacionales.}
+    congresos: {titulo: Congresos, subtitulo: "Ponencias, pósteres y evaluación de resúmenes en congresos nacionales e internacionales."}
     docencia: {titulo: Docencia, subtitulo: "Cursos en la UIS, formación continua y divulgación científica."}
     equipo: {titulo: Equipo, subtitulo: Estudiantes e investigadores que forman o formaron parte del laboratorio.}
     vinculate: {titulo: Vincúlate, subtitulo: Formas de sumarte al trabajo del laboratorio.}
 en:
-  menu: [["/en/", "Home"], ["/en/investigador/", "PI"], ["/en/proyectos/", "Projects"], ["/en/publicaciones/", "Publications"], ["/en/congresos/", "Conferences"], ["/en/docencia/", "Teaching"], ["/en/equipo/", "Team"], ["/en/vinculate/", "Join us"]]
+  menu: [["/en/", "Home"], ["/en/noticias/", "News"], ["/en/investigador/", "PI"], ["/en/proyectos/", "Projects"], ["/en/publicaciones/", "Publications"], ["/en/congresos/", "Conferences"], ["/en/docencia/", "Teaching"], ["/en/equipo/", "Team"], ["/en/vinculate/", "Join us"]]
   cambiar_idioma: "ES"
   cambiar_idioma_titulo: "Ver esta página en español"
   descripcion: Genomics, diversity and bioinformatics of organisms of agricultural and environmental relevance — Universidad Industrial de Santander (UIS), Colombia
@@ -75,15 +80,20 @@ en:
   contacto: Contact
   perfiles: Profiles
   grupos_congresos: [International conferences, National conferences]
+  noticias_recientes: Latest news
+  todas_noticias: All news →
+  meses: [Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec]
+  categorias: {Publicación: Publication, Grado: Graduation, Proyecto: Project, Congreso: Conference}
   grupos_publicaciones: [Journal articles, Books and chapters, Conference proceedings]
   titulo_categorias: Publication types
   tipos_trabajo: {Ponencia: Talk, Póster: Poster, Conferencia magistral: Keynote, Coautoría: Co-author, Evaluador de resúmenes: Abstract reviewer}
   tipos: {Artículo: Article, Libro: Book, Memorias de congreso: Conference proceedings, Capítulo: Book chapter, Ponencia: Conference paper}
   paginas:
+    noticias: {titulo: News, subtitulo: "Publications, graduations, projects and conferences from the lab."}
     investigador: {titulo: Principal Investigator}
     proyectos: {titulo: Projects, subtitulo: Research and outreach projects the lab takes part in.}
     publicaciones: {titulo: Publications, subtitulo: "Articles, books and proceedings, updated from ORCID."}
-    congresos: {titulo: Conferences, subtitulo: Talks, posters and abstract reviewing at national and international conferences.}
+    congresos: {titulo: Conferences, subtitulo: "Talks, posters and abstract reviewing at national and international conferences."}
     docencia: {titulo: Teaching, subtitulo: "Courses at UIS, continuing education and science outreach."}
     equipo: {titulo: Team, subtitulo: Students and researchers who are or have been part of the lab.}
     vinculate: {titulo: Join us, subtitulo: Ways to take part in the lab's work.}

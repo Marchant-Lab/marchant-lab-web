@@ -1,0 +1,8 @@
+{% assign n = include.n %}{% assign mes = n.fecha | date: "%-m" | minus: 1 %}
+{% if n.enlace contains "://" %}{% assign url = n.enlace %}{% elsif n.enlace %}{% if lang == "en" %}{% assign url = n.enlace | prepend: "/en" | relative_url %}{% else %}{% assign url = n.enlace | relative_url %}{% endif %}{% else %}{% assign url = nil %}{% endif %}
+<article class="tarjeta noticia">
+  {% if n.foto %}<img class="noticia-foto" src="{{ n.foto | relative_url }}" alt="">{% endif %}
+  <div class="etiquetas"><span class="etiqueta etiqueta-acento">{{ ui.categorias[n.categoria] | default: n.categoria }}</span><time class="nota" datetime="{{ n.fecha | date: '%Y-%m-%d' }}">{{ n.fecha | date: "%-d" }} {{ ui.meses[mes] }} {{ n.fecha | date: "%Y" }}</time></div>
+  <h3>{% if url %}<a href="{{ url }}">{{ tr[n.titulo] | default: n.titulo }}</a>{% else %}{{ tr[n.titulo] | default: n.titulo }}{% endif %}</h3>
+  <p>{{ tr[n.texto] | default: n.texto }}</p>
+</article>

@@ -9,8 +9,8 @@
     <h1>{{ site.title }}</h1>
     <p class="lema">{{ ui.lema }}</p>
     <div class="botones">
-      <a class="boton" href="{{ ui.menu[2][0] | relative_url }}">{{ ui.ver_proyectos }}</a>
-      <a class="boton boton-claro" href="{{ ui.menu[6][0] | relative_url }}">{{ ui.vinculate_boton }}</a>
+      <a class="boton" href="{{ ui.menu[3][0] | relative_url }}">{{ ui.ver_proyectos }}</a>
+      <a class="boton boton-claro" href="{{ ui.menu[8][0] | relative_url }}">{{ ui.vinculate_boton }}</a>
     </div>
   </div>
 </section>
@@ -20,6 +20,13 @@
   <div><strong>{{ actuales.size }}</strong><span>{{ ui.cifras[1] }}</span></div>
   <div><strong>{{ integrantes.size }}</strong><span>{{ ui.cifras[2] }}</span></div>
   <div><strong>{{ egresados.size }}</strong><span>{{ ui.cifras[3] }}</span></div>
+</section>
+
+<section class="contenedor seccion">
+  <div class="titulo-con-enlace"><h2>{{ ui.noticias_recientes }}</h2><a href="{{ ui.menu[1][0] | relative_url }}">{{ ui.todas_noticias }}</a></div>
+  <div class="rejilla">
+    {% for n in site.data.noticias limit: 3 %}{% include tarjeta_noticia.html n=n %}{% endfor %}
+  </div>
 </section>
 
 <section class="contenedor seccion">
@@ -36,7 +43,7 @@
 </section>
 
 <section class="contenedor seccion">
-  <div class="titulo-con-enlace"><h2>{{ ui.proyectos_activos }}</h2><a href="{{ ui.menu[2][0] | relative_url }}">{{ ui.todos_proyectos }}</a></div>
+  <div class="titulo-con-enlace"><h2>{{ ui.proyectos_activos }}</h2><a href="{{ ui.menu[3][0] | relative_url }}">{{ ui.todos_proyectos }}</a></div>
   <div class="rejilla">
     {% for p in actuales %}{% include tarjeta_proyecto.html p=p %}{% endfor %}
   </div>
@@ -48,6 +55,6 @@
       <h2>{{ ui.banda_titulo }}</h2>
       <p>{{ ui.banda_texto }}</p>
     </div>
-    <a class="boton boton-claro" href="{{ ui.menu[6][0] | relative_url }}">{{ ui.banda_boton }}</a>
+    <a class="boton boton-claro" href="{{ ui.menu[8][0] | relative_url }}">{{ ui.banda_boton }}</a>
   </div>
 </section>

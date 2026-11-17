@@ -39,11 +39,12 @@ p { margin: 0 0 .8rem; }
 
 /* Barra superior */
 .barra { position: sticky; top: 0; z-index: 10; background: rgba(255, 255, 255, .9); backdrop-filter: blur(10px); border-bottom: 1px solid var(--borde); }
-.barra-interior { display: flex; align-items: center; justify-content: space-between; gap: 1rem; min-height: 64px; flex-wrap: wrap; }
+.barra-interior { display: flex; align-items: center; justify-content: space-between; gap: .6rem; min-height: 64px; flex-wrap: wrap; }
 .marca { display: flex; align-items: center; gap: .6rem; font-family: "Fraunces", serif; font-weight: 700; font-size: 1.25rem; color: var(--verde-oscuro); text-decoration: none; }
 .marca-logo { display: grid; place-items: center; width: 36px; height: 36px; border-radius: 10px; background: var(--verde); color: #fff; font-size: 1.1rem; }
 nav { display: flex; gap: .2rem; flex-wrap: wrap; }
-nav a { padding: .45rem .75rem; border-radius: 999px; color: var(--tinta); text-decoration: none; font-size: .93rem; font-weight: 500; }
+nav a { padding: .4rem .55rem; border-radius: 999px; color: var(--tinta); text-decoration: none; font-size: .9rem; font-weight: 500; }
+@media (max-width: 1200px) and (min-width: 801px) { .marca { font-size: 1.05rem; } .marca-logo { width: 30px; height: 30px; } nav a { padding: .35rem .4rem; font-size: .82rem; } .idioma { padding: .3rem .55rem; font-size: .8rem; } }
 nav a:hover { background: var(--verde-claro); color: var(--verde); }
 nav a[aria-current="page"] { background: var(--verde); color: #fff; }
 
@@ -168,3 +169,10 @@ details p { margin-top: .6rem; }
 .categoria { margin-top: 2.5rem; scroll-margin-top: 80px; }
 .categoria > h2 { border-bottom: 2px solid var(--verde-claro); padding-bottom: .3rem; }
 .anio-pub { font-family: "Inter", sans-serif; font-size: .95rem; color: var(--gris); margin: 1.2rem 0 .5rem; }
+
+/* Noticias */
+.noticia .etiquetas { align-items: center; }
+.noticia time { margin-left: auto; }
+.noticia h3 a { color: var(--verde-oscuro); text-decoration: none; }
+.noticia h3 a:hover { color: var(--ambar); }
+.noticia-foto { width: calc(100% + 2.8rem); margin: -1.4rem -1.4rem 1rem; aspect-ratio: 16 / 9; object-fit: cover; border-radius: var(--radio) var(--radio) 0 0; }

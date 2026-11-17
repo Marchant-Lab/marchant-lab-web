@@ -28,16 +28,22 @@ usados |= set(textos(cargar("proyectos"), ["titulo", "descripcion", "rol", "soci
 usados |= set(textos(cargar("personas"), ["rol"]))
 usados |= set(textos(cargar("vinculacion"), ["modalidad", "detalle"]))
 usados |= set(textos(cargar("congresos"), ["pais"]))
+usados |= set(textos(cargar("noticias"), ["titulo", "texto"]))
 usados |= set(textos([inv], ["cargo", "categoria", "grupo", "bio", "formacion", "trayectoria"]))
 for seccion in doc.values():
     usados |= set(textos(seccion, ["nombre", "nivel", "periodos", "descripcion"]))
 usados -= {"Clemson University (2012–2014)"}  # igual en ambos idiomas
 
 traducidos = set(cargar("traduccion_en"))
+# En YAML de una línea ({titulo: ..., subtitulo: ...}) una coma sin comillas corta el texto.
+cortados = [f"{l}/{k}" for l, v in cargar("ui").items() for k, x in v["paginas"].items()
+            if x.get("subtitulo") and not x["subtitulo"].endswith(".")]
+for c in cortados:
+    print("CORTADO: subtítulo de", c, "(¿coma sin comillas en _data/ui.yml?)")
 faltan, sobran = sorted(usados - traducidos), sorted(traducidos - usados)
 for t in faltan:
     print("FALTA :", t)
 for t in sobran:
     print("SOBRA :", t)
 print(f"{len(usados)} textos, {len(faltan)} sin traducir, {len(sobran)} traducciones sin uso")
-sys.exit(1 if faltan else 0)
+sys.exit(1 if faltan or cortados else 0)

@@ -1,0 +1,12 @@
+{% include idioma.html %}
+{% assign por_anio = site.data.noticias | group_by_exp: "n", "n.fecha | date: '%Y'" %}
+<div class="contenedor seccion">
+  {% for g in por_anio %}
+  <section class="anio">
+    <h2>{{ g.name }}</h2>
+    <div class="rejilla">
+      {% for n in g.items %}{% include tarjeta_noticia.html n=n %}{% endfor %}
+    </div>
+  </section>
+  {% endfor %}
+</div>
