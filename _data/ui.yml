@@ -24,6 +24,7 @@ es:
   perfil_orcid: Perfil completo en
   grupos_equipo: [Integrantes actuales, Egresados]
   leer_resumen: Leer resumen
+  modalidad_grado: Modalidad de grado
   secciones_docencia: [Cursos en la UIS, Formación continua, Divulgación y museo, Formación docente]
   ver_curso: Ver página del curso →
   como_aplicar: ¿Cómo aplicar?
@@ -75,6 +76,7 @@ en:
   perfil_orcid: Full profile on
   grupos_equipo: [Current members, Alumni]
   leer_resumen: Read abstract
+  modalidad_grado: Degree option
   secciones_docencia: [Courses at UIS, Continuing education, Outreach and museum, Teacher training]
   ver_curso: Course website →
   como_aplicar: How to apply

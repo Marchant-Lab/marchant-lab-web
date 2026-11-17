@@ -17,6 +17,7 @@
       <p class="tesis"><a href="https://noesis.uis.edu.co/handle/{{ t.handle }}">{% include cursiva.html t=t.titulo %}</a></p>
       {% if lang == "en" and t.resumen_en %}{% assign resumen = t.resumen_en %}{% else %}{% assign resumen = t.resumen %}{% endif %}
       {% if resumen %}<details><summary>{{ ui.leer_resumen }}</summary><p>{% include cursiva.html t=resumen %}</p></details>{% endif %}
+      {% elsif p.modalidad %}<p class="modalidad"><span class="etiqueta">{{ ui.modalidad_grado }}</span> {{ tr[p.modalidad] | default: p.modalidad }}{% if p.tesis %}: {% include cursiva.html t=p.tesis %}{% endif %}</p>
       {% elsif p.tesis %}<p class="tesis">{% include cursiva.html t=p.tesis %}</p>{% endif %}
     </article>
     {% endfor %}

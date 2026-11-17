@@ -184,3 +184,5 @@ details p { margin-top: .6rem; }
 .rejilla-infra { grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
 .lista-equipos { margin: 0; padding-left: 1.1rem; font-size: .93rem; }
 .lista-equipos li { margin-bottom: .25rem; }
+.modalidad { margin-top: 1rem; font-size: .93rem; }
+.modalidad .etiqueta { margin-right: .3rem; }

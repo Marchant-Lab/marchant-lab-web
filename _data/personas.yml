@@ -2,7 +2,8 @@
 # Fuente oficial de títulos y roles: Sistema de Trabajos de Grado UIS (soportes-academicos/trabajos-grado/).
 # Egresados: anio = año de grado. Con `noesis: <handle>` el título, resumen y enlace salen de
 # _data/tesis.json (scripts/actualizar_tesis.py); si la tesis no está en Noesis, poner `tesis:` a mano.
-# Campos opcionales: foto (ruta en assets/), enlace (ORCID, LinkedIn…), anio, tesis, noesis.
+# Campos opcionales: foto (ruta en assets/), enlace (ORCID, LinkedIn…), anio, tesis, noesis,
+# modalidad (si el grado no fue por trabajo de investigación; `tesis` pasa a ser el tema registrado).
 - nombre: Sergio Andrés Marchant Rojas
   rol: Investigador principal
   estado: actual
@@ -40,6 +41,7 @@
   rol: Biología (pregrado)
   estado: egresado
   anio: 2026   # grado 2026-02-04 (Cuadro Maestro PRODUCTIVIDAD); aún no está en Noesis
+  modalidad: Cursos en programas de maestría y doctorado   # Acuerdo 240 de 2008 del Consejo Académico UIS
   tesis: "Ecología molecular de poblaciones acuáticas e implicaciones para la conservación"
 - nombre: Leonardo Villalba Campos
   rol: Maestría en Biología (codirección)
