@@ -1,0 +1,25 @@
+{% include idioma.html %}
+{% assign estados = "actual,egresado" | split: "," %}
+{% for e in estados %}{% assign lista = site.data.personas | where: "estado", e %}
+<section class="contenedor seccion">
+  <h2>{{ ui.grupos_equipo[forloop.index0] }} <span class="contador">{{ lista.size }}</span></h2>
+  <div class="rejilla rejilla-personas">
+    {% for p in lista %}
+    <article class="tarjeta persona">
+      <div class="persona-cabeza">
+        {% include avatar.html nombre=p.nombre foto=p.foto %}
+        <div>
+          <h3>{% if p.enlace %}<a href="{{ p.enlace }}">{{ p.nombre }}</a>{% else %}{{ p.nombre }}{% endif %}</h3>
+          <p class="nota">{{ tr[p.rol] | default: p.rol }}{% if p.anio %} · {{ p.anio }}{% endif %}</p>
+        </div>
+      </div>
+      {% if p.noesis %}{% assign t = site.data.tesis | where: "handle", p.noesis | first %}
+      <p class="tesis"><a href="https://noesis.uis.edu.co/handle/{{ t.handle }}">{{ t.titulo }}</a></p>
+      {% if lang == "en" and t.resumen_en %}{% assign resumen = t.resumen_en %}{% else %}{% assign resumen = t.resumen %}{% endif %}
+      {% if resumen %}<details><summary>{{ ui.leer_resumen }}</summary><p>{{ resumen }}</p></details>{% endif %}
+      {% elsif p.tesis %}<p class="tesis">{{ p.tesis }}</p>{% endif %}
+    </article>
+    {% endfor %}
+  </div>
+</section>
+{% endfor %}

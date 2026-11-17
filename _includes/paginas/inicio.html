@@ -1,0 +1,53 @@
+{% include idioma.html %}
+{% assign actuales = site.data.proyectos | where: "estado", "actual" %}
+{% assign egresados = site.data.personas | where: "estado", "egresado" %}
+{% assign integrantes = site.data.personas | where: "estado", "actual" %}
+{% assign n_pubs = site.data.publicaciones.size | plus: site.data.publicaciones_extra.size %}
+<section class="heroe">
+  <div class="contenedor">
+    <p class="antetitulo">{{ ui.antetitulo }}</p>
+    <h1>{{ site.title }}</h1>
+    <p class="lema">{{ ui.lema }}</p>
+    <div class="botones">
+      <a class="boton" href="{{ ui.menu[2][0] | relative_url }}">{{ ui.ver_proyectos }}</a>
+      <a class="boton boton-claro" href="{{ ui.menu[6][0] | relative_url }}">{{ ui.vinculate_boton }}</a>
+    </div>
+  </div>
+</section>
+
+<section class="contenedor cifras">
+  <div><strong>{{ n_pubs }}</strong><span>{{ ui.cifras[0] }}</span></div>
+  <div><strong>{{ actuales.size }}</strong><span>{{ ui.cifras[1] }}</span></div>
+  <div><strong>{{ integrantes.size }}</strong><span>{{ ui.cifras[2] }}</span></div>
+  <div><strong>{{ egresados.size }}</strong><span>{{ ui.cifras[3] }}</span></div>
+</section>
+
+<section class="contenedor seccion">
+  <h2>{{ ui.lineas }}</h2>
+  <div class="rejilla">
+    {% for l in site.data.lineas %}
+    <article class="tarjeta">
+      <span class="numero">{{ forloop.index | prepend: "0" }}</span>
+      <h3>{{ tr[l.nombre] | default: l.nombre }}</h3>
+      <p>{{ tr[l.descripcion] | default: l.descripcion }}</p>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="contenedor seccion">
+  <div class="titulo-con-enlace"><h2>{{ ui.proyectos_activos }}</h2><a href="{{ ui.menu[2][0] | relative_url }}">{{ ui.todos_proyectos }}</a></div>
+  <div class="rejilla">
+    {% for p in actuales %}{% include tarjeta_proyecto.html p=p %}{% endfor %}
+  </div>
+</section>
+
+<section class="banda">
+  <div class="contenedor banda-interior">
+    <div>
+      <h2>{{ ui.banda_titulo }}</h2>
+      <p>{{ ui.banda_texto }}</p>
+    </div>
+    <a class="boton boton-claro" href="{{ ui.menu[6][0] | relative_url }}">{{ ui.banda_boton }}</a>
+  </div>
+</section>

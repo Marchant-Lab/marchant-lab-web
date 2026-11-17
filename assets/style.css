@@ -150,3 +150,9 @@ details p { margin-top: .6rem; }
   nav a { white-space: nowrap; }
   .heroe { padding: 4rem 0 5rem; }
 }
+
+/* Botón de idioma */
+.idioma { padding: .4rem .8rem; border-radius: 999px; border: 1.5px solid var(--verde); color: var(--verde); font-weight: 600; font-size: .9rem; letter-spacing: .05em; text-decoration: none; }
+.idioma:hover { background: var(--verde); color: #fff; }
+.barra-interior nav { margin-left: auto; }
+@media (max-width: 800px) { .idioma { order: 1; margin-left: auto; } .barra-interior nav { order: 2; margin-left: 0; } }

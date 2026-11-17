@@ -1,0 +1,16 @@
+{% include idioma.html %}
+<section class="contenedor seccion">
+  <div class="rejilla">
+    {% for v in site.data.vinculacion %}
+    <article class="tarjeta">
+      <span class="numero">{{ forloop.index | prepend: "0" }}</span>
+      <h3>{{ tr[v.modalidad] | default: v.modalidad }}</h3>
+      <p>{{ tr[v.detalle] | default: v.detalle }}</p>
+    </article>
+    {% endfor %}
+  </div>
+  <div class="aviso">
+    <h2>{{ ui.como_aplicar }}</h2>
+    <p>{{ ui.aplicar_antes }} <strong>{{ site.contacto }}</strong> {{ ui.aplicar_despues }}</p>
+  </div>
+</section>

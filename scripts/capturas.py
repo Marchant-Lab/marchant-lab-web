@@ -11,19 +11,25 @@ salida.mkdir(parents=True, exist_ok=True)
 sitio = Path(tempfile.mkdtemp()) / "sitio"
 subprocess.run(["jekyll", "build", "-q", "--baseurl", "", "-d", str(sitio)], check=True)
 
-manejador = functools.partial(http.server.SimpleHTTPRequestHandler, directory=str(sitio))
+class Silencioso(http.server.SimpleHTTPRequestHandler):
+    def log_message(self, *args):
+        pass
+
+
+manejador = functools.partial(Silencioso, directory=str(sitio))
 servidor = http.server.ThreadingHTTPServer(("127.0.0.1", 0), manejador)
 threading.Thread(target=servidor.serve_forever, daemon=True).start()
 base = f"http://127.0.0.1:{servidor.server_port}"
 
 paginas = ["", "investigador/", "proyectos/", "publicaciones/", "docencia/", "equipo/", "vinculate/"]
+paginas += ["en/" + r for r in paginas]
 with sync_playwright() as p:
     nav = p.chromium.launch()
     for nombre, vista in [("escritorio", {"width": 1280, "height": 900}), ("celular", {"width": 390, "height": 844})]:
         pag = nav.new_page(viewport=vista)
         for ruta in paginas:
             pag.goto(base + "/" + ruta, wait_until="networkidle")
-            archivo = salida / f"{nombre}_{(ruta.strip('/') or 'inicio')}.png"
+            archivo = salida / f"{nombre}_{(ruta.strip('/').replace('/', '_') or 'inicio')}.png"
             pag.screenshot(path=str(archivo), full_page=True)
             print(archivo)
     nav.close()

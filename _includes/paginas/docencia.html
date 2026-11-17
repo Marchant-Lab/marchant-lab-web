@@ -1,0 +1,19 @@
+{% include idioma.html %}
+{% assign d = site.data.docencia %}
+{% assign claves = "cursos,formacion_continua,divulgacion" | split: "," %}
+{% for clave in claves %}
+<section class="contenedor seccion">
+  <h2>{{ ui.secciones_docencia[forloop.index0] }}</h2>
+  <div class="rejilla">
+    {% for c in d[clave] %}
+    <article class="tarjeta">
+      <div class="etiquetas">{% if c.codigo %}<span class="etiqueta">{{ c.codigo }}</span>{% endif %}{% if c.nivel %}<span class="etiqueta etiqueta-acento">{{ tr[c.nivel] | default: c.nivel }}</span>{% endif %}</div>
+      <h3>{{ tr[c.nombre] | default: c.nombre }}</h3>
+      {% if c.periodos %}<p class="nota">{{ tr[c.periodos] | default: c.periodos }}</p>{% endif %}
+      {% if c.descripcion %}<p>{{ tr[c.descripcion] | default: c.descripcion }}</p>{% endif %}
+      {% if c.url %}<a class="enlace-flecha" href="{{ c.url }}">{{ ui.ver_curso }}</a>{% endif %}
+    </article>
+    {% endfor %}
+  </div>
+</section>
+{% endfor %}

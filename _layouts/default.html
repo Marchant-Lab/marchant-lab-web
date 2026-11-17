@@ -1,10 +1,12 @@
-<!doctype html>
-<html lang="{{ site.lang }}">
+{% include idioma.html %}{% assign info = ui.paginas[page.pid] %}{% if lang == "en" %}{% assign otra = page.url | remove_first: "/en" %}{% assign url_es = otra %}{% assign url_en = page.url %}{% else %}{% assign otra = page.url | prepend: "/en" %}{% assign url_es = page.url %}{% assign url_en = otra %}{% endif %}<!doctype html>
+<html lang="{{ lang }}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
-  <meta name="description" content="{{ page.subtitulo | default: site.description }}">
+  <title>{% if info.titulo %}{{ info.titulo }} · {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ info.subtitulo | default: ui.descripcion }}">
+  <link rel="alternate" hreflang="es" href="{{ url_es | absolute_url }}">
+  <link rel="alternate" hreflang="en" href="{{ url_en | absolute_url }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -13,21 +15,21 @@
 <body>
   <header class="barra">
     <div class="contenedor barra-interior">
-      <a class="marca" href="{{ '/' | relative_url }}"><span class="marca-logo" aria-hidden="true">M</span>{{ site.title }}</a>
-      <nav aria-label="Principal">
-        {% assign menu = "/:Inicio,/investigador/:Investigador,/proyectos/:Proyectos,/publicaciones/:Publicaciones,/docencia/:Docencia,/equipo/:Equipo,/vinculate/:Vincúlate" | split: "," %}
-        {% for item in menu %}{% assign par = item | split: ":" %}
-        <a href="{{ par[0] | relative_url }}"{% if page.url == par[0] %} aria-current="page"{% endif %}>{{ par[1] }}</a>
+      <a class="marca" href="{{ ui.menu[0][0] | relative_url }}"><span class="marca-logo" aria-hidden="true">M</span>{{ site.title }}</a>
+      <nav aria-label="{% if lang == 'en' %}Main{% else %}Principal{% endif %}">
+        {% for item in ui.menu %}
+        <a href="{{ item[0] | relative_url }}"{% if page.url == item[0] %} aria-current="page"{% endif %}>{{ item[1] }}</a>
         {% endfor %}
       </nav>
+      <a class="idioma" href="{{ otra | relative_url }}" hreflang="{% if lang == 'en' %}es{% else %}en{% endif %}" lang="{% if lang == 'en' %}es{% else %}en{% endif %}" title="{{ ui.cambiar_idioma_titulo }}">{{ ui.cambiar_idioma }}</a>
     </div>
   </header>
 
-  {% if page.title %}
+  {% if info.titulo %}
   <section class="cabecera">
     <div class="contenedor">
-      <h1>{{ page.title }}</h1>
-      {% if page.subtitulo %}<p>{{ page.subtitulo }}</p>{% endif %}
+      <h1>{{ info.titulo }}</h1>
+      {% if info.subtitulo %}<p>{{ info.subtitulo }}</p>{% endif %}
     </div>
   </section>
   {% endif %}
@@ -40,14 +42,14 @@
     <div class="contenedor pie-interior">
       <div>
         <strong>{{ site.title }}</strong>
-        <p>Escuela de Biología · Universidad Industrial de Santander<br>Bucaramanga, Colombia</p>
+        <p>{{ ui.pie_lugar }}</p>
       </div>
       <div>
-        <strong>Contacto</strong>
+        <strong>{{ ui.contacto }}</strong>
         <p>{{ site.contacto }}</p>
       </div>
       <div>
-        <strong>Perfiles</strong>
+        <strong>{{ ui.perfiles }}</strong>
         <p>{% for p in site.data.investigador.perfiles %}<a href="{{ p.url }}">{{ p.nombre }}</a>{% unless forloop.last %} · {% endunless %}{% endfor %}</p>
       </div>
     </div>

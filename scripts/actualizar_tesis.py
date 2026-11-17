@@ -32,6 +32,7 @@ while True:
             "grado": valor(m, "dc.description.degreename"),
             "directores": directores,
             "resumen": valor(m, "dc.description.abstract"),
+            "resumen_en": valor(m, "dc.description.abstractenglish"),
         })
     pagina += 1
     if pagina >= res["page"]["totalPages"]:

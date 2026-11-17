@@ -1,0 +1,19 @@
+{% include idioma.html %}
+{% assign i = site.data.investigador %}
+<div class="contenedor seccion perfil">
+  <aside class="perfil-lateral">
+    {% if i.foto != "" %}<img class="retrato" src="{{ i.foto | relative_url }}" alt="{{ i.nombre }}">{% else %}{% include avatar.html nombre="Sergio Marchant" %}{% endif %}
+    <h2>{{ i.nombre }}</h2>
+    <p class="cargo">{{ tr[i.cargo] | default: i.cargo }}</p>
+    <p class="nota">{{ tr[i.categoria] | default: i.categoria }}</p>
+    <p class="nota">{{ tr[i.grupo] | default: i.grupo }}</p>
+    <div class="perfiles">{% for p in i.perfiles %}<a class="pastilla" href="{{ p.url }}">{{ p.nombre }}</a>{% endfor %}</div>
+  </aside>
+  <div class="perfil-cuerpo">
+    {% for p in i.bio %}<p>{{ tr[p] | default: p }}</p>{% endfor %}
+    <h3>{{ ui.formacion }}</h3>
+    <ul class="linea-tiempo">{% for f in i.formacion %}<li>{{ tr[f] | default: f }}</li>{% endfor %}</ul>
+    <h3>{{ ui.trayectoria }}</h3>
+    <ul class="linea-tiempo">{% for t in i.trayectoria %}<li>{{ tr[t] | default: t }}</li>{% endfor %}</ul>
+  </div>
+</div>

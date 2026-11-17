@@ -2,7 +2,9 @@
 
 Sitio web público del laboratorio, no es un análisis: no aplican scripts numerados ni `data/`/`results/`.
 
-- Contenido solo en `_data/*.yml`; las páginas (`*.md`) y `_layouts/` solo leen esos datos.
+- Contenido solo en `_data/*.yml`; las páginas viven en `_includes/paginas/` y `index.html`, `*.html` y `en/*.html`
+  son envoltorios. Todo texto nuevo en español necesita su traducción en `_data/traduccion_en.yml`
+  (`python scripts/revisar_traducciones.py` debe salir sin faltantes).
 - Todo lo que se publique aquí es **público**: no poner datos sin publicar, códigos de estudiante,
   correos personales ni nombres de personas que no hayan aceptado aparecer.
 - Antes de commitear: `jekyll build` sin errores y revisar `python scripts/capturas.py` (capturas en /tmp/capturas) en el entorno conda `marchant-lab-web`.
