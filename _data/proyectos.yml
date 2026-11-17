@@ -14,13 +14,11 @@
   estado: actual   # reporte de actividad docente 2026-1, proyecto externo 8212
   anios: 2025–2027
   rol: Director
+  descripcion: Incluye el monitoreo de la comunidad acuática del río Magdalena y ciénagas cercanas a Puerto Olaya (Cimitarra, Santander) con ADN ambiental multimarcador secuenciado con Nanopore.
 - titulo: Atributos taxonómicos y funcionales del fitoplancton para entender la variación ambiental
   estado: actual   # proyecto interno 4337
   anios: 2025–2026
   rol: Coinvestigador
-- titulo: ADN ambiental multimarcador en el Magdalena Medio
-  estado: actual
-  descripcion: Cinco marcadores secuenciados con Nanopore para describir la comunidad acuática del río Magdalena y ciénagas cercanas a Puerto Olaya (Cimitarra, Santander).
 - titulo: Bioinnovación en paisajes de páramo y bosque húmedo tropical (SGR)
   estado: actual
   descripcion: Participación de la UIS en el convenio con AGROSAVIA.
