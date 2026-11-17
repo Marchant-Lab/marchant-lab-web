@@ -1,4 +1,5 @@
 # estado: actual | egresado.  Fuente: CvLAC + proyectos del servidor.
+# Fuente oficial de títulos y roles: Sistema de Trabajos de Grado UIS (soportes-academicos/trabajos-grado/).
 # Egresados: anio = año de grado. Con `noesis: <handle>` el título, resumen y enlace salen de
 # _data/tesis.json (scripts/actualizar_tesis.py); si la tesis no está en Noesis, poner `tesis:` a mano.
 # Campos opcionales: foto (ruta en assets/), enlace (ORCID, LinkedIn…), anio, tesis, noesis.
@@ -109,7 +110,7 @@
   rol: Biología (pregrado)
   estado: egresado
   anio: 2021
-  tesis: "Ensamblaje de novo del transcriptoma de un onicóforo del departamento de Santander para la evaluación de expresión génica diferencial en glándulas y tejidos"
+  tesis: "Descubrimiento de genes mediante ensamble de novo y anotación del transcriptoma de un onicóforo del departamento de Santander, Colombia"
 - nombre: Jeysnner Arley Pinzón Bayona
   rol: Biología (pregrado, codirección)
   estado: egresado
