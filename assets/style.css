@@ -156,3 +156,7 @@ details p { margin-top: .6rem; }
 .idioma:hover { background: var(--verde); color: #fff; }
 .barra-interior nav { margin-left: auto; }
 @media (max-width: 800px) { .idioma { order: 1; margin-left: auto; } .barra-interior nav { order: 2; margin-left: 0; } }
+
+/* Congresos */
+.congresos .trabajo { margin: .6rem 0 0; font-size: .93rem; }
+.congresos .trabajo .etiqueta { margin-right: .3rem; }

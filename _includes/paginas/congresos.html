@@ -1,0 +1,21 @@
+{% include idioma.html %}
+{% assign ambitos = "internacional,nacional" | split: "," %}
+<div class="contenedor seccion estrecho">
+  {% for a in ambitos %}{% assign lista = site.data.congresos | where: "ambito", a %}
+  <section class="anio">
+    <h2>{{ ui.grupos_congresos[forloop.index0] }} <span class="contador">{{ lista.size }}</span></h2>
+    <ul class="publicaciones congresos">
+      {% for c in lista %}
+      <li>
+        <span class="tipo">{{ c.anio }}</span>
+        <span class="titulo">{{ c.evento }}</span>
+        <em>{% if c.ciudad %}{{ c.ciudad }}, {% endif %}{{ tr[c.pais] | default: c.pais }}</em>
+        {% for t in c.trabajos %}
+        <p class="trabajo"><span class="etiqueta{% if t.tipo != 'Póster' %} etiqueta-acento{% endif %}">{{ ui.tipos_trabajo[t.tipo] | default: t.tipo }}</span> {{ t.titulo }}</p>
+        {% endfor %}
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
+</div>

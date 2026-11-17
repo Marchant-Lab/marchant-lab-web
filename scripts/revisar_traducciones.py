@@ -27,6 +27,7 @@ usados |= set(textos(cargar("lineas"), ["nombre", "descripcion"]))
 usados |= set(textos(cargar("proyectos"), ["titulo", "descripcion", "rol", "socios"]))
 usados |= set(textos(cargar("personas"), ["rol"]))
 usados |= set(textos(cargar("vinculacion"), ["modalidad", "detalle"]))
+usados |= set(textos(cargar("congresos"), ["pais"]))
 usados |= set(textos([inv], ["cargo", "categoria", "grupo", "bio", "formacion", "trayectoria"]))
 for seccion in doc.values():
     usados |= set(textos(seccion, ["nombre", "nivel", "periodos", "descripcion"]))

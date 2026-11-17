@@ -1,0 +1,94 @@
+# Participación en congresos. Fuente: CvLAC, sección "Eventos científicos" (consultado 2026-11-17).
+# ambito: internacional | nacional (según CvLAC). tipo del trabajo: Ponencia | Póster | Conferencia magistral.
+# No se incluye el taller "Selección genómica" (CIAT, 2017): participación como asistente.
+- anio: 2024
+  evento: 39.º Congresso Brasileiro de Nematologia – LIV ONTA Meeting
+  ciudad: Foz do Iguaçu
+  pais: Brasil
+  ambito: internacional
+  trabajos:
+    - {tipo: Ponencia, titulo: "Diversidad genética de nematodos quiste Globodera spp. en el centro y nororiente de Colombia"}
+- anio: 2024
+  evento: 12th International Mycological Congress (IMC12)
+  ciudad: Maastricht
+  pais: Países Bajos
+  ambito: internacional
+  trabajos:
+    - {tipo: Ponencia, titulo: "Whole genome sequencing of Fusarium oxysporum isolated from biodegraded polyethylene pipelines"}
+    - {tipo: Ponencia, titulo: "Biodegradation of polyethylene: exploring the potential of native Fusarium strain"}
+- anio: 2023
+  evento: LVIII Congreso Nacional y IX Internacional de Ciencias Biológicas
+  ciudad: Santa Rosa de Cabal
+  pais: Colombia
+  ambito: nacional
+  trabajos:
+    - {tipo: Ponencia, titulo: "Relación entre abundancia de larvas de Astaena pygidialis Kirsch (Coleoptera: Melolonthinae) con el suelo en cultivos de aguacate cv. Hass en Antioquia, Colombia"}
+- anio: 2022
+  evento: American Society for Microbiology (ASM) Conference on Biofilms
+  ciudad: Charlotte, NC
+  pais: Estados Unidos
+  ambito: internacional
+  trabajos:
+    - {tipo: Ponencia, titulo: "Effect of the essential oil from Lippia origanoides chemotype thymol-carvacrol (LTC II) on the in vitro inhibition of biofilm-forming microorganisms from egg-laying hen farms"}
+- anio: 2022
+  evento: 49.º Congreso de la Sociedad Colombiana de Entomología (Socolen)
+  ciudad: Bogotá
+  pais: Colombia
+  ambito: nacional
+  trabajos:
+    - {tipo: Ponencia, titulo: "Identificación de sinfílidos (Myriapoda: Symphyla) con herramientas morfológicas y moleculares en cultivos de piña de Santander"}
+- anio: 2021
+  evento: 34.º Congreso Latinoamericano de Química (CLAQ) y IV C2B2
+  ciudad: Cartagena de Indias
+  pais: Colombia
+  ambito: internacional
+  trabajos:
+    - {tipo: Conferencia magistral}
+- anio: 2020
+  evento: Biodiversity Genomics 2020
+  pais: Reino Unido
+  ambito: internacional
+  trabajos:
+    - {tipo: Póster, titulo: "The transcriptome of the Pacific gooseneck barnacle Pollicipes elegans obtained from recent divergent populations: insights into the molecular basis for local adaptation followed by allopatric speciation"}
+- anio: 2020
+  evento: "Colombia 2020: International Conference of Marine Science, Tropical Oceans for the Future"
+  ciudad: Bogotá
+  pais: Colombia
+  ambito: internacional
+  trabajos:
+    - {tipo: Póster, titulo: "Cryptic diversity in the gooseneck barnacle Pollicipes elegans as result of recent vicariance in the Tropical Eastern Pacific"}
+- anio: 2019
+  evento: XVII Congreso Latinoamericano de Genética
+  ciudad: Mendoza
+  pais: Argentina
+  ambito: internacional
+  trabajos:
+    - {tipo: Póster, titulo: "Estructura y variabilidad genética espacial de poblaciones de Elaeis oleifera (Kunth) Cortés en las regiones Andina y Caribe de Colombia"}
+- anio: 2019
+  evento: VI Encuentro de Ictiólogos Suramericanos y XV Congreso Colombiano de Ictiología
+  ciudad: Medellín
+  pais: Colombia
+  ambito: internacional
+  trabajos:
+    - {tipo: Póster, titulo: "Composición del ictioplancton en Islas del Rosario, Caribe colombiano"}
+- anio: 2018
+  evento: XIX Conferencia Internacional sobre Palma de Aceite
+  ciudad: Cartagena de Indias
+  pais: Colombia
+  ambito: internacional
+  trabajos:
+    - {tipo: Póster, titulo: "Predicción y modelación de nichos geográficos para Elaeis oleifera (HBK) Cortés en las regiones Andina y Caribe de Colombia"}
+- anio: 2017
+  evento: XXXIII Congreso Colombiano de Fitopatología y Ciencias Afines
+  ciudad: Palmira
+  pais: Colombia
+  ambito: nacional
+  trabajos:
+    - {tipo: Póster, titulo: "Relaciones filogenéticas de poblaciones de Globodera spp. en las principales regiones productoras de papa de Colombia"}
+- anio: 2014
+  evento: Society for Integrative and Comparative Biology (SICB) Annual Meeting
+  ciudad: Austin, Texas
+  pais: Estados Unidos
+  ambito: internacional
+  trabajos:
+    - {tipo: Ponencia, titulo: "Thermal tolerance of larvae of an antitropically-distributed barnacle species"}

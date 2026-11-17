@@ -21,7 +21,7 @@ servidor = http.server.ThreadingHTTPServer(("127.0.0.1", 0), manejador)
 threading.Thread(target=servidor.serve_forever, daemon=True).start()
 base = f"http://127.0.0.1:{servidor.server_port}"
 
-paginas = ["", "investigador/", "proyectos/", "publicaciones/", "docencia/", "equipo/", "vinculate/"]
+paginas = ["", "investigador/", "proyectos/", "publicaciones/", "congresos/", "docencia/", "equipo/", "vinculate/"]
 paginas += ["en/" + r for r in paginas]
 with sync_playwright() as p:
     nav = p.chromium.launch()
