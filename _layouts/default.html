@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="{{ site.lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body>
+  <header>
+    <a class="marca" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    <nav>
+      <a href="{{ '/' | relative_url }}">Inicio</a>
+      <a href="{{ '/proyectos/' | relative_url }}">Proyectos</a>
+      <a href="{{ '/equipo/' | relative_url }}">Equipo</a>
+      <a href="{{ '/vinculate/' | relative_url }}">Vincúlate</a>
+    </nav>
+  </header>
+  <main>
+    {{ content }}
+  </main>
+  <footer>{{ site.title }} · Universidad Industrial de Santander · {{ site.contacto }}</footer>
+</body>
+</html>

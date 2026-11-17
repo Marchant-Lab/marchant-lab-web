@@ -1,0 +1,17 @@
+# estado: actual | pasado.  BORRADOR: verificar títulos, financiadores y fechas.
+- titulo: ADN ambiental multimarcador en el Magdalena Medio
+  estado: actual
+  descripcion: Cinco marcadores secuenciados con Nanopore para describir la comunidad acuática del río Magdalena y ciénagas cercanas a Puerto Olaya (Cimitarra, Santander).
+- titulo: Biotransformación de polietileno por Fusarium
+  estado: actual
+  descripcion: Genomas y RNA-seq de cepas nativas de Fusarium aisladas de tuberías de gas de polietileno en Santander.
+- titulo: Kocuria marina UIS1003 del páramo de Almorzadero
+  estado: actual
+  descripcion: Caracterización genómica, radiobiológica y fotoprotectora de una bacteria de alta montaña.
+- titulo: Bioinnovación en paisajes de páramo y bosque húmedo tropical (SGR, BPIN 2024000100141)
+  estado: actual
+  descripcion: Participación de la UIS en el convenio con AGROSAVIA.
+  socios: AGROSAVIA
+- titulo: Globodera pallida en Colombia
+  estado: pasado
+  descripcion: Delimitación de especies, filogeografía y estructura genética del nematodo quiste de la papa.

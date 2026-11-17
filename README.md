@@ -1,0 +1,30 @@
+# marchant-lab-web
+
+Página web del Marchant Lab (UIS). Sitio estático hecho con [Jekyll](https://jekyllrb.com/).
+
+## Actualizar contenidos
+
+Todo el contenido está en `_data/`. Se edita el YAML, se hace commit y push, y el sitio se reconstruye solo.
+
+| Qué cambiar | Archivo | Clave |
+|---|---|---|
+| Líneas de investigación | `_data/lineas.yml` | `nombre`, `descripcion` |
+| Proyectos actuales / pasados | `_data/proyectos.yml` | `estado: actual` o `estado: pasado` |
+| Estudiantes actuales / egresados | `_data/personas.yml` | `estado: actual` o `estado: egresado` (+ `anio`) |
+| Cómo vincularse | `_data/vinculacion.yml` y `vinculate.md` | |
+| Correo, título, descripción | `_config.yml` | `contacto`, `title`, `description` |
+
+- Cuando alguien se gradúa: cambiar `estado: actual` → `estado: egresado` y agregar `anio: 2026`.
+- Cuando un proyecto termina: cambiar `estado: actual` → `estado: pasado`.
+- Fotos: guardarlas en `assets/fotos/` y poner `foto: /assets/fotos/nombre.jpg`.
+
+## Vista previa local
+
+```bash
+conda activate marchant-lab-web
+jekyll serve        # abre http://localhost:4000
+```
+
+## Publicación
+
+Opciones (ver `AGENTS.md`): GitHub Pages (Settings → Pages → rama `main`) o Firebase Hosting (Google).

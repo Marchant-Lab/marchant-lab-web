@@ -1,0 +1,25 @@
+# estado: actual | egresado.  BORRADOR: confirmar con cada persona antes de publicar su nombre.
+# Campos opcionales: foto (ruta en assets/), enlace (ORCID, LinkedIn…), anio (egreso), tesis.
+- nombre: Sergio Andrés Marchant Rojas
+  rol: Investigador principal
+  estado: actual
+- nombre: Jeysnner Arley Pinzón Bayona
+  rol: Maestría en Biología
+  estado: actual
+  tesis: Identificación y diversidad genética multilocus de Meloidogyne spp. en guayaba con secuenciación Nanopore
+- nombre: Lizeth Dayana Villamizar Leal
+  rol: Maestría en Biología
+  estado: actual
+  tesis: Nematodos fitoparásitos en cebolla de bulbo de la provincia de Ocaña
+- nombre: David Alejandro Rivera Holguín
+  rol: Maestría en Biología
+  estado: actual
+  tesis: Artrópodos y gastrópodos en cultivos de cebolla de bulbo roja
+- nombre: Bianeth García Barrios
+  rol: Maestría en Biología
+  estado: actual
+  tesis: Bacterias causantes de enfermedad en Allium cepa en la provincia de Ocaña
+- nombre: Santiago Vargas Flórez
+  rol: Pregrado / maestría (confirmar)
+  estado: actual
+  tesis: Ictiofauna del Magdalena Medio con muestreo tradicional y ADN ambiental
