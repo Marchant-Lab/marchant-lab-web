@@ -99,7 +99,7 @@
   rol: Biología (pregrado)
   estado: egresado
   anio: 2020
-  tesis: "Ensamblaje de novo del transcriptoma de un onicóforo del departamento de Santander para la evaluación de expresión génica diferencial en glándulas y tejidos"
+  # tesis con embargo: no publicar el título
 - nombre: Jeysnner Arley Pinzón Bayona
   rol: Biología (pregrado, codirección)
   estado: egresado
@@ -109,7 +109,7 @@
   rol: Biología (pregrado)
   estado: egresado
   anio: 2019
-  tesis: "Desarrollo de marcadores de polimorfismo de nucleótido simple (SNP) mediante secuenciación masiva de ARN de una especie de onicóforo (Onychophora: Peripatidae) del departamento de Santander, Colombia"
+  # tesis con embargo: no publicar el título
 - nombre: Harold Cardona Gutiérrez
   rol: Zootecnia, Universidad Católica de Oriente
   estado: egresado
