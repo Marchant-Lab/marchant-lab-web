@@ -11,18 +11,21 @@
   rol: Coinvestigador
   descripcion: Caracterización genómica, radiobiológica y fotoprotectora de Kocuria marina UIS1003 del páramo de Almorzadero.
 - titulo: Gestión participativa del paisaje socioecológico y manejo del área de interés de la estación Sebastopol
-  estado: actual   # reporte de actividad docente 2026-1, proyecto externo 8212
+  estado: actual   # acta de inicio convenio Cenit 7000000124: 21-11-2025 a 20-01-2027 (proyecto externo UIS 8212)
   anios: 2025–2027
   rol: Director
-  descripcion: Incluye el monitoreo de la comunidad acuática del río Magdalena y ciénagas cercanas a Puerto Olaya (Cimitarra, Santander) con ADN ambiental multimarcador secuenciado con Nanopore.
+  socios: Cenit Transporte y Logística de Hidrocarburos
+  descripcion: Fortalecimiento de capacidades locales, conocimiento de la biodiversidad, restauración ecológica y ciencia participativa. Incluye el monitoreo de la comunidad acuática del río Magdalena y ciénagas cercanas a Puerto Olaya (Cimitarra, Santander) con ADN ambiental multimarcador secuenciado con Nanopore.
 - titulo: Atributos taxonómicos y funcionales del fitoplancton para entender la variación ambiental
   estado: actual   # proyecto interno 4337
   anios: 2025–2026
   rol: Coinvestigador
-- titulo: Bioinnovación en paisajes de páramo y bosque húmedo tropical (SGR)
-  estado: actual
-  descripcion: Participación de la UIS en el convenio con AGROSAVIA.
-  socios: AGROSAVIA
+- titulo: Desarrollo de la bioinnovación para el manejo sostenible y la resiliencia de paisajes socioecológicos en ecosistemas de páramo y bosque húmedo tropical
+  estado: actual   # acta de inicio UIS, código VIE 2026-09-15; convenio 2278-07 (18-09-2026 a 31-08-2028)
+  anios: 2026–2028
+  rol: Director UIS
+  descripcion: Proyecto SGR (Convocatoria 34, BPIN 2024000100141) en Boyacá, Caquetá, Meta, Norte de Santander, Putumayo y Santander. La UIS lidera la caracterización de comunidades biológicas con ADN ambiental y la validación del método.
+  socios: AGROSAVIA (entidad ejecutora)
 - titulo: Recuperación de aguacates criollos y antillanos en El Carmen de Chucurí y Montes de María
   estado: pasado   # CvLAC no tiene fecha de fin; sin actividad reciente en el servidor. Confirmar con acta de cierre.
   anios: "2019"
