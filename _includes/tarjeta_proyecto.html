@@ -1,7 +1,7 @@
 {% assign p = include.p %}
 <article class="tarjeta tarjeta-proyecto{% if p.estado == 'pasado' %} tarjeta-tenue{% endif %}">
   <div class="etiquetas">{% if p.anios %}<span class="etiqueta">{{ p.anios }}</span>{% endif %}{% if p.rol %}<span class="etiqueta etiqueta-acento">{{ tr[p.rol] | default: p.rol }}</span>{% endif %}</div>
-  <h3>{{ tr[p.titulo] | default: p.titulo }}</h3>
-  {% if p.descripcion %}<p>{{ tr[p.descripcion] | default: p.descripcion }}</p>{% endif %}
+  {% assign tx = tr[p.titulo] | default: p.titulo %}<h3>{% include cursiva.html t=tx %}</h3>
+  {% if p.descripcion %}{% assign tx = tr[p.descripcion] | default: p.descripcion %}<p>{% include cursiva.html t=tx %}</p>{% endif %}
   {% if p.socios %}<p class="nota">{{ ui.socios }}: {{ tr[p.socios] | default: p.socios }}</p>{% endif %}
 </article>

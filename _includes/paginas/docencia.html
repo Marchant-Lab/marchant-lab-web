@@ -10,7 +10,7 @@
       <div class="etiquetas">{% if c.codigo %}<span class="etiqueta">{{ c.codigo }}</span>{% endif %}{% if c.nivel %}<span class="etiqueta etiqueta-acento">{{ tr[c.nivel] | default: c.nivel }}</span>{% endif %}</div>
       <h3>{{ tr[c.nombre] | default: c.nombre }}</h3>
       {% if c.periodos %}<p class="nota">{{ tr[c.periodos] | default: c.periodos }}</p>{% endif %}
-      {% if c.descripcion %}<p>{{ tr[c.descripcion] | default: c.descripcion }}</p>{% endif %}
+      {% if c.descripcion %}{% assign tx = tr[c.descripcion] | default: c.descripcion %}<p>{% include cursiva.html t=tx %}</p>{% endif %}
       {% if c.url %}<a class="enlace-flecha" href="{{ c.url }}">{{ ui.ver_curso }}</a>{% endif %}
     </article>
     {% endfor %}

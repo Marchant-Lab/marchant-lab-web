@@ -3,6 +3,6 @@
 <article class="tarjeta noticia">
   {% if n.foto %}<img class="noticia-foto" src="{{ n.foto | relative_url }}" alt="">{% endif %}
   <div class="etiquetas"><span class="etiqueta etiqueta-acento">{{ ui.categorias[n.categoria] | default: n.categoria }}</span><time class="nota" datetime="{{ n.fecha | date: '%Y-%m-%d' }}">{{ n.fecha | date: "%-d" }} {{ ui.meses[mes] }} {{ n.fecha | date: "%Y" }}</time></div>
-  <h3>{% if url %}<a href="{{ url }}">{{ tr[n.titulo] | default: n.titulo }}</a>{% else %}{{ tr[n.titulo] | default: n.titulo }}{% endif %}</h3>
-  <p>{{ tr[n.texto] | default: n.texto }}</p>
+  <h3>{% assign tx = tr[n.titulo] | default: n.titulo %}{% if url %}<a href="{{ url }}">{% include cursiva.html t=tx %}</a>{% else %}{% include cursiva.html t=tx %}{% endif %}</h3>
+  {% assign tx = tr[n.texto] | default: n.texto %}<p>{% include cursiva.html t=tx %}</p>
 </article>

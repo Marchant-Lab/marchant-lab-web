@@ -9,3 +9,5 @@ Sitio web público del laboratorio, no es un análisis: no aplican scripts numer
   correos personales ni nombres de personas que no hayan aceptado aparecer.
 - Antes de commitear: `jekyll build` sin errores y revisar `python scripts/capturas.py` (capturas en /tmp/capturas) en el entorno conda `marchant-lab-web`.
 - Commits en español, imperativo (`contenido: agrega egresado X`, `diseño: …`).
+- Todo texto libre se muestra con `{% include cursiva.html t=... %}` (nombres científicos en cursiva);
+  `python scripts/revisar_cursivas.py` debe salir sin problemas.

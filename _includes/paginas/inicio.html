@@ -36,7 +36,7 @@
     <article class="tarjeta">
       <span class="numero">{{ forloop.index | prepend: "0" }}</span>
       <h3>{{ tr[l.nombre] | default: l.nombre }}</h3>
-      <p>{{ tr[l.descripcion] | default: l.descripcion }}</p>
+      {% assign tx = tr[l.descripcion] | default: l.descripcion %}<p>{% include cursiva.html t=tx %}</p>
     </article>
     {% endfor %}
   </div>

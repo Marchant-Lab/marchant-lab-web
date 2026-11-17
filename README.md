@@ -21,6 +21,12 @@ Todo el contenido está en `_data/`. Se edita el YAML, se hace commit y push, y 
 | Cómo vincularse | `_data/vinculacion.yml` y `vinculate.md` | |
 | Correo, título, descripción | `_config.yml` | `contacto`, `title`, `description` |
 
+### Nombres científicos en cursiva
+
+Los géneros y especies listados en `_data/especies.yml` se ponen en cursiva solos en todo el sitio
+(también en títulos y resúmenes que vienen de ORCID y Noesis). Si un texto nuevo trae una especie que
+no está en la lista, agregarla ahí. `python scripts/revisar_cursivas.py` (tras `jekyll build`) revisa el resultado.
+
 ### Versión en inglés
 
 El sitio tiene una versión en inglés en `/en/` (botón **EN/ES** en la barra). Los datos son los mismos:

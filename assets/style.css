@@ -176,3 +176,6 @@ details p { margin-top: .6rem; }
 .noticia h3 a { color: var(--verde-oscuro); text-decoration: none; }
 .noticia h3 a:hover { color: var(--ambar); }
 .noticia-foto { width: calc(100% + 2.8rem); margin: -1.4rem -1.4rem 1rem; aspect-ratio: 16 / 9; object-fit: cover; border-radius: var(--radio) var(--radio) 0 0; }
+
+/* Nombres científicos dentro de texto que ya va en cursiva: se invierten a redonda */
+.tesis em, .cabecera em { font-style: normal; }

@@ -16,7 +16,7 @@
       {% for p in g.items %}
       <li>
         <span class="tipo">{{ ui.tipos[p.tipo] | default: p.tipo }}</span>
-        {% if p.doi %}<a href="https://doi.org/{{ p.doi }}">{{ p.titulo }}</a>{% else %}<span class="titulo">{{ p.titulo }}</span>{% endif %}
+        {% if p.doi %}<a href="https://doi.org/{{ p.doi }}">{% include cursiva.html t=p.titulo %}</a>{% else %}<span class="titulo">{% include cursiva.html t=p.titulo %}</span>{% endif %}
         {% if p.revista %}<em>{{ p.revista }}</em>{% endif %}
       </li>
       {% endfor %}

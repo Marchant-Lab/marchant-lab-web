@@ -10,7 +10,7 @@
     <div class="perfiles">{% for p in i.perfiles %}<a class="pastilla" href="{{ p.url }}">{{ p.nombre }}</a>{% endfor %}</div>
   </aside>
   <div class="perfil-cuerpo">
-    {% for p in i.bio %}<p>{{ tr[p] | default: p }}</p>{% endfor %}
+    {% for p in i.bio %}{% assign tx = tr[p] | default: p %}<p>{% include cursiva.html t=tx %}</p>{% endfor %}
     <h3>{{ ui.formacion }}</h3>
     <ul class="linea-tiempo">{% for f in i.formacion %}<li>{{ tr[f] | default: f }}</li>{% endfor %}</ul>
     <h3>{{ ui.trayectoria }}</h3>
