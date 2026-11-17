@@ -160,3 +160,11 @@ details p { margin-top: .6rem; }
 /* Congresos */
 .congresos .trabajo { margin: .6rem 0 0; font-size: .93rem; }
 .congresos .trabajo .etiqueta { margin-right: .3rem; }
+
+/* Publicaciones por categoría */
+.subnav { display: flex; gap: .5rem; flex-wrap: wrap; margin: 1rem 0 .5rem; }
+.subnav a { padding: .35rem .9rem; border-radius: 999px; background: #fff; border: 1px solid var(--borde); text-decoration: none; font-size: .9rem; font-weight: 500; }
+.subnav a:hover { background: var(--verde); color: #fff; border-color: var(--verde); }
+.categoria { margin-top: 2.5rem; scroll-margin-top: 80px; }
+.categoria > h2 { border-bottom: 2px solid var(--verde-claro); padding-bottom: .3rem; }
+.anio-pub { font-family: "Inter", sans-serif; font-size: .95rem; color: var(--gris); margin: 1.2rem 0 .5rem; }

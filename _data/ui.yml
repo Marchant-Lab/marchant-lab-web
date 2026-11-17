@@ -32,6 +32,8 @@ es:
   perfiles: Perfiles
   tipos: {}
   grupos_congresos: [Congresos internacionales, Congresos nacionales]
+  grupos_publicaciones: [Artículos científicos, Libros y capítulos, Memorias de congreso]
+  titulo_categorias: Tipos de publicación
   tipos_trabajo: {}
   paginas:
     investigador: {titulo: Investigador principal}
@@ -73,6 +75,8 @@ en:
   contacto: Contact
   perfiles: Profiles
   grupos_congresos: [International conferences, National conferences]
+  grupos_publicaciones: [Journal articles, Books and chapters, Conference proceedings]
+  titulo_categorias: Publication types
   tipos_trabajo: {Ponencia: Talk, Póster: Poster, Conferencia magistral: Keynote, Coautoría: Co-author, Evaluador de resúmenes: Abstract reviewer}
   tipos: {Artículo: Article, Libro: Book, Memorias de congreso: Conference proceedings, Capítulo: Book chapter, Ponencia: Conference paper}
   paginas:

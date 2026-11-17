@@ -1,11 +1,17 @@
 {% include idioma.html %}
 {% assign todas = site.data.publicaciones | concat: site.data.publicaciones_extra | sort: "anio" | reverse %}
-{% assign por_anio = todas | group_by: "anio" %}
+{% assign categorias = "Artículo|Libro,Capítulo|Memorias de congreso,Ponencia" | split: "|" %}
 <div class="contenedor seccion estrecho">
   <p class="nota">{{ ui.perfil_orcid }} <a href="https://orcid.org/0000-0002-7362-3626">ORCID</a>.</p>
-  {% for g in por_anio %}
-  <section class="anio">
-    <h2>{{ g.name }}</h2>
+  <nav class="subnav" aria-label="{{ ui.titulo_categorias }}">{% for c in categorias %}<a href="#cat-{{ forloop.index }}">{{ ui.grupos_publicaciones[forloop.index0] }}</a>{% endfor %}</nav>
+  {% for c in categorias %}{% assign tipos = c | split: "," %}
+  {% assign lista = "" | split: "" %}{% for p in todas %}{% if tipos contains p.tipo %}{% assign lista = lista | push: p %}{% endif %}{% endfor %}
+  {% if lista.size > 0 %}
+  <section class="categoria" id="cat-{{ forloop.index }}">
+    <h2>{{ ui.grupos_publicaciones[forloop.index0] }} <span class="contador">{{ lista.size }}</span></h2>
+    {% assign por_anio = lista | group_by: "anio" %}
+    {% for g in por_anio %}
+    <h3 class="anio-pub">{{ g.name }}</h3>
     <ul class="publicaciones">
       {% for p in g.items %}
       <li>
@@ -15,6 +21,8 @@
       </li>
       {% endfor %}
     </ul>
+    {% endfor %}
   </section>
+  {% endif %}
   {% endfor %}
 </div>
