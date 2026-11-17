@@ -6,7 +6,7 @@ permalink: /investigador/
 {% assign i = site.data.investigador %}
 # {{ i.nombre }}
 {% if i.foto != "" %}<img class="retrato" src="{{ i.foto | relative_url }}" alt="{{ i.nombre }}">{% endif %}
-**{{ i.cargo }}**<br>{{ i.grupo }}
+**{{ i.cargo }}**<br>{{ i.categoria }}<br>{{ i.grupo }}
 
 {% for p in i.bio %}
 {{ p }}

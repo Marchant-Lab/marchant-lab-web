@@ -1,17 +1,55 @@
-# estado: actual | pasado.  BORRADOR: verificar títulos, financiadores y fechas.
+# estado: actual | pasado.  Fuente: CvLAC (proyectos con fechas) + proyectos del servidor.
+# BORRADOR: revisar redacción, financiadores y si los "actual" siguen vigentes.
+- titulo: "OMICPLAST: tecnologías ómicas en la biotransformación de plásticos por hongos nativos"
+  estado: actual
+  anios: 2023–
+  descripcion: Genomas y RNA-seq de cepas nativas de Fusarium aisladas de tuberías de gas de polietileno en Santander.
+- titulo: Potencial fotoprotector de microorganismos pigmentados de ambientes extremos de Colombia
+  estado: actual
+  anios: 2024–
+  descripcion: Caracterización genómica, radiobiológica y fotoprotectora de Kocuria marina UIS1003 del páramo de Almorzadero.
 - titulo: ADN ambiental multimarcador en el Magdalena Medio
   estado: actual
   descripcion: Cinco marcadores secuenciados con Nanopore para describir la comunidad acuática del río Magdalena y ciénagas cercanas a Puerto Olaya (Cimitarra, Santander).
-- titulo: Biotransformación de polietileno por Fusarium
-  estado: actual
-  descripcion: Genomas y RNA-seq de cepas nativas de Fusarium aisladas de tuberías de gas de polietileno en Santander.
-- titulo: Kocuria marina UIS1003 del páramo de Almorzadero
-  estado: actual
-  descripcion: Caracterización genómica, radiobiológica y fotoprotectora de una bacteria de alta montaña.
-- titulo: Bioinnovación en paisajes de páramo y bosque húmedo tropical (SGR, BPIN 2024000100141)
+- titulo: Bioinnovación en paisajes de páramo y bosque húmedo tropical (SGR)
   estado: actual
   descripcion: Participación de la UIS en el convenio con AGROSAVIA.
   socios: AGROSAVIA
-- titulo: Globodera pallida en Colombia
+- titulo: Recuperación de aguacates criollos y antillanos en El Carmen de Chucurí y Montes de María
+  estado: actual   # CvLAC no tiene fecha de fin: confirmar
+  anios: 2019–
+- titulo: Aprovechamiento de la biodiversidad en agraz y papa para cultivos promisorios en Santander
   estado: pasado
-  descripcion: Delimitación de especies, filogeografía y estructura genética del nematodo quiste de la papa.
+  anios: 2022–2025
+- titulo: Expedición científica para reducir déficits de conocimiento de la biodiversidad, con productos transmedia y evaluación del potencial turístico en Santander
+  estado: pasado
+  anios: 2023–2025
+- titulo: Contribución de la UIS a la postulación del Geoparque Cañón del Chicamocha ante la UNESCO
+  estado: pasado
+  anios: 2021–2023
+- titulo: Expediciones de biodiversidad a escala regional en Santander (Coromoro)
+  estado: pasado
+  anios: 2020–2022
+  descripcion: Recolecta científica, caracterización taxonómica y análisis molecular de especímenes para las colecciones biológicas de la UIS.
+- titulo: Biología térmica, flujo sanguíneo periférico y propiedades de la piel en lagartos tropicales
+  estado: pasado
+  anios: 2020–2021
+- titulo: Capacidades en epidemiología molecular virológica en la sede UIS Guatiguará
+  estado: pasado
+  anios: 2020–2021
+- titulo: Efecto del cambio climático en el plancton del estrecho de Gerlache (Antártida)
+  estado: pasado
+  anios: 2019–2020
+  descripcion: Muestras de la VI Expedición Científica de Colombia a la Antártida; tolerancia térmica y diversidad genética del zooplancton.
+- titulo: Manejo integrado de enfermedades limitantes del cultivo de guayaba en Colombia
+  estado: pasado
+  anios: 2019–2020
+- titulo: Detección y control de bacterias asociadas al agriamiento de yacimientos y tratamiento de aguas
+  estado: pasado
+  anios: 2018–2021
+- titulo: Perfil transcriptómico de la glándula de limo de un onicóforo de Santander
+  estado: pasado
+  anios: 2017–2020
+- titulo: Diagnóstico molecular de lepidópteros cuarentenarios en aguacate
+  estado: pasado
+  anios: "2017"

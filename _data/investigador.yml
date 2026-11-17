@@ -1,6 +1,7 @@
-# Fuente: ORCID 0000-0002-7362-3626 (biografía traducida y resumida). BORRADOR: revisar.
+# Fuente: ORCID 0000-0002-7362-3626 y CvLAC (biografía traducida y resumida). BORRADOR: revisar.
 nombre: Sergio Marchant
 cargo: Profesor Asociado, Escuela de Biología, Universidad Industrial de Santander
+categoria: Investigador Asociado (I) y par evaluador reconocido por Minciencias
 grupo: "PENDIENTE: confirmar grupo (ORCID dice iBGA; un PRD dice CINBIN)"
 foto: ""   # p. ej. /assets/fotos/sergio.jpg
 bio:
@@ -13,8 +14,11 @@ formacion:
 trayectoria:
   - Profesor Asociado, Escuela de Biología, UIS (2017–actual)
   - Docente de tiempo completo, Facultad de Ciencias Agropecuarias, Universidad Católica de Oriente (2016–2017)
+  - Universidad Nacional de Colombia, sede Medellín (2016)
+  - Clemson University (2012–2014)
 perfiles:
   - {nombre: ORCID, url: "https://orcid.org/0000-0002-7362-3626"}
+  - {nombre: CvLAC, url: "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000034254"}
   - {nombre: Scopus, url: "https://www.scopus.com/authid/detail.uri?authorId=57124274700"}
   - {nombre: Lens, url: "https://www.lens.org/lens/orcid/0000-0002-7362-3626"}
   - {nombre: GitHub, url: "https://github.com/Marchant-Lab"}

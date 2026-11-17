@@ -1,20 +1,77 @@
-# estado: actual | egresado.  BORRADOR: confirmar con cada persona antes de publicar su nombre.
-# Campos opcionales: foto (ruta en assets/), enlace (ORCID, LinkedIn…), anio (egreso), tesis (solo con permiso).
+# estado: actual | egresado.  Fuente: CvLAC + proyectos del servidor.
+# anio de egresados = año registrado en CvLAC. Sin tesis hasta tener permiso.
+# Campos opcionales: foto (ruta en assets/), enlace (ORCID, LinkedIn…), anio, tesis (solo con permiso).
 - nombre: Sergio Andrés Marchant Rojas
   rol: Investigador principal
   estado: actual
+- nombre: José Luis Poveda Cuéllar
+  rol: Doctorado en Ciencias Biológicas
+  estado: actual
 - nombre: Jeysnner Arley Pinzón Bayona
+  rol: Maestría en Biología
+  estado: actual
+- nombre: María de los Ángeles Atehortúa Bueno
   rol: Maestría en Biología
   estado: actual
 - nombre: Lizeth Dayana Villamizar Leal
   rol: Maestría en Biología
   estado: actual
 - nombre: David Alejandro Rivera Holguín
-  rol: Maestría en Biología
+  rol: Maestría en Biología (codirección)
   estado: actual
 - nombre: Bianeth García Barrios
-  rol: Maestría en Biología
+  rol: Maestría en Biología (codirección)
+  estado: actual
+- nombre: Leonardo Villalba Campos   # CvLAC: en curso desde 2021, confirmar
+  rol: Maestría en Biología (codirección)
+  estado: actual
+- nombre: Luis Manuel Jaimes Sánchez
+  rol: Biología (pregrado)
   estado: actual
 - nombre: Santiago Vargas Flórez
   rol: Pregrado / maestría (confirmar)
   estado: actual
+- nombre: Isabella Valencia Rueda
+  rol: Biología (pregrado, codirección)
+  estado: egresado
+  anio: 2023
+- nombre: Vladimir Andrés Beltrán Tirado
+  rol: Biología (pregrado)
+  estado: egresado
+  anio: 2022
+- nombre: Geraldine Andrea Carvajalino Ramos
+  rol: Biología (pregrado)
+  estado: egresado
+  anio: 2022
+- nombre: Kevin Daniel Meza Avendaño
+  rol: Biología (pregrado)
+  estado: egresado
+  anio: 2021
+- nombre: José Alejandro Becerra Ortiz
+  rol: Biología (pregrado)
+  estado: egresado
+  anio: 2020
+- nombre: Jeysnner Arley Pinzón Bayona
+  rol: Biología (pregrado, codirección)
+  estado: egresado
+  anio: 2020
+- nombre: Jesús David Rueda Reyes
+  rol: Maestría en Biología
+  estado: egresado
+  anio: 2019
+- nombre: Jonathan González Bonilla
+  rol: Biología (pregrado)
+  estado: egresado
+  anio: 2019
+- nombre: Pricelis Paulin Polanco Fontalvo
+  rol: Maestría en Biología (codirección)
+  estado: egresado
+  anio: 2018
+- nombre: Harold Cardona Gutiérrez
+  rol: Zootecnia, Universidad Católica de Oriente
+  estado: egresado
+  anio: 2017
+- nombre: Julián Murillo Gómez
+  rol: Zootecnia, Universidad Católica de Oriente
+  estado: egresado
+  anio: 2017
