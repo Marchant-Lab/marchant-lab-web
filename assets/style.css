@@ -10,3 +10,5 @@ a { color: #12534a; }
 .tarjeta img { width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 6px; }
 footer { text-align: center; padding: 1.5rem; font-size: .9rem; color: #5b6f6c; border-top: 1px solid #d5e3e0; }
 .retrato { float: right; width: 200px; margin: 0 0 1rem 1.5rem; border-radius: 8px; }
+.tarjeta details { font-size: .9rem; }
+.tarjeta summary { cursor: pointer; color: #12534a; }

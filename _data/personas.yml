@@ -1,6 +1,7 @@
 # estado: actual | egresado.  Fuente: CvLAC + proyectos del servidor.
-# anio de egresados = año registrado en CvLAC. Sin tesis hasta tener permiso.
-# Campos opcionales: foto (ruta en assets/), enlace (ORCID, LinkedIn…), anio, tesis (solo con permiso).
+# Egresados: anio = año de grado. Con `noesis: <handle>` el título, resumen y enlace salen de
+# _data/tesis.json (scripts/actualizar_tesis.py); si la tesis no está en Noesis, poner `tesis:` a mano.
+# Campos opcionales: foto (ruta en assets/), enlace (ORCID, LinkedIn…), anio, tesis, noesis.
 - nombre: Sergio Andrés Marchant Rojas
   rol: Investigador principal
   estado: actual
@@ -8,7 +9,7 @@
   rol: Doctorado en Ciencias Biológicas
   estado: actual
 - nombre: Jeysnner Arley Pinzón Bayona
-  rol: Maestría en Biología
+  rol: Maestría en Biología (codirección)
   estado: actual
 - nombre: María de los Ángeles Atehortúa Bueno
   rol: Maestría en Biología
@@ -22,56 +23,100 @@
 - nombre: Bianeth García Barrios
   rol: Maestría en Biología (codirección)
   estado: actual
-- nombre: Leonardo Villalba Campos   # CvLAC: en curso desde 2021, confirmar
-  rol: Maestría en Biología (codirección)
-  estado: actual
 - nombre: Luis Manuel Jaimes Sánchez
   rol: Biología (pregrado)
   estado: actual
 - nombre: Santiago Vargas Flórez
   rol: Pregrado / maestría (confirmar)
   estado: actual
+- nombre: Leonardo Villalba Campos
+  rol: Maestría en Biología (codirección)
+  estado: egresado
+  anio: 2026
+  noesis: 20.500.14071/47668
+- nombre: Diana Carolina Torres Gómez
+  rol: Biología (pregrado)
+  estado: egresado
+  anio: 2026
+  noesis: 20.500.14071/48266
+- nombre: Sergio Andrés Sepúlveda Ortiz
+  rol: Biología (pregrado)
+  estado: egresado
+  anio: 2026
+  noesis: 20.500.14071/47523
+- nombre: Katherin López Lizarazo
+  rol: Biología (pregrado)
+  estado: egresado
+  anio: 2026
+  noesis: 20.500.14071/47863
+- nombre: Nicolle Alejandra Saavedra Valderrama
+  rol: Biología (pregrado)
+  estado: egresado
+  anio: 2025
+  noesis: 20.500.14071/46435
+- nombre: Silvia Juliana Corrales Murillo
+  rol: Maestría en Química (codirección)
+  estado: egresado
+  anio: 2025
+  noesis: 20.500.14071/45280
+- nombre: Diego Alejandro Castro Blanco
+  rol: Biología (pregrado)
+  estado: egresado
+  anio: 2025
+  noesis: 20.500.14071/46476
 - nombre: Isabella Valencia Rueda
   rol: Biología (pregrado, codirección)
   estado: egresado
   anio: 2023
-- nombre: Vladimir Andrés Beltrán Tirado
+  noesis: 20.500.14071/15072
+- nombre: Jesús David Rueda Reyes
+  rol: Maestría en Biología
+  estado: egresado
+  anio: 2023
+  noesis: 20.500.14071/15544
+- nombre: Kevin Daniel Meza Avendaño
   rol: Biología (pregrado)
   estado: egresado
   anio: 2022
+  noesis: 20.500.14071/12061
 - nombre: Geraldine Andrea Carvajalino Ramos
   rol: Biología (pregrado)
   estado: egresado
   anio: 2022
-- nombre: Kevin Daniel Meza Avendaño
+  noesis: 20.500.14071/11970
+- nombre: Vladimir Andrés Beltrán Tirado
   rol: Biología (pregrado)
   estado: egresado
-  anio: 2021
+  anio: 2022
+  noesis: 20.500.14071/12165
+- nombre: Pricelis Paulin Polanco Fontalvo
+  rol: Maestría en Biología (codirección)
+  estado: egresado
+  anio: 2020
+  noesis: 20.500.14071/40807
+# Tesis que no están en Noesis: título tomado de CvLAC, sin resumen.
 - nombre: José Alejandro Becerra Ortiz
   rol: Biología (pregrado)
   estado: egresado
   anio: 2020
+  tesis: "Ensamblaje de novo del transcriptoma de un onicóforo del departamento de Santander para la evaluación de expresión génica diferencial en glándulas y tejidos"
 - nombre: Jeysnner Arley Pinzón Bayona
   rol: Biología (pregrado, codirección)
   estado: egresado
   anio: 2020
-- nombre: Jesús David Rueda Reyes
-  rol: Maestría en Biología
-  estado: egresado
-  anio: 2019
+  tesis: "Identificación molecular de nematodos fitoparásitos del género Meloidogyne spp. presentes en cultivos de guayaba (Psidium guajava) del departamento de Santander"
 - nombre: Jonathan González Bonilla
   rol: Biología (pregrado)
   estado: egresado
   anio: 2019
-- nombre: Pricelis Paulin Polanco Fontalvo
-  rol: Maestría en Biología (codirección)
-  estado: egresado
-  anio: 2018
+  tesis: "Desarrollo de marcadores de polimorfismo de nucleótido simple (SNP) mediante secuenciación masiva de ARN de una especie de onicóforo (Onychophora: Peripatidae) del departamento de Santander, Colombia"
 - nombre: Harold Cardona Gutiérrez
   rol: Zootecnia, Universidad Católica de Oriente
   estado: egresado
   anio: 2017
+  tesis: "Plasticidad fenotípica del tracto digestivo y variación temporal del hábito trófico de la mojarra negra (Kronoheros umbrifer) en dos embalses del departamento de Antioquia, Colombia"
 - nombre: Julián Murillo Gómez
   rol: Zootecnia, Universidad Católica de Oriente
   estado: egresado
   anio: 2017
+  tesis: "Plasticidad fenotípica del tracto digestivo y variación temporal del hábito trófico de la mojarra negra (Kronoheros umbrifer) en dos embalses del departamento de Antioquia, Colombia"

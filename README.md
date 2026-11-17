@@ -12,6 +12,7 @@ Todo el contenido está en `_data/`. Se edita el YAML, se hace commit y push, y 
 | Proyectos actuales / pasados | `_data/proyectos.yml` | `estado: actual` o `estado: pasado` |
 | Estudiantes actuales / egresados | `_data/personas.yml` | `estado: actual` o `estado: egresado` (+ `anio`) |
 | Perfil del investigador (bio, formación, foto) | `_data/investigador.yml` | |
+| Tesis de egresados (título y resumen) | `_data/tesis.json` | se regenera con `python3 scripts/actualizar_tesis.py` (lee Noesis); se enlaza con `noesis:` en `personas.yml` |
 | Publicaciones | `_data/publicaciones.json` | se regenera con `python3 scripts/actualizar_publicaciones.py` (lee ORCID) |
 | Cómo vincularse | `_data/vinculacion.yml` y `vinculate.md` | |
 | Correo, título, descripción | `_config.yml` | `contacto`, `title`, `description` |
