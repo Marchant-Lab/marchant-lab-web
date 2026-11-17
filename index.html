@@ -1,0 +1,61 @@
+---
+layout: default
+---
+{% assign actuales = site.data.proyectos | where: "estado", "actual" %}
+{% assign egresados = site.data.personas | where: "estado", "egresado" %}
+{% assign integrantes = site.data.personas | where: "estado", "actual" %}
+{% assign n_pubs = site.data.publicaciones.size | plus: site.data.publicaciones_extra.size %}
+<section class="heroe">
+  <div class="contenedor">
+    <p class="antetitulo">Escuela de Biología · UIS · Grupo iBGA</p>
+    <h1>{{ site.title }}</h1>
+    <p class="lema">Genómica, diversidad y bioinformática de organismos de interés agrícola y ambiental en Colombia.</p>
+    <div class="botones">
+      <a class="boton" href="{{ '/proyectos/' | relative_url }}">Ver proyectos</a>
+      <a class="boton boton-claro" href="{{ '/vinculate/' | relative_url }}">Vincúlate al laboratorio</a>
+    </div>
+  </div>
+</section>
+
+<section class="contenedor cifras">
+  <div><strong>{{ n_pubs }}</strong><span>publicaciones</span></div>
+  <div><strong>{{ actuales.size }}</strong><span>proyectos activos</span></div>
+  <div><strong>{{ integrantes.size }}</strong><span>integrantes</span></div>
+  <div><strong>{{ egresados.size }}</strong><span>egresados</span></div>
+</section>
+
+<section class="contenedor seccion">
+  <h2>Líneas de investigación</h2>
+  <div class="rejilla">
+    {% for l in site.data.lineas %}
+    <article class="tarjeta">
+      <span class="numero">{{ forloop.index | prepend: "0" }}</span>
+      <h3>{{ l.nombre }}</h3>
+      <p>{{ l.descripcion }}</p>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="contenedor seccion">
+  <div class="titulo-con-enlace"><h2>Proyectos activos</h2><a href="{{ '/proyectos/' | relative_url }}">Todos los proyectos →</a></div>
+  <div class="rejilla">
+    {% for p in actuales %}
+    <article class="tarjeta tarjeta-proyecto">
+      <div class="etiquetas">{% if p.anios %}<span class="etiqueta">{{ p.anios }}</span>{% endif %}{% if p.rol %}<span class="etiqueta etiqueta-acento">{{ p.rol }}</span>{% endif %}</div>
+      <h3>{{ p.titulo }}</h3>
+      {% if p.descripcion %}<p>{{ p.descripcion }}</p>{% endif %}
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="banda">
+  <div class="contenedor banda-interior">
+    <div>
+      <h2>¿Quieres hacer tu tesis con nosotros?</h2>
+      <p>Recibimos estudiantes de pregrado, maestría y doctorado en nematología, sanidad vegetal, ADN ambiental y genómica microbiana.</p>
+    </div>
+    <a class="boton boton-claro" href="{{ '/vinculate/' | relative_url }}">Cómo vincularse</a>
+  </div>
+</section>

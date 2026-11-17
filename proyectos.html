@@ -1,0 +1,22 @@
+---
+layout: default
+title: Proyectos
+subtitulo: Proyectos de investigación y extensión en los que participa el laboratorio.
+permalink: /proyectos/
+---
+{% assign grupos = "actual:Proyectos activos,pasado:Proyectos finalizados" | split: "," %}
+{% for g in grupos %}{% assign par = g | split: ":" %}{% assign lista = site.data.proyectos | where: "estado", par[0] %}
+<section class="contenedor seccion">
+  <h2>{{ par[1] }} <span class="contador">{{ lista.size }}</span></h2>
+  <div class="rejilla">
+    {% for p in lista %}
+    <article class="tarjeta tarjeta-proyecto{% if par[0] == 'pasado' %} tarjeta-tenue{% endif %}">
+      <div class="etiquetas">{% if p.anios %}<span class="etiqueta">{{ p.anios }}</span>{% endif %}{% if p.rol %}<span class="etiqueta etiqueta-acento">{{ p.rol }}</span>{% endif %}</div>
+      <h3>{{ p.titulo }}</h3>
+      {% if p.descripcion %}<p>{{ p.descripcion }}</p>{% endif %}
+      {% if p.socios %}<p class="nota">Socios: {{ p.socios }}</p>{% endif %}
+    </article>
+    {% endfor %}
+  </div>
+</section>
+{% endfor %}

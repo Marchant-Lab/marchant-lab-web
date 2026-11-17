@@ -4,25 +4,53 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
-  <meta name="description" content="{{ site.description }}">
+  <meta name="description" content="{{ page.subtitulo | default: site.description }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
 </head>
 <body>
-  <header>
-    <a class="marca" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-    <nav>
-      <a href="{{ '/' | relative_url }}">Inicio</a>
-      <a href="{{ '/investigador/' | relative_url }}">Investigador</a>
-      <a href="{{ '/proyectos/' | relative_url }}">Proyectos</a>
-      <a href="{{ '/publicaciones/' | relative_url }}">Publicaciones</a>
-      <a href="{{ '/docencia/' | relative_url }}">Docencia</a>
-      <a href="{{ '/equipo/' | relative_url }}">Equipo</a>
-      <a href="{{ '/vinculate/' | relative_url }}">Vincúlate</a>
-    </nav>
+  <header class="barra">
+    <div class="contenedor barra-interior">
+      <a class="marca" href="{{ '/' | relative_url }}"><span class="marca-logo" aria-hidden="true">M</span>{{ site.title }}</a>
+      <nav aria-label="Principal">
+        {% assign menu = "/:Inicio,/investigador/:Investigador,/proyectos/:Proyectos,/publicaciones/:Publicaciones,/docencia/:Docencia,/equipo/:Equipo,/vinculate/:Vincúlate" | split: "," %}
+        {% for item in menu %}{% assign par = item | split: ":" %}
+        <a href="{{ par[0] | relative_url }}"{% if page.url == par[0] %} aria-current="page"{% endif %}>{{ par[1] }}</a>
+        {% endfor %}
+      </nav>
+    </div>
   </header>
+
+  {% if page.title %}
+  <section class="cabecera">
+    <div class="contenedor">
+      <h1>{{ page.title }}</h1>
+      {% if page.subtitulo %}<p>{{ page.subtitulo }}</p>{% endif %}
+    </div>
+  </section>
+  {% endif %}
+
   <main>
     {{ content }}
   </main>
-  <footer>{{ site.title }} · Universidad Industrial de Santander · {{ site.contacto }}</footer>
+
+  <footer class="pie">
+    <div class="contenedor pie-interior">
+      <div>
+        <strong>{{ site.title }}</strong>
+        <p>Escuela de Biología · Universidad Industrial de Santander<br>Bucaramanga, Colombia</p>
+      </div>
+      <div>
+        <strong>Contacto</strong>
+        <p>{{ site.contacto }}</p>
+      </div>
+      <div>
+        <strong>Perfiles</strong>
+        <p>{% for p in site.data.investigador.perfiles %}<a href="{{ p.url }}">{{ p.nombre }}</a>{% unless forloop.last %} · {% endunless %}{% endfor %}</p>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>

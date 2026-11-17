@@ -28,6 +28,7 @@ Todo el contenido está en `_data/`. Se edita el YAML, se hace commit y push, y 
 ```bash
 conda activate marchant-lab-web
 jekyll serve        # abre http://localhost:4000
+python scripts/capturas.py   # capturas de todas las páginas (escritorio y celular) en /tmp/capturas
 ```
 
 ## Publicación

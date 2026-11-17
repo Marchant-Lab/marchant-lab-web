@@ -1,0 +1,23 @@
+---
+layout: default
+title: Investigador principal
+permalink: /investigador/
+---
+{% assign i = site.data.investigador %}
+<div class="contenedor seccion perfil">
+  <aside class="perfil-lateral">
+    {% if i.foto != "" %}<img class="retrato" src="{{ i.foto | relative_url }}" alt="{{ i.nombre }}">{% else %}{% include avatar.html nombre="Sergio Marchant" %}{% endif %}
+    <h2>{{ i.nombre }}</h2>
+    <p class="cargo">{{ i.cargo }}</p>
+    <p class="nota">{{ i.categoria }}</p>
+    <p class="nota">{{ i.grupo }}</p>
+    <div class="perfiles">{% for p in i.perfiles %}<a class="pastilla" href="{{ p.url }}">{{ p.nombre }}</a>{% endfor %}</div>
+  </aside>
+  <div class="perfil-cuerpo">
+    {% for p in i.bio %}<p>{{ p }}</p>{% endfor %}
+    <h3>Formación</h3>
+    <ul class="linea-tiempo">{% for f in i.formacion %}<li>{{ f }}</li>{% endfor %}</ul>
+    <h3>Trayectoria</h3>
+    <ul class="linea-tiempo">{% for t in i.trayectoria %}<li>{{ t }}</li>{% endfor %}</ul>
+  </div>
+</div>

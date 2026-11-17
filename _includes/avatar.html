@@ -1,0 +1,1 @@
+{% if include.foto %}<img class="avatar" src="{{ include.foto | relative_url }}" alt="">{% else %}{% assign av_w = include.nombre | split: " " %}{% if av_w.size > 2 %}{% assign av_k = av_w.size | minus: 2 %}{% else %}{% assign av_k = av_w.size | minus: 1 %}{% endif %}<span class="avatar" aria-hidden="true">{{ av_w[0] | slice: 0 }}{{ av_w[av_k] | slice: 0 }}</span>{% endif %}

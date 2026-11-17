@@ -1,0 +1,21 @@
+---
+layout: default
+title: Vincúlate
+subtitulo: Formas de sumarte al trabajo del laboratorio.
+permalink: /vinculate/
+---
+<section class="contenedor seccion">
+  <div class="rejilla">
+    {% for v in site.data.vinculacion %}
+    <article class="tarjeta">
+      <span class="numero">{{ forloop.index | prepend: "0" }}</span>
+      <h3>{{ v.modalidad }}</h3>
+      <p>{{ v.detalle }}</p>
+    </article>
+    {% endfor %}
+  </div>
+  <div class="aviso">
+    <h2>¿Cómo aplicar?</h2>
+    <p>Escribe a <strong>{{ site.contacto }}</strong> con tu hoja de vida, la línea de investigación que te interesa y tu disponibilidad.</p>
+  </div>
+</section>

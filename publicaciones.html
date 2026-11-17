@@ -1,0 +1,25 @@
+---
+layout: default
+title: Publicaciones
+subtitulo: Artículos, libros y memorias, actualizados desde ORCID.
+permalink: /publicaciones/
+---
+{% assign todas = site.data.publicaciones | concat: site.data.publicaciones_extra | sort: "anio" | reverse %}
+{% assign por_anio = todas | group_by: "anio" %}
+<div class="contenedor seccion estrecho">
+  <p class="nota">Perfil completo en <a href="https://orcid.org/0000-0002-7362-3626">ORCID</a>.</p>
+  {% for g in por_anio %}
+  <section class="anio">
+    <h2>{{ g.name }}</h2>
+    <ul class="publicaciones">
+      {% for p in g.items %}
+      <li>
+        <span class="tipo">{{ p.tipo }}</span>
+        {% if p.doi %}<a href="https://doi.org/{{ p.doi }}">{{ p.titulo }}</a>{% else %}<span class="titulo">{{ p.titulo }}</span>{% endif %}
+        {% if p.revista %}<em>{{ p.revista }}</em>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
+</div>
