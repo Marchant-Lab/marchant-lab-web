@@ -29,4 +29,5 @@ jekyll serve        # abre http://localhost:4000
 
 ## Publicación
 
-Opciones (ver `AGENTS.md`): GitHub Pages (Settings → Pages → rama `main`) o Firebase Hosting (Google).
+Publicado con GitHub Pages desde la rama `main`: https://marchant-lab.github.io/marchant-lab-web/
+Cada push a `main` reconstruye el sitio en 1–2 minutos.
