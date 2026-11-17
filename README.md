@@ -13,6 +13,7 @@ Todo el contenido está en `_data/`. Se edita el YAML, se hace commit y push, y 
 | Estudiantes actuales / egresados | `_data/personas.yml` | `estado: actual` o `estado: egresado` (+ `anio`) |
 | Perfil del investigador (bio, formación, foto) | `_data/investigador.yml` | |
 | Tesis de egresados (título y resumen) | `_data/tesis.json` | se regenera con `python3 scripts/actualizar_tesis.py` (lee Noesis); se enlaza con `noesis:` en `personas.yml` |
+| Publicaciones que no están en ORCID | `_data/publicaciones_extra.yml` | se suman a la lista de ORCID |
 | Publicaciones | `_data/publicaciones.json` | se regenera con `python3 scripts/actualizar_publicaciones.py` (lee ORCID) |
 | Docencia (cursos, diplomados, divulgación) | `_data/docencia.yml` | |
 | Cómo vincularse | `_data/vinculacion.yml` y `vinculate.md` | |

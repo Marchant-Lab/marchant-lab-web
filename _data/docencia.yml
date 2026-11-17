@@ -1,24 +1,50 @@
-# Cursos dictados en la UIS. BORRADOR: solo están los que tienen página en GitHub (cuenta SalaMuseo-UIS).
-# Agregar los demás cursos con nombre, codigo, nivel y periodos; url es opcional.
+# Fuente: reportes de actividad docente UIS 2022-2 a 2026-1 e informe de tenencia 2026.
+# Faltan los semestres 2017-1 a 2022-1 (no están en esos documentos).
+# No se listan Trabajo de Investigación I/II ni Tesis Doctoral I–III: son créditos de dirección de tesis.
 cursos:
   - nombre: Sistemática
     codigo: "20070"
     nivel: Pregrado en Biología
-    periodos: 2026-I
+    periodos: 2026-1
     url: https://salamuseo-uis.github.io/laboratorio-sistematica/
     descripcion: Manual digital de prácticas de laboratorio — métodos de distancia, parsimonia, homología y codificación de caracteres.
   - nombre: Fisiología Animal
     codigo: "20073"
     nivel: Pregrado en Biología
-    periodos: 2026-2
+    periodos: 2022-2, 2025-2
     url: https://salamuseo-uis.github.io/Laboratorio-Fisologia-Animal/
     descripcion: Guías de laboratorio con instrucciones, material y entregables de cada práctica.
+  - nombre: Análisis de Datos de Secuenciación Masiva en Células, Organismos y Especies
+    codigo: "29066"
+    nivel: Posgrado
+    periodos: 2022-2, 2023-1, 2024-1, 2025-2
+  - nombre: Comunicación Científica
+    codigo: "40330"
+    nivel: Posgrado
+    periodos: 2023-2, 2024-2
+  - nombre: Seminario de Investigación II
+    codigo: "26408"
+    nivel: Posgrado
+    periodos: 2023-1 a 2026-1
 formacion_continua:
-  - nombre: "Diplomado en Herramientas para la Identificación de Insectos-Plaga y Patógenos en Plantas (UIS – AGROSAVIA)"
-    periodos: Primera cohorte 2026
+  - nombre: "Diplomado en Herramientas para la Identificación de Insectos-Plaga y Patógenos en Plantas con un Enfoque Integrativo (UIS – AGROSAVIA)"
+    periodos: Primera cohorte, 2025–2026
     url: https://salamuseo-uis.github.io/diplomado-identificacion/
     descripcion: Diagnóstico fitosanitario que combina morfología clásica y herramientas moleculares.
+  - nombre: "Macroinvertebrados acuáticos: uso, biomonitoreo y bioindicación en Colombia"
+    periodos: 2024-1
+  - nombre: Reconstrucciones paleoambientales a partir de foraminíferos y ostrácodos
+    periodos: 2022-2
 divulgacion:
   - nombre: Sala de Exhibición del Museo de Historia Natural UIS
+    periodos: Director, 2025–
     url: https://salamuseo-uis.github.io/
     descripcion: Página para programar visitas, con tarifas y horarios.
+  - nombre: Colecciones de Ictiología e Hidrobiología de la Escuela de Biología
+    periodos: Director, 2022–2025
+  - nombre: "Talleres «La vida en el agua»"
+    periodos: 2025-2
+  - nombre: "Talleres «Bajo la superficie: explorando la diversidad inadvertida de los peces de agua dulce de Santander»"
+    periodos: 2025-1
+  - nombre: Reto Naturalista Urbano
+    periodos: "2024"

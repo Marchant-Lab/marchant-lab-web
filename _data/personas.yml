@@ -23,12 +23,23 @@
 - nombre: Bianeth García Barrios
   rol: Maestría en Biología (codirección)
   estado: actual
+- nombre: Mateo Santiago Quesada Martínez
+  rol: Maestría en Biología
+  estado: actual
+- nombre: Santiago Javier Novoa Sanmiguel
+  rol: Biología (pregrado)
+  estado: actual
 - nombre: Luis Manuel Jaimes Sánchez
   rol: Biología (pregrado)
   estado: actual
 - nombre: Santiago Vargas Flórez
   rol: Pregrado / maestría (confirmar)
   estado: actual
+- nombre: Juan Diego Campos Reyes
+  rol: Biología (pregrado)
+  estado: egresado
+  anio: 2026   # graduado según informe de tenencia 2026; aún no está en Noesis
+  tesis: "Ecología molecular de poblaciones acuáticas e implicaciones para la conservación"
 - nombre: Leonardo Villalba Campos
   rol: Maestría en Biología (codirección)
   estado: egresado

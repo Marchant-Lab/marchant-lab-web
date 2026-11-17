@@ -3,11 +3,21 @@
 - titulo: "OMICPLAST: tecnologías ómicas en la biotransformación de plásticos por hongos nativos"
   estado: pasado   # acta de cierre financiero FIN.50, código 3942: 30-08-2023 a 30-03-2026
   anios: 2023–2026
+  rol: Coinvestigador
   descripcion: Genomas y RNA-seq de cepas nativas de Fusarium aisladas de tuberías de gas de polietileno en Santander.
 - titulo: Potencial fotoprotector de microorganismos pigmentados de ambientes extremos de Colombia
   estado: pasado   # acta de cierre financiero FIN.50, código 4213: 14-08-2024 a 14-02-2026
   anios: 2024–2026
+  rol: Coinvestigador
   descripcion: Caracterización genómica, radiobiológica y fotoprotectora de Kocuria marina UIS1003 del páramo de Almorzadero.
+- titulo: Gestión participativa del paisaje socioecológico y manejo del área de interés de la estación Sebastopol
+  estado: actual   # reporte de actividad docente 2026-1, proyecto externo 8212
+  anios: 2025–2027
+  rol: Director
+- titulo: Atributos taxonómicos y funcionales del fitoplancton para entender la variación ambiental
+  estado: actual   # proyecto interno 4337
+  anios: 2025–2026
+  rol: Coinvestigador
 - titulo: ADN ambiental multimarcador en el Magdalena Medio
   estado: actual
   descripcion: Cinco marcadores secuenciados con Nanopore para describir la comunidad acuática del río Magdalena y ciénagas cercanas a Puerto Olaya (Cimitarra, Santander).
@@ -21,15 +31,19 @@
 - titulo: Aprovechamiento de la biodiversidad en agraz y papa para cultivos promisorios en Santander
   estado: pasado
   anios: 2022–2025
+  rol: Coinvestigador
 - titulo: Expedición científica para reducir déficits de conocimiento de la biodiversidad, con productos transmedia y evaluación del potencial turístico en Santander
   estado: pasado
   anios: 2023–2025
+  rol: Coinvestigador
 - titulo: Contribución de la UIS a la postulación del Geoparque Cañón del Chicamocha ante la UNESCO
   estado: pasado
   anios: 2021–2023
+  rol: Coinvestigador
 - titulo: Expediciones de biodiversidad a escala regional en Santander (Coromoro)
   estado: pasado
   anios: 2020–2022
+  rol: Coinvestigador
   descripcion: Recolecta científica, caracterización taxonómica y análisis molecular de especímenes para las colecciones biológicas de la UIS.
 - titulo: Biología térmica, flujo sanguíneo periférico y propiedades de la piel en lagartos tropicales
   estado: pasado
@@ -50,6 +64,7 @@
 - titulo: Perfil transcriptómico de la glándula de limo de un onicóforo de Santander
   estado: pasado   # acta de cierre financiero FIN.50, código 2419: 06-11-2018 a 30-05-2021
   anios: 2018–2021
+  rol: Coinvestigador
 - titulo: Diagnóstico molecular de lepidópteros cuarentenarios en aguacate
   estado: pasado
   anios: "2017"

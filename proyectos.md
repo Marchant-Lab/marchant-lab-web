@@ -8,6 +8,6 @@ permalink: /proyectos/
 ## {{ par[1] }}
 {% for p in site.data.proyectos %}{% if p.estado == par[0] %}
 ### {{ p.titulo }}{% if p.anios %} <small>({{ p.anios }})</small>{% endif %}
-{{ p.descripcion }}{% if p.socios %} *Socios: {{ p.socios }}.*{% endif %}
+{% if p.rol %}*{{ p.rol }}.* {% endif %}{{ p.descripcion }}{% if p.socios %} *Socios: {{ p.socios }}.*{% endif %}
 {% endif %}{% endfor %}
 {% endfor %}
