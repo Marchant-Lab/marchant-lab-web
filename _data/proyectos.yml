@@ -1,12 +1,12 @@
 # estado: actual | pasado.  Fuente: CvLAC (proyectos con fechas) + proyectos del servidor.
 # BORRADOR: revisar redacción, financiadores y si los "actual" siguen vigentes.
 - titulo: "OMICPLAST: tecnologías ómicas en la biotransformación de plásticos por hongos nativos"
-  estado: actual
-  anios: 2023–
+  estado: pasado   # acta de cierre financiero FIN.50, código 3942: 30-08-2023 a 30-03-2026
+  anios: 2023–2026
   descripcion: Genomas y RNA-seq de cepas nativas de Fusarium aisladas de tuberías de gas de polietileno en Santander.
 - titulo: Potencial fotoprotector de microorganismos pigmentados de ambientes extremos de Colombia
-  estado: actual
-  anios: 2024–
+  estado: pasado   # acta de cierre financiero FIN.50, código 4213: 14-08-2024 a 14-02-2026
+  anios: 2024–2026
   descripcion: Caracterización genómica, radiobiológica y fotoprotectora de Kocuria marina UIS1003 del páramo de Almorzadero.
 - titulo: ADN ambiental multimarcador en el Magdalena Medio
   estado: actual
@@ -48,8 +48,8 @@
   estado: pasado
   anios: 2018–2021
 - titulo: Perfil transcriptómico de la glándula de limo de un onicóforo de Santander
-  estado: pasado
-  anios: 2017–2020
+  estado: pasado   # acta de cierre financiero FIN.50, código 2419: 06-11-2018 a 30-05-2021
+  anios: 2018–2021
 - titulo: Diagnóstico molecular de lepidópteros cuarentenarios en aguacate
   estado: pasado
   anios: "2017"
