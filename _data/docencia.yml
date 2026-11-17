@@ -1,0 +1,24 @@
+# Cursos dictados en la UIS. BORRADOR: solo están los que tienen página en GitHub (cuenta SalaMuseo-UIS).
+# Agregar los demás cursos con nombre, codigo, nivel y periodos; url es opcional.
+cursos:
+  - nombre: Sistemática
+    codigo: "20070"
+    nivel: Pregrado en Biología
+    periodos: 2026-I
+    url: https://salamuseo-uis.github.io/laboratorio-sistematica/
+    descripcion: Manual digital de prácticas de laboratorio — métodos de distancia, parsimonia, homología y codificación de caracteres.
+  - nombre: Fisiología Animal
+    codigo: "20073"
+    nivel: Pregrado en Biología
+    periodos: 2026-2
+    url: https://salamuseo-uis.github.io/Laboratorio-Fisologia-Animal/
+    descripcion: Guías de laboratorio con instrucciones, material y entregables de cada práctica.
+formacion_continua:
+  - nombre: "Diplomado en Herramientas para la Identificación de Insectos-Plaga y Patógenos en Plantas (UIS – AGROSAVIA)"
+    periodos: Primera cohorte 2026
+    url: https://salamuseo-uis.github.io/diplomado-identificacion/
+    descripcion: Diagnóstico fitosanitario que combina morfología clásica y herramientas moleculares.
+divulgacion:
+  - nombre: Sala de Exhibición del Museo de Historia Natural UIS
+    url: https://salamuseo-uis.github.io/
+    descripcion: Página para programar visitas, con tarifas y horarios.
