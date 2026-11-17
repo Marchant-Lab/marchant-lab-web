@@ -2,6 +2,6 @@ title: Marchant Lab
 description: Genómica, diversidad y bioinformática de organismos de interés agrícola y ambiental — Universidad Industrial de Santander (UIS)
 lang: es
 # Si el sitio se publica en https://marchant-lab.github.io/<repo>/, poner baseurl: /<repo>
-baseurl: ""
+baseurl: /marchant-lab-web
 contacto: "PENDIENTE: correo público del laboratorio"
 exclude: [README.md, AGENTS.md, environment.yml, scripts]
