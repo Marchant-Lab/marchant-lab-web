@@ -10,6 +10,7 @@ es:
   vinculate_boton: Vincúlate al laboratorio
   cifras: [publicaciones, proyectos activos, integrantes, egresados]
   lineas: Líneas de investigación
+  infraestructura: Infraestructura
   proyectos_activos: Proyectos activos
   todos_proyectos: Todos los proyectos →
   banda_titulo: ¿Quieres hacer tu tesis con nosotros?
@@ -28,7 +29,7 @@ es:
   como_aplicar: ¿Cómo aplicar?
   aplicar_antes: Escribe a
   aplicar_despues: con tu hoja de vida, la línea de investigación que te interesa y tu disponibilidad.
-  pie_lugar: Escuela de Biología · Universidad Industrial de Santander<br>Bucaramanga, Colombia
+  pie_lugar: Grupo iBGA · Escuela de Biología · Universidad Industrial de Santander<br>Sede Guatiguará, Piedecuesta · Bucaramanga, Colombia
   contacto: Contacto
   perfiles: Perfiles
   tipos: {}
@@ -60,6 +61,7 @@ en:
   vinculate_boton: Join the lab
   cifras: [publications, active projects, members, alumni]
   lineas: Research lines
+  infraestructura: Facilities
   proyectos_activos: Active projects
   todos_proyectos: All projects →
   banda_titulo: Want to do your thesis with us?
@@ -78,7 +80,7 @@ en:
   como_aplicar: How to apply
   aplicar_antes: Write to
   aplicar_despues: with your CV, the research line you are interested in and your availability.
-  pie_lugar: School of Biology · Universidad Industrial de Santander<br>Bucaramanga, Colombia
+  pie_lugar: iBGA Research Group · School of Biology · Universidad Industrial de Santander<br>Guatiguará campus, Piedecuesta · Bucaramanga, Colombia
   contacto: Contact
   perfiles: Profiles
   grupos_congresos: [International conferences, National conferences]

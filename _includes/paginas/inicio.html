@@ -42,6 +42,20 @@
   </div>
 </section>
 
+{% assign inf = site.data.infraestructura %}
+<section class="contenedor seccion">
+  <h2>{{ ui.infraestructura }}</h2>
+  <p class="nota">{{ tr[inf.sede] | default: inf.sede }} · {% for e in inf.espacios %}{{ tr[e] | default: e }}{% unless forloop.last %} · {% endunless %}{% endfor %}</p>
+  <div class="rejilla rejilla-infra">
+    {% for g in inf.grupos %}
+    <article class="tarjeta">
+      <h3>{{ tr[g.nombre] | default: g.nombre }}</h3>
+      <ul class="lista-equipos">{% for e in g.equipos %}<li>{{ tr[e] | default: e }}</li>{% endfor %}</ul>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
 <section class="contenedor seccion">
   <div class="titulo-con-enlace"><h2>{{ ui.proyectos_activos }}</h2><a href="{{ ui.menu[3][0] | relative_url }}">{{ ui.todos_proyectos }}</a></div>
   <div class="rejilla">

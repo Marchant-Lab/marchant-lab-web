@@ -31,8 +31,10 @@
   socios: AGROSAVIA (entidad ejecutora)
   financiador: Sistema General de Regalías (SGR)
 - titulo: Recuperación de aguacates criollos y antillanos en El Carmen de Chucurí y Montes de María
-  estado: pasado   # CvLAC no tiene fecha de fin; sin actividad reciente en el servidor. Confirmar con acta de cierre.
-  anios: "2019"
+  estado: pasado   # = "Diagnóstico de factores … producción de aguacate" (IP Jorge Hernández), 2019-10-29 a 2021-07-27
+  anios: 2019–2021
+  rol: Coinvestigador
+  financiador: AGROSAVIA – Ministerio de Agricultura
 - titulo: Aprovechamiento de la biodiversidad en agraz y papa para cultivos promisorios en Santander
   estado: pasado
   anios: 2022–2025

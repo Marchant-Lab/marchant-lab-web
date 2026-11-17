@@ -179,3 +179,8 @@ details p { margin-top: .6rem; }
 
 /* Nombres científicos dentro de texto que ya va en cursiva: se invierten a redonda */
 .tesis em, .cabecera em { font-style: normal; }
+
+/* Infraestructura */
+.rejilla-infra { grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
+.lista-equipos { margin: 0; padding-left: 1.1rem; font-size: .93rem; }
+.lista-equipos li { margin-bottom: .25rem; }
