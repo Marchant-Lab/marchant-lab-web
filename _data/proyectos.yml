@@ -1,15 +1,17 @@
-# estado: actual | pasado.  Fuente: CvLAC (proyectos con fechas) + proyectos del servidor.
+# estado: actual | pasado.  Fuentes: CvLAC, actas, informe de tenencia y Cuadro Maestro PRODUCTIVIDAD (Escuela de Biología).
 # BORRADOR: revisar redacción, financiadores y si los "actual" siguen vigentes.
 - titulo: "OMICPLAST: tecnologías ómicas en la biotransformación de plásticos por hongos nativos"
   estado: pasado   # acta de cierre financiero FIN.50, código 3942: 30-08-2023 a 30-03-2026
   anios: 2023–2026
   rol: Coinvestigador
   descripcion: Genomas y RNA-seq de cepas nativas de Fusarium aisladas de tuberías de gas de polietileno en Santander.
+  financiador: Universidad Industrial de Santander (VIE)
 - titulo: Potencial fotoprotector de microorganismos pigmentados de ambientes extremos de Colombia
   estado: pasado   # acta de cierre financiero FIN.50, código 4213: 14-08-2024 a 14-02-2026
   anios: 2024–2026
   rol: Coinvestigador
   descripcion: Caracterización genómica, radiobiológica y fotoprotectora de Kocuria marina UIS1003 del páramo de Almorzadero.
+  financiador: Universidad Industrial de Santander (VIE)
 - titulo: Gestión participativa del paisaje socioecológico y manejo del área de interés de la estación Sebastopol
   estado: actual   # acta de inicio convenio Cenit 7000000124: 21-11-2025 a 20-01-2027 (proyecto externo UIS 8212)
   anios: 2025–2027
@@ -20,12 +22,14 @@
   estado: actual   # proyecto interno 4337
   anios: 2025–2026
   rol: Coinvestigador
+  financiador: Universidad Industrial de Santander (VIE)
 - titulo: Desarrollo de la bioinnovación para el manejo sostenible y la resiliencia de paisajes socioecológicos en ecosistemas de páramo y bosque húmedo tropical
   estado: actual   # acta de inicio UIS, código VIE 2026-09-15; convenio 2278-07 (18-09-2026 a 31-08-2028)
   anios: 2026–2028
   rol: Director UIS
   descripcion: Proyecto SGR (Convocatoria 34, BPIN 2024000100141) en Boyacá, Caquetá, Meta, Norte de Santander, Putumayo y Santander. La UIS lidera la caracterización de comunidades biológicas con ADN ambiental y la validación del método.
   socios: AGROSAVIA (entidad ejecutora)
+  financiador: Sistema General de Regalías (SGR)
 - titulo: Recuperación de aguacates criollos y antillanos en El Carmen de Chucurí y Montes de María
   estado: pasado   # CvLAC no tiene fecha de fin; sin actividad reciente en el servidor. Confirmar con acta de cierre.
   anios: "2019"
@@ -33,39 +37,49 @@
   estado: pasado
   anios: 2022–2025
   rol: Coinvestigador
+  financiador: Sistema General de Regalías (SGR)
 - titulo: Expedición científica para reducir déficits de conocimiento de la biodiversidad, con productos transmedia y evaluación del potencial turístico en Santander
   estado: pasado
   anios: 2023–2025
   rol: Coinvestigador
+  financiador: Minciencias
 - titulo: Contribución de la UIS a la postulación del Geoparque Cañón del Chicamocha ante la UNESCO
   estado: pasado
-  anios: 2021–2023
+  anios: 2022–2023
   rol: Coinvestigador
+  financiador: Universidad Industrial de Santander (VIE)
 - titulo: Expediciones de biodiversidad a escala regional en Santander (Coromoro)
   estado: pasado
   anios: 2020–2022
   rol: Coinvestigador
   descripcion: Recolecta científica, caracterización taxonómica y análisis molecular de especímenes para las colecciones biológicas de la UIS.
+  financiador: Minciencias
 - titulo: Biología térmica, flujo sanguíneo periférico y propiedades de la piel en lagartos tropicales
   estado: pasado
   anios: 2020–2021
 - titulo: Capacidades en epidemiología molecular virológica en la sede UIS Guatiguará
   estado: pasado
   anios: 2020–2021
+  financiador: Sistema General de Regalías (SGR)
 - titulo: Efecto del cambio climático en el plancton del estrecho de Gerlache (Antártida)
   estado: pasado
   anios: 2019–2020
   descripcion: Muestras de la VI Expedición Científica de Colombia a la Antártida; tolerancia térmica y diversidad genética del zooplancton.
+  financiador: Universidad Industrial de Santander (VIE)
 - titulo: Manejo integrado de enfermedades limitantes del cultivo de guayaba en Colombia
   estado: pasado
-  anios: 2019–2020
+  anios: 2019–2021
+  rol: Director
+  financiador: AGROSAVIA – Ministerio de Agricultura
 - titulo: Detección y control de bacterias asociadas al agriamiento de yacimientos y tratamiento de aguas
   estado: pasado
   anios: 2018–2021
+  financiador: Ecopetrol
 - titulo: Perfil transcriptómico de la glándula de limo de un onicóforo de Santander
   estado: pasado   # acta de cierre financiero FIN.50, código 2419: 06-11-2018 a 30-05-2021
   anios: 2018–2021
   rol: Coinvestigador
+  financiador: Universidad Industrial de Santander (VIE)
 - titulo: Diagnóstico molecular de lepidópteros cuarentenarios en aguacate
   estado: pasado
   anios: "2017"

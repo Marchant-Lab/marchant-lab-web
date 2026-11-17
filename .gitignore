@@ -1,3 +1,8 @@
 _site/
 .jekyll-cache/
 .sass-cache/
+
+# Archivos de trabajo con datos personales: nunca al repo público
+*.xlsx
+*.xls
+*.csv

@@ -38,7 +38,7 @@
 - nombre: Juan Diego Campos Reyes
   rol: Biología (pregrado)
   estado: egresado
-  anio: 2026   # graduado según informe de tenencia 2026; aún no está en Noesis
+  anio: 2026   # grado 2026-02-04 (Cuadro Maestro PRODUCTIVIDAD); aún no está en Noesis
   tesis: "Ecología molecular de poblaciones acuáticas e implicaciones para la conservación"
 - nombre: Leonardo Villalba Campos
   rol: Maestría en Biología (codirección)
@@ -105,27 +105,26 @@
   estado: egresado
   anio: 2022
   noesis: 20.500.14071/12165
+- nombre: José Alejandro Becerra Ortiz
+  rol: Biología (pregrado)
+  estado: egresado
+  anio: 2021
+  tesis: "Ensamblaje de novo del transcriptoma de un onicóforo del departamento de Santander para la evaluación de expresión génica diferencial en glándulas y tejidos"
+- nombre: Jeysnner Arley Pinzón Bayona
+  rol: Biología (pregrado, codirección)
+  estado: egresado
+  anio: 2021
+  tesis: "Identificación molecular de nematodos fitoparásitos del género Meloidogyne spp. presentes en cultivos de guayaba (Psidium guajava) del departamento de Santander"
+- nombre: Jonathan González Bonilla
+  rol: Biología (pregrado)
+  estado: egresado
+  anio: 2021
+  tesis: "Desarrollo de marcadores de polimorfismo de nucleótido simple (SNP) mediante secuenciación masiva de ARN de una especie de onicóforo (Onychophora: Peripatidae) del departamento de Santander, Colombia"
 - nombre: Pricelis Paulin Polanco Fontalvo
   rol: Maestría en Biología (codirección)
   estado: egresado
   anio: 2020
   noesis: 20.500.14071/40807
-# Tesis que no están en Noesis: título tomado de CvLAC, sin resumen.
-- nombre: José Alejandro Becerra Ortiz
-  rol: Biología (pregrado)
-  estado: egresado
-  anio: 2020
-  tesis: "Ensamblaje de novo del transcriptoma de un onicóforo del departamento de Santander para la evaluación de expresión génica diferencial en glándulas y tejidos"
-- nombre: Jeysnner Arley Pinzón Bayona
-  rol: Biología (pregrado, codirección)
-  estado: egresado
-  anio: 2020
-  tesis: "Identificación molecular de nematodos fitoparásitos del género Meloidogyne spp. presentes en cultivos de guayaba (Psidium guajava) del departamento de Santander"
-- nombre: Jonathan González Bonilla
-  rol: Biología (pregrado)
-  estado: egresado
-  anio: 2019
-  tesis: "Desarrollo de marcadores de polimorfismo de nucleótido simple (SNP) mediante secuenciación masiva de ARN de una especie de onicóforo (Onychophora: Peripatidae) del departamento de Santander, Colombia"
 - nombre: Harold Cardona Gutiérrez
   rol: Zootecnia, Universidad Católica de Oriente
   estado: egresado

@@ -19,6 +19,7 @@ es:
   trayectoria: Trayectoria
   grupos_proyectos: [Proyectos activos, Proyectos finalizados]
   socios: Socios
+  financia: Financia
   perfil_orcid: Perfil completo en
   grupos_equipo: [Integrantes actuales, Egresados]
   leer_resumen: Leer resumen
@@ -68,6 +69,7 @@ en:
   trayectoria: Career
   grupos_proyectos: [Active projects, Completed projects]
   socios: Partners
+  financia: Funded by
   perfil_orcid: Full profile on
   grupos_equipo: [Current members, Alumni]
   leer_resumen: Read abstract
