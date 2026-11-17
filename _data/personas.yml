@@ -35,9 +35,6 @@
 - nombre: Santiago Vargas Flórez
   rol: Biología (pregrado, codirección)
   estado: actual
-- nombre: Marcela Mantilla   # tesis en la UNAB (no está en Noesis): falta nombre completo, año y título
-  rol: Doctorado, Universidad Autónoma de Bucaramanga (codirección)
-  estado: egresado
 - nombre: Juan Diego Campos Reyes
   rol: Biología (pregrado)
   estado: egresado
@@ -63,6 +60,11 @@
   estado: egresado
   anio: 2026
   noesis: 20.500.14071/47863
+- nombre: Marcela Judith Mantilla Martínez   # ORCID: Doctorado en Ingeniería UNAB 2018–2025; tesis no está en el repositorio UNAB ni en Noesis
+  rol: Doctorado en Ingeniería, Universidad Autónoma de Bucaramanga (codirección)
+  estado: egresado
+  anio: 2025
+  enlace: https://orcid.org/0000-0003-3858-709X
 - nombre: Nicolle Alejandra Saavedra Valderrama
   rol: Biología (pregrado)
   estado: egresado
