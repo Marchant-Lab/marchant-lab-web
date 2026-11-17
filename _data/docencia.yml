@@ -48,3 +48,10 @@ divulgacion:
     periodos: 2025-1
   - nombre: Reto Naturalista Urbano
     periodos: "2024"
+formacion_docente:
+  - nombre: "Ética Profesional Docente: Rutas al ser UIS. Estrategias docentes para una formación que contribuya al bienestar emocional"
+    nivel: CEDEDUIS
+    periodos: 2025 · 20 horas
+  - nombre: "Jornada Integral de Perfeccionamiento Docente: Hacia una docencia centrada en el estudiante"
+    nivel: CEDEDUIS
+    periodos: 2025 · 15 horas

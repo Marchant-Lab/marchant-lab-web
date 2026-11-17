@@ -1,6 +1,28 @@
 # Participación en congresos. Fuente: CvLAC, sección "Eventos científicos" (consultado 2026-11-17).
-# ambito: internacional | nacional (según CvLAC). tipo del trabajo: Ponencia | Póster | Conferencia magistral.
+# Soportes en el repo privado Marchant-Lab/soportes-academicos (congresos/).
+# ambito: internacional | nacional. tipo del trabajo: Ponencia | Póster | Conferencia magistral | Coautoría | Evaluador de resúmenes.
 # No se incluye el taller "Selección genómica" (CIAT, 2017): participación como asistente.
+- anio: 2026
+  evento: 36th Brazilian Congress of Zoology (CBZ)
+  pais: Brasil
+  ambito: internacional
+  trabajos:
+    - {tipo: Coautoría, titulo: "AI-powered, image-based morphometrics unveil the diversity of Colombian freshwater fish"}
+    - {tipo: Coautoría, titulo: "From manual to automated: Can AI replace morphometric trait extraction in fish images? A CavFish case study"}
+- anio: 2026
+  evento: III Congreso de Micología Colombiana
+  pais: Colombia
+  ambito: nacional
+  trabajos:
+    - {tipo: Evaluador de resúmenes}
+- anio: 2025
+  evento: ONTA 55th Annual Meeting
+  ciudad: Cali
+  pais: Colombia
+  ambito: internacional
+  trabajos:
+    - {tipo: Ponencia}
+    - {tipo: Póster}
 - anio: 2024
   evento: 39.º Congresso Brasileiro de Nematologia – LIV ONTA Meeting
   ciudad: Foz do Iguaçu
@@ -43,7 +65,7 @@
   pais: Colombia
   ambito: internacional
   trabajos:
-    - {tipo: Conferencia magistral}
+    - {tipo: Conferencia magistral, titulo: "Transcriptome assembly from short-read RNA-Seq in non-model organisms"}
 - anio: 2020
   evento: Biodiversity Genomics 2020
   pais: Reino Unido

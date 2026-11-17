@@ -22,7 +22,7 @@ es:
   perfil_orcid: Perfil completo en
   grupos_equipo: [Integrantes actuales, Egresados]
   leer_resumen: Leer resumen
-  secciones_docencia: [Cursos en la UIS, Formación continua, Divulgación y museo]
+  secciones_docencia: [Cursos en la UIS, Formación continua, Divulgación y museo, Formación docente]
   ver_curso: Ver página del curso →
   como_aplicar: ¿Cómo aplicar?
   aplicar_antes: Escribe a
@@ -37,7 +37,7 @@ es:
     investigador: {titulo: Investigador principal}
     proyectos: {titulo: Proyectos, subtitulo: Proyectos de investigación y extensión en los que participa el laboratorio.}
     publicaciones: {titulo: Publicaciones, subtitulo: "Artículos, libros y memorias, actualizados desde ORCID."}
-    congresos: {titulo: Congresos, subtitulo: Ponencias y pósteres en congresos nacionales e internacionales.}
+    congresos: {titulo: Congresos, subtitulo: Ponencias, pósteres y evaluación de resúmenes en congresos nacionales e internacionales.}
     docencia: {titulo: Docencia, subtitulo: "Cursos en la UIS, formación continua y divulgación científica."}
     equipo: {titulo: Equipo, subtitulo: Estudiantes e investigadores que forman o formaron parte del laboratorio.}
     vinculate: {titulo: Vincúlate, subtitulo: Formas de sumarte al trabajo del laboratorio.}
@@ -64,7 +64,7 @@ en:
   perfil_orcid: Full profile on
   grupos_equipo: [Current members, Alumni]
   leer_resumen: Read abstract
-  secciones_docencia: [Courses at UIS, Continuing education, Outreach and museum]
+  secciones_docencia: [Courses at UIS, Continuing education, Outreach and museum, Teacher training]
   ver_curso: Course website →
   como_aplicar: How to apply
   aplicar_antes: Write to
@@ -73,13 +73,13 @@ en:
   contacto: Contact
   perfiles: Profiles
   grupos_congresos: [International conferences, National conferences]
-  tipos_trabajo: {Ponencia: Talk, Póster: Poster, Conferencia magistral: Keynote}
+  tipos_trabajo: {Ponencia: Talk, Póster: Poster, Conferencia magistral: Keynote, Coautoría: Co-author, Evaluador de resúmenes: Abstract reviewer}
   tipos: {Artículo: Article, Libro: Book, Memorias de congreso: Conference proceedings, Capítulo: Book chapter, Ponencia: Conference paper}
   paginas:
     investigador: {titulo: Principal Investigator}
     proyectos: {titulo: Projects, subtitulo: Research and outreach projects the lab takes part in.}
     publicaciones: {titulo: Publications, subtitulo: "Articles, books and proceedings, updated from ORCID."}
-    congresos: {titulo: Conferences, subtitulo: Talks and posters at national and international conferences.}
+    congresos: {titulo: Conferences, subtitulo: Talks, posters and abstract reviewing at national and international conferences.}
     docencia: {titulo: Teaching, subtitulo: "Courses at UIS, continuing education and science outreach."}
     equipo: {titulo: Team, subtitulo: Students and researchers who are or have been part of the lab.}
     vinculate: {titulo: Join us, subtitulo: Ways to take part in the lab's work.}
