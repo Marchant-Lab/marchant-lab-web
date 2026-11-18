@@ -1,11 +1,11 @@
-# BORRADOR: líneas inferidas del ORCID y de los proyectos del servidor. Confirmar redacción.
-- nombre: ADN ambiental y biodiversidad acuática
-  descripcion: Monitoreo de comunidades acuáticas y de peces del Magdalena Medio con eDNA multimarcador y secuenciación Nanopore.
+# Líneas generales; los detalles (lugares, especies, cultivos) van en proyectos, publicaciones y tesis.
+- nombre: ADN ambiental y monitoreo de la biodiversidad
+  descripcion: Uso del ADN ambiental y la secuenciación masiva para describir y monitorear la biodiversidad de los ecosistemas.
 - nombre: Ecología molecular y evolución
-  descripcion: Marcadores genéticos, delimitación de especies, filogeografía y adaptación, y herramientas para la enseñanza de la evolución.
+  descripcion: Marcadores moleculares y genómica para estudiar la diversidad genética, los límites entre especies, la filogeografía y la adaptación, y herramientas para la enseñanza de la evolución.
 - nombre: Genómica de microorganismos con potencial biotecnológico
-  descripcion: Genomas y transcriptomas de hongos y bacterias que degradan plásticos o toleran radiación UV.
+  descripcion: Genómica y transcriptómica de hongos y bacterias para entender y aprovechar su potencial biotecnológico.
 - nombre: Diagnóstico molecular de plagas y patógenos agrícolas
-  descripcion: Identificación de bacterias, hongos, nematodos y artrópodos asociados a cultivos como la cebolla de bulbo de Ocaña, la guayaba y la piña.
+  descripcion: Herramientas morfológicas y moleculares para identificar plagas y patógenos de cultivos y apoyar su manejo.
 - nombre: Nematología molecular
-  descripcion: Identificación, filogenia y diversidad genética de nematodos fitoparásitos (Globodera, Meloidogyne y otros Tylenchida) en cultivos de importancia económica en Colombia.
+  descripcion: Identificación, filogenia y diversidad genética de nematodos fitoparásitos de importancia agrícola.

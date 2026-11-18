@@ -4,16 +4,6 @@
 # Nombres propios, títulos de tesis y títulos de publicaciones no se traducen.
 
 # --- Líneas de investigación
-"Nematología molecular": "Molecular nematology"
-"Identificación, filogenia y diversidad genética de nematodos fitoparásitos (Globodera, Meloidogyne y otros Tylenchida) en cultivos de importancia económica en Colombia.": "Identification, phylogeny and genetic diversity of plant-parasitic nematodes (Globodera, Meloidogyne and other Tylenchida) in economically important crops in Colombia."
-"Diagnóstico molecular de plagas y patógenos agrícolas": "Molecular diagnosis of agricultural pests and pathogens"
-"Identificación de bacterias, hongos, nematodos y artrópodos asociados a cultivos como la cebolla de bulbo de Ocaña, la guayaba y la piña.": "Identification of bacteria, fungi, nematodes and arthropods associated with crops such as bulb onion from Ocaña, guava and pineapple."
-"ADN ambiental y biodiversidad acuática": "Environmental DNA and aquatic biodiversity"
-"Monitoreo de comunidades acuáticas y de peces del Magdalena Medio con eDNA multimarcador y secuenciación Nanopore.": "Monitoring of aquatic and fish communities of the Middle Magdalena with multi-marker eDNA and Nanopore sequencing."
-"Genómica de microorganismos con potencial biotecnológico": "Genomics of microorganisms with biotechnological potential"
-"Genomas y transcriptomas de hongos y bacterias que degradan plásticos o toleran radiación UV.": "Genomes and transcriptomes of fungi and bacteria that degrade plastics or tolerate UV radiation."
-"Ecología molecular y evolución": "Molecular ecology and evolution"
-"Marcadores genéticos, delimitación de especies, filogeografía y adaptación, y herramientas para la enseñanza de la evolución.": "Genetic markers, species delimitation, phylogeography and adaptation, and tools for teaching evolution."
 
 # --- Proyectos
 "OMICPLAST: tecnologías ómicas en la biotransformación de plásticos por hongos nativos": "OMICPLAST: omics technologies for plastic biotransformation by native fungi"
@@ -225,3 +215,13 @@
 "Práctica del Diplomado en identificación de plagas y patógenos en plantas (UIS – AGROSAVIA), sede UIS Guatiguará, junio de 2026": "Practical session of the diploma course on plant pest and pathogen identification (UIS – AGROSAVIA), UIS Guatiguará campus, June 2026"
 "Biología molecular en el Diplomado en identificación de plagas y patógenos en plantas (UIS – AGROSAVIA), sede UIS Guatiguará, junio de 2026": "Molecular biology in the diploma course on plant pest and pathogen identification (UIS – AGROSAVIA), UIS Guatiguará campus, June 2026"
 "Sistema de gradiente térmico (bloque de aluminio y termostatos) para ensayos de tolerancia térmica": "Thermal gradient system (aluminum block and circulators) for thermal tolerance assays"
+"ADN ambiental y monitoreo de la biodiversidad": "Environmental DNA and biodiversity monitoring"
+"Uso del ADN ambiental y la secuenciación masiva para describir y monitorear la biodiversidad de los ecosistemas.": "Use of environmental DNA and high-throughput sequencing to describe and monitor ecosystem biodiversity."
+"Ecología molecular y evolución": "Molecular ecology and evolution"
+"Marcadores moleculares y genómica para estudiar la diversidad genética, los límites entre especies, la filogeografía y la adaptación, y herramientas para la enseñanza de la evolución.": "Molecular markers and genomics to study genetic diversity, species boundaries, phylogeography and adaptation, and tools for teaching evolution."
+"Genómica de microorganismos con potencial biotecnológico": "Genomics of microorganisms with biotechnological potential"
+"Genómica y transcriptómica de hongos y bacterias para entender y aprovechar su potencial biotecnológico.": "Genomics and transcriptomics of fungi and bacteria to understand and harness their biotechnological potential."
+"Diagnóstico molecular de plagas y patógenos agrícolas": "Molecular diagnosis of agricultural pests and pathogens"
+"Herramientas morfológicas y moleculares para identificar plagas y patógenos de cultivos y apoyar su manejo.": "Morphological and molecular tools to identify crop pests and pathogens and support their management."
+"Nematología molecular": "Molecular nematology"
+"Identificación, filogenia y diversidad genética de nematodos fitoparásitos de importancia agrícola.": "Identification, phylogeny and genetic diversity of plant-parasitic nematodes of agricultural importance."
