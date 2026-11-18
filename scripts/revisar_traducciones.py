@@ -34,7 +34,6 @@ usados |= set(textos([infra], ["sede", "espacios"])) | set(textos(infra["grupos"
 usados |= set(textos([inv], ["cargo", "categoria", "grupo", "bio", "formacion", "trayectoria"]))
 for seccion in doc.values():
     usados |= set(textos(seccion, ["nombre", "nivel", "periodos", "descripcion"]))
-usados -= {"Clemson University (2012–2014)"}  # igual en ambos idiomas
 
 traducidos = set(cargar("traduccion_en"))
 # En YAML de una línea ({titulo: ..., subtitulo: ...}) una coma sin comillas corta el texto.
