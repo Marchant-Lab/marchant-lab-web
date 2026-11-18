@@ -98,3 +98,9 @@
   titulo: Silvia Juliana Corrales Murillo obtiene su maestría en Química
   texto: Su tesis, codirigida con la Escuela de Química, identificó marcadores metabólicos de la biodegradación de plásticos por hongos nativos del género Fusarium.
   enlace: https://noesis.uis.edu.co/handle/20.500.14071/45280
+
+- fecha: 2026-11-18
+  categoria: Publicación
+  titulo: Base de datos de rasgos morfológicos de peces neotropicales con inteligencia artificial
+  texto: Publicamos en Scientific Data CaVFish-MORPH, con 13 rasgos morfológicos medidos automáticamente en fotografías de 2.910 peces vivos de 526 especies, el 31 % de la ictiofauna de los Andes colombianos. Es parte del doctorado de José Luis Poveda Cuéllar.
+  enlace: https://doi.org/10.1038/s41597-026-08706-x

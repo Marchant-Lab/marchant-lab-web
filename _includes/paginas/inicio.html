@@ -2,7 +2,7 @@
 {% assign actuales = site.data.proyectos | where: "estado", "actual" | sort: "anios" | reverse %}
 {% assign egresados = site.data.personas | where: "estado", "egresado" %}
 {% assign integrantes = site.data.personas | where: "estado", "actual" %}
-{% assign n_pubs = site.data.publicaciones.size | plus: site.data.publicaciones_extra.size %}
+{% assign dois_orcid = site.data.publicaciones | map: "doi" | join: " " %}{% assign n_pubs = site.data.publicaciones.size %}{% for p in site.data.publicaciones_extra %}{% unless p.doi and dois_orcid contains p.doi %}{% assign n_pubs = n_pubs | plus: 1 %}{% endunless %}{% endfor %}
 <section class="heroe">
   <div class="contenedor">
     <p class="antetitulo">{{ ui.antetitulo }}</p>

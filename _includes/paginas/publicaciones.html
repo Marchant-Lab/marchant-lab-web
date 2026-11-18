@@ -1,5 +1,7 @@
 {% include idioma.html %}
-{% assign todas = site.data.publicaciones | concat: site.data.publicaciones_extra | sort: "anio" | reverse %}
+{% assign dois_orcid = site.data.publicaciones | map: "doi" | join: " " %}
+{% assign todas = site.data.publicaciones %}{% for p in site.data.publicaciones_extra %}{% unless p.doi and dois_orcid contains p.doi %}{% assign todas = todas | push: p %}{% endunless %}{% endfor %}
+{% assign todas = todas | sort: "anio" | reverse %}
 {% assign categorias = "Artículo|Libro,Capítulo|Memorias de congreso,Ponencia" | split: "|" %}
 <div class="contenedor seccion estrecho">
   <p class="nota">{{ ui.perfil_orcid }} <a href="https://orcid.org/0000-0002-7362-3626">ORCID</a>.</p>

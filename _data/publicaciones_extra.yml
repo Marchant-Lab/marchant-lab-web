@@ -1,5 +1,11 @@
-# Publicaciones que no están en ORCID (el script no toca este archivo). Mejor aún: agregarlas a ORCID y borrarlas de aquí.
+# Publicaciones que aún no están en ORCID (el script no toca este archivo). Si ORCID ya tiene el mismo DOI,
+# la página ignora la entrada de aquí (no se duplica); conviene borrarla entonces.
 - anio: 2022
   titulo: Thermal gradient for tigmothermic lizards using a water circulation system
   revista: Herpetological Review 53(1), 39–42
   tipo: Artículo
+- anio: 2026
+  titulo: Morphological trait dataset for Neotropical freshwater fishes powered by artificial intelligence
+  revista: Scientific Data
+  tipo: Artículo
+  doi: 10.1038/s41597-026-08706-x
