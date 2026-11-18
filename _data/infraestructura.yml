@@ -1,9 +1,11 @@
 # Infraestructura del Grupo iBGA en la Sede UIS Guatiguará (Piedecuesta), a cargo de Sergio Marchant.
 # Fuente: Cuadro Maestro de Infraestructura de la Escuela de Biología, hoja "iBGA Biotec Gest Ambi PTG".
-# No publicar números de inventario. Equipos propios no inventariados (p. ej. secuenciación) se agregan a mano.
+# No publicar números de inventario ni nombre o dirección del servidor. Equipos propios no inventariados (p. ej. secuenciación) se agregan a mano.
 sede: Sede UIS Guatiguará, Piedecuesta (Santander)
 espacios: [Laboratorio de Microbiología con cuarto de PCR, Laboratorio de tesistas, Cuarto de ultracongeladores, Espacio de docencia]
 grupos:
+  - nombre: Bioinformática y cómputo
+    equipos: ["Servidor de cómputo: 2 procesadores Intel Xeon Silver 4216 (32 núcleos, 64 hilos)", 512 GB de memoria RAM, 2 GPU NVIDIA RTX A5000 (24 GB cada una), 3,7 TB de almacenamiento, "Flujos reproducibles: Nextflow, conda, Apptainer y Docker"]
   - nombre: Biología molecular
     equipos: [PCR en tiempo real (ESCO Swift Spectrum), Termociclador, Cámara de electroforesis y fuente de poder, Juegos de micropipetas]
   - nombre: Microbiología y cultivo
