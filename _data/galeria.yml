@@ -6,7 +6,34 @@
   pie: Trabajo de campo en una cueva
 - foto: /assets/fotos/campo_edna_muestreo.jpg
   pagina: investigador
-  pie: Filtración de agua para ADN ambiental desde una lancha
+  pie: Filtración de agua para ADN ambiental desde una lancha, Magdalena Medio (Puerto Olaya), marzo de 2026
 - foto: /assets/fotos/campo_edna_bombas.jpg
   pagina: investigador
   pie: Muestreo de ADN ambiental con bombas peristálticas
+
+# --- Portada: trabajo de campo y equipos (lugar y fecha según el GPS de cada foto)
+- foto: /assets/fotos/magdalena_edna_filtracion_2026.jpg
+  pagina: inicio
+  pie: Filtración de agua para ADN ambiental, Magdalena Medio (Puerto Olaya), marzo de 2026
+- foto: /assets/fotos/molagavita_estudiantes_2023.jpg
+  pagina: inicio
+  pie: Estudiantes procesando muestras en campo, Molagavita (Santander), noviembre de 2023
+- foto: /assets/fotos/guatiguara_termostatos_2025.jpg
+  pagina: inicio
+  pie: Termostatos de refrigeración en el laboratorio, sede UIS Guatiguará
+- foto: /assets/fotos/guatiguara_gel_pcr_2021.jpg
+  pagina: inicio
+  pie: Gel de electroforesis con productos de PCR, sede UIS Guatiguará
+- foto: /assets/fotos/guatiguara_muestras_adn_2021.jpg
+  pagina: inicio
+  pie: Muestras para extracción de ADN, sede UIS Guatiguará
+- foto: /assets/fotos/laboratorio_gradilla_pcr_2026.jpg
+  pagina: inicio
+  pie: Muestras rotuladas listas para PCR
+# --- Equipo: varias personas trabajando
+- foto: /assets/fotos/guatiguara_practica_grupo_2026.jpg
+  pagina: equipo
+  pie: Práctica de laboratorio con estudiantes, sede UIS Guatiguará, junio de 2026
+- foto: /assets/fotos/guatiguara_pipeteo_2026.jpg
+  pagina: equipo
+  pie: Trabajo en el laboratorio de biología molecular, sede UIS Guatiguará, junio de 2026
