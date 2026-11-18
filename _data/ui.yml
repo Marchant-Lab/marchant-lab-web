@@ -25,6 +25,7 @@ es:
   grupos_equipo: [Integrantes actuales, Egresados]
   leer_resumen: Leer resumen
   modalidad_grado: Modalidad de grado
+  area: Área
   secciones_docencia: [Cursos en la UIS, Formación continua, Divulgación y museo, Formación docente]
   ver_curso: Ver página del curso →
   como_aplicar: ¿Cómo aplicar?
@@ -77,6 +78,7 @@ en:
   grupos_equipo: [Current members, Alumni]
   leer_resumen: Read abstract
   modalidad_grado: Degree option
+  area: Area
   secciones_docencia: [Courses at UIS, Continuing education, Outreach and museum, Teacher training]
   ver_curso: Course website →
   como_aplicar: How to apply

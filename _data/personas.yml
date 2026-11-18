@@ -3,7 +3,7 @@
 # Egresados: anio = año de grado. Con `noesis: <handle>` el título, resumen y enlace salen de
 # _data/tesis.json (scripts/actualizar_tesis.py); si la tesis no está en Noesis, poner `tesis:` a mano.
 # Campos opcionales: foto (ruta en assets/), enlace (ORCID, LinkedIn…), anio, tesis, noesis,
-# modalidad (si el grado no fue por trabajo de investigación; `tesis` pasa a ser el tema registrado).
+# modalidad (si el grado no fue por trabajo de investigación; `tesis` pasa a ser el área registrada).
 - nombre: Sergio Andrés Marchant Rojas
   rol: Investigador principal
   estado: actual
