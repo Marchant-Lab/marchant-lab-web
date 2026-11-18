@@ -1,0 +1,14 @@
+{% assign fotos = site.data.galeria | where: "pagina", include.pagina %}
+{% if fotos.size > 0 %}
+<section class="contenedor seccion">
+  <h2>{{ ui.galerias[include.pagina] }}</h2>
+  <div class="galeria">
+    {% for f in fotos %}{% assign pie = tr[f.pie] | default: f.pie %}
+    <figure>
+      <a href="{{ f.foto | relative_url }}"><img src="{{ f.foto | relative_url }}" alt="{{ pie }}" loading="lazy" width="1000" height="1333"></a>
+      <figcaption>{{ pie }}</figcaption>
+    </figure>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}

@@ -5,12 +5,12 @@ es:
   cambiar_idioma_titulo: "View this page in English"
   descripcion: Genómica, diversidad y bioinformática de organismos de interés agrícola y ambiental — Universidad Industrial de Santander (UIS)
   antetitulo: Escuela de Biología · UIS · Grupo iBGA
-  alt_foto_heroe: Sergio Marchant con casco dentro de una cueva con estalactitas
   lema: Genómica, diversidad y bioinformática de organismos de interés agrícola y ambiental en Colombia.
   ver_proyectos: Ver proyectos
   vinculate_boton: Vincúlate al laboratorio
   cifras: [publicaciones, proyectos activos, integrantes, egresados]
   lineas: Líneas de investigación
+  galerias: {inicio: El laboratorio en imágenes, investigador: En campo, equipo: El equipo en acción}
   infraestructura: Infraestructura
   proyectos_activos: Proyectos activos
   todos_proyectos: Todos los proyectos →
@@ -60,12 +60,12 @@ en:
   cambiar_idioma_titulo: "Ver esta página en español"
   descripcion: Genomics, diversity and bioinformatics of organisms of agricultural and environmental relevance — Universidad Industrial de Santander (UIS), Colombia
   antetitulo: School of Biology · UIS · iBGA Research Group
-  alt_foto_heroe: Sergio Marchant wearing a helmet inside a cave with stalactites
   lema: Genomics, diversity and bioinformatics of organisms of agricultural and environmental relevance in Colombia.
   ver_proyectos: See projects
   vinculate_boton: Join the lab
   cifras: [publications, active projects, members, alumni]
   lineas: Research lines
+  galerias: {inicio: The lab in pictures, investigador: In the field, equipo: The team at work}
   infraestructura: Facilities
   proyectos_activos: Active projects
   todos_proyectos: All projects →

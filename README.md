@@ -18,6 +18,7 @@ Todo el contenido está en `_data/`. Se edita el YAML, se hace commit y push, y 
 | Publicaciones | `_data/publicaciones.json` | se regenera con `python3 scripts/actualizar_publicaciones.py` (lee ORCID) |
 | Congresos (ponencias y pósteres) | `_data/congresos.yml` | `ambito: internacional` o `nacional`; países se traducen en `traduccion_en.yml` |
 | Infraestructura (portada) | `_data/infraestructura.yml` | sede, espacios y equipos del iBGA en Guatiguará; sin números de inventario |
+| Galerías de fotos (portada, investigador, equipo) | `_data/galeria.yml` + `assets/fotos/` | `pagina: inicio` (grupos y campo), `investigador` o `equipo`; quitar metadatos y GPS a las fotos antes de subirlas |
 | Docencia (cursos, diplomados, divulgación) | `_data/docencia.yml` | |
 | Cómo vincularse | `_data/vinculacion.yml` y `vinculate.md` | |
 | Correo, título, descripción | `_config.yml` | `contacto`, `title`, `description` |

@@ -1,0 +1,12 @@
+# Galerías de fotos. pagina: inicio (grupos, equipos y trabajo de campo) | investigador (fotos del PI) | equipo (varias personas trabajando).
+# foto: ruta en assets/fotos/ (sin metadatos; ver README). pie: texto corto; su traducción va en traduccion_en.yml.
+# Las secciones sin fotos no se muestran.
+- foto: /assets/fotos/campo_cueva.jpg
+  pagina: investigador
+  pie: Trabajo de campo en una cueva
+- foto: /assets/fotos/campo_edna_muestreo.jpg
+  pagina: investigador
+  pie: Filtración de agua para ADN ambiental desde una lancha
+- foto: /assets/fotos/campo_edna_bombas.jpg
+  pagina: investigador
+  pie: Muestreo de ADN ambiental con bombas peristálticas
