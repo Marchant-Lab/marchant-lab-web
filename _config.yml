@@ -3,5 +3,5 @@ description: Genómica, diversidad y bioinformática de organismos de interés a
 lang: es
 # Si el sitio se publica en https://marchant-lab.github.io/<repo>/, poner baseurl: /<repo>
 baseurl: /marchant-lab-web
-contacto: "PENDIENTE: correo público del laboratorio"
+contacto: seanmaro@uis.edu.co
 exclude: [README.md, AGENTS.md, environment.yml, scripts]
