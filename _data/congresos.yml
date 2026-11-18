@@ -1,4 +1,5 @@
 # Participación en congresos. Fuente: CvLAC, sección "Eventos científicos" (consultado 2026-11-17).
+# 2005–2014: de las hojas de vida de 2014 (soportes-academicos/hoja-de-vida/), sin títulos de los trabajos.
 # Soportes en el repo privado Marchant-Lab/soportes-academicos (congresos/).
 # ambito: internacional | nacional. tipo del trabajo: Ponencia | Póster | Conferencia magistral | Coautoría | Evaluador de resúmenes.
 # No se incluye el taller "Selección genómica" (CIAT, 2017): participación como asistente.
@@ -114,3 +115,95 @@
   ambito: internacional
   trabajos:
     - {tipo: Ponencia, titulo: "Thermal tolerance of larvae of an antitropically-distributed barnacle species"}
+- anio: 2014
+  evento: "Fulbright Academic Symposium"
+  ciudad: Clemson, SC
+  pais: Estados Unidos
+  ambito: nacional
+  trabajos:
+    - {tipo: Póster}
+- anio: 2013
+  evento: "Tercera reunión de la Red de Biogeografía Neotropical"
+  ciudad: Bogotá (Universidad de los Andes)
+  pais: Colombia
+  ambito: internacional
+  trabajos:
+    - {tipo: Ponencia}
+- anio: 2013
+  evento: "American Genetic Association Annual Symposium"
+  ciudad: Ithaca, NY (Cornell University)
+  pais: Estados Unidos
+  ambito: internacional
+  trabajos:
+    - {tipo: Póster}
+- anio: 2013
+  evento: "Fulbright Academic Symposium"
+  ciudad: Clemson, SC
+  pais: Estados Unidos
+  ambito: nacional
+  trabajos:
+    - {tipo: Póster}
+- anio: 2012
+  evento: "SouthEastern Population Ecology and Evolutionary Genetics meeting (SEPEEG)"
+  ciudad: Clemson, SC
+  pais: Estados Unidos
+  ambito: nacional
+  trabajos:
+    - {tipo: Ponencia}
+- anio: 2012
+  evento: "Joint Congress of Evolutionary Biology"
+  ciudad: Ottawa
+  pais: Canadá
+  ambito: internacional
+  trabajos:
+    - {tipo: Ponencia}
+- anio: 2011
+  evento: "National Conference of the Society for Advancement of Chicanos and Native Americans in Science (SACNAS)"
+  ciudad: San José, CA
+  pais: Estados Unidos
+  ambito: nacional
+  trabajos:
+    - {tipo: Ponencia}
+- anio: 2010
+  evento: "National Conference of the Society for Advancement of Chicanos and Native Americans in Science (SACNAS)"
+  ciudad: Anaheim, CA
+  pais: Estados Unidos
+  ambito: nacional
+  trabajos:
+    - {tipo: Ponencia}
+    - {tipo: Póster}
+- anio: 2007
+  evento: "Reunión Anual de la Sociedad de Biología Evolutiva de Chile"
+  ciudad: Pucón
+  pais: Chile
+  ambito: nacional
+  trabajos:
+    - {tipo: Póster}
+- anio: 2007
+  evento: "The Crustacean Society Meeting"
+  ciudad: La Serena
+  pais: Chile
+  ambito: internacional
+  trabajos:
+    - {tipo: Póster}
+- anio: 2006
+  evento: "Reunión Anual de la Sociedad de Genética de Chile"
+  ciudad: Viña del Mar
+  pais: Chile
+  ambito: nacional
+  trabajos:
+    - {tipo: Póster}
+- anio: 2006
+  evento: "Congreso de Ciencias del Mar"
+  ciudad: Iquique
+  pais: Chile
+  ambito: nacional
+  trabajos:
+    - {tipo: Póster}
+- anio: 2005
+  evento: "Reunión Anual de la Sociedad de Genética de Chile"
+  ciudad: Puerto Varas
+  pais: Chile
+  ambito: nacional
+  trabajos:
+    - {tipo: Póster}
