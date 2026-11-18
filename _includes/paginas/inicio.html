@@ -4,7 +4,8 @@
 {% assign integrantes = site.data.personas | where: "estado", "actual" %}
 {% assign dois_orcid = site.data.publicaciones | map: "doi" | join: " " %}{% assign n_pubs = site.data.publicaciones.size %}{% for p in site.data.publicaciones_extra %}{% unless p.doi and dois_orcid contains p.doi %}{% assign n_pubs = n_pubs | plus: 1 %}{% endunless %}{% endfor %}
 <section class="heroe">
-  <div class="contenedor">
+  <div class="contenedor heroe-interior">
+    <div class="heroe-texto">
     <p class="antetitulo">{{ ui.antetitulo }}</p>
     <h1>{{ site.title }}</h1>
     <p class="lema">{{ ui.lema }}</p>
@@ -12,6 +13,8 @@
       <a class="boton" href="{{ ui.menu[3][0] | relative_url }}">{{ ui.ver_proyectos }}</a>
       <a class="boton boton-claro" href="{{ ui.menu[8][0] | relative_url }}">{{ ui.vinculate_boton }}</a>
     </div>
+    </div>
+    <img class="heroe-foto" src="{{ '/assets/fotos/campo_cueva.jpg' | relative_url }}" alt="{{ ui.alt_foto_heroe }}" width="1000" height="1333">
   </div>
 </section>
 
