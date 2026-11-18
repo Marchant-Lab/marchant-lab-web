@@ -3,7 +3,7 @@ nombre: Sergio Marchant
 cargo: Profesor Asociado, Escuela de Biología, Universidad Industrial de Santander
 categoria: Investigador Asociado (I) y par evaluador reconocido por Minciencias
 grupo: Grupo de Investigación en Biotecnología y Gestión Ambiental (iBGA)
-foto: ""   # p. ej. /assets/fotos/sergio.jpg
+foto: /assets/fotos/sergio_perfil.jpg
 bio:
   - Biólogo chileno interesado en aplicar herramientas genéticas y ecológicas a retos de conservación de la biodiversidad y agricultura sostenible. Se formó en Biología Marina en la Universidad Católica del Norte (Coquimbo, Chile) y obtuvo su doctorado en Ciencias Biológicas en Clemson University (Carolina del Sur, EE. UU.), donde estudió la biogeografía, la adaptación térmica y la distribución del percebe Pollicipes elegans.
   - Ha desarrollado marcadores genómicos en plantas, isópodos marinos y abalones para delimitar especies y medir diversidad genética. Hoy su trabajo se centra en el ADN ambiental y la ecología molecular para estudiar y conservar la biodiversidad, en la genómica de microorganismos con potencial biotecnológico y en el diagnóstico molecular de plagas y patógenos agrícolas, este último en colaboración con AGROSAVIA.
