@@ -31,7 +31,7 @@ usados |= set(textos(cargar("congresos"), ["pais"]))
 usados |= set(textos(cargar("noticias"), ["titulo", "texto"]))
 infra = cargar("infraestructura")
 usados |= set(textos([infra], ["sede", "espacios"])) | set(textos(infra["grupos"], ["nombre", "equipos"]))
-usados |= set(textos([inv], ["cargo", "categoria", "grupo", "bio", "formacion", "trayectoria"]))
+usados |= set(textos([inv], ["cargo", "categoria", "grupo", "bio", "formacion", "trayectoria", "distinciones"]))
 for seccion in doc.values():
     usados |= set(textos(seccion, ["nombre", "nivel", "periodos", "descripcion"]))
 

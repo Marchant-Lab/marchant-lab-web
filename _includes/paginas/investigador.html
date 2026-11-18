@@ -15,5 +15,7 @@
     <ul class="linea-tiempo">{% for f in i.formacion %}<li>{{ tr[f] | default: f }}</li>{% endfor %}</ul>
     <h3>{{ ui.trayectoria }}</h3>
     <ul class="linea-tiempo">{% for t in i.trayectoria %}<li>{{ tr[t] | default: t }}</li>{% endfor %}</ul>
+    <h3>{{ ui.distinciones }}</h3>
+    <ul class="linea-tiempo">{% for d in i.distinciones %}<li>{{ tr[d] | default: d }}</li>{% endfor %}</ul>
   </div>
 </div>

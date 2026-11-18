@@ -23,6 +23,11 @@ trayectoria:   # cargos UIS con soporte en la carga académica o en resoluciones
   - Docente de tiempo completo, Facultad de Ciencias Agropecuarias, Universidad Católica de Oriente (2016–2017)
   - Profesor de cátedra de Genética de Poblaciones, Universidad Nacional de Colombia, sede Medellín (2016)
   - Teaching Assistant, laboratorios de biología general para no especialistas (Biology 1050, 2013) y Zoología de Invertebrados (2014), Clemson University
+distinciones:   # fuentes: CV de 2014 (soportes-academicos/hoja-de-vida/) y Res. 1311 de 2026 (resoluciones/puntaje/)
+  - Beca Fulbright / CONICYT para estudios de doctorado (2008–2012)
+  - Alfred R. Wallace Fellowship, RC Edwards Fellowship y Dean's Fellowship, Clemson University (2008–2013)
+  - Reconocimiento por desempeño destacado en docencia, UIS (2021–2023; Res. 1311 de 2026)
+  - Presidente del capítulo Fulbright de Clemson University (2013)
 perfiles:
   - {nombre: ORCID, url: "https://orcid.org/0000-0002-7362-3626"}
   - {nombre: CvLAC, url: "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000034254"}
