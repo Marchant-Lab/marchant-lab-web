@@ -3,9 +3,9 @@ es:
   menu: [["/", "Inicio"], ["/noticias/", "Noticias"], ["/investigador/", "Investigador"], ["/proyectos/", "Proyectos"], ["/publicaciones/", "Publicaciones"], ["/congresos/", "Congresos"], ["/docencia/", "Docencia"], ["/equipo/", "Equipo"], ["/vinculate/", "Vincúlate"]]
   cambiar_idioma: "EN"
   cambiar_idioma_titulo: "View this page in English"
-  descripcion: "Marchant Lab, Universidad Industrial de Santander (UIS): ADN ambiental, ecología molecular y genómica para conocer y conservar la biodiversidad y apoyar la agricultura sostenible en Colombia."
+  descripcion: "Marchant Lab, Universidad Industrial de Santander (UIS): ADN ambiental, ecología molecular y genómica para el conocimiento y el aprovechamiento sostenible de la biodiversidad en Colombia."
   antetitulo: Escuela de Biología · UIS · Grupo iBGA
-  lema: ADN ambiental, ecología molecular y genómica para conocer y conservar la biodiversidad y apoyar la agricultura sostenible en Colombia.
+  lema: ADN ambiental, ecología molecular y genómica para el conocimiento y el aprovechamiento sostenible de la biodiversidad en Colombia.
   ver_proyectos: Ver proyectos
   vinculate_boton: Vincúlate al laboratorio
   cifras: [publicaciones, proyectos activos, integrantes, egresados]
@@ -58,9 +58,9 @@ en:
   menu: [["/en/", "Home"], ["/en/noticias/", "News"], ["/en/investigador/", "PI"], ["/en/proyectos/", "Projects"], ["/en/publicaciones/", "Publications"], ["/en/congresos/", "Conferences"], ["/en/docencia/", "Teaching"], ["/en/equipo/", "Team"], ["/en/vinculate/", "Join us"]]
   cambiar_idioma: "ES"
   cambiar_idioma_titulo: "Ver esta página en español"
-  descripcion: "Marchant Lab, Universidad Industrial de Santander (UIS): Environmental DNA, molecular ecology and genomics to understand and conserve biodiversity and support sustainable agriculture in Colombia."
+  descripcion: "Marchant Lab, Universidad Industrial de Santander (UIS): Environmental DNA, molecular ecology and genomics for the knowledge and sustainable use of biodiversity in Colombia."
   antetitulo: School of Biology · UIS · iBGA Research Group
-  lema: Environmental DNA, molecular ecology and genomics to understand and conserve biodiversity and support sustainable agriculture in Colombia.
+  lema: Environmental DNA, molecular ecology and genomics for the knowledge and sustainable use of biodiversity in Colombia.
   ver_proyectos: See projects
   vinculate_boton: Join the lab
   cifras: [publications, active projects, members, alumni]
