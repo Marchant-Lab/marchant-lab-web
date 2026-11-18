@@ -1,11 +1,11 @@
 # BORRADOR: líneas inferidas del ORCID y de los proyectos del servidor. Confirmar redacción.
-- nombre: Nematología molecular
-  descripcion: Identificación, filogenia y diversidad genética de nematodos fitoparásitos (Globodera, Meloidogyne y otros Tylenchida) en cultivos de importancia económica en Colombia.
-- nombre: Diagnóstico molecular de plagas y patógenos agrícolas
-  descripcion: Identificación de bacterias, hongos, nematodos y artrópodos asociados a cultivos como la cebolla de bulbo de Ocaña, la guayaba y la piña.
 - nombre: ADN ambiental y biodiversidad acuática
   descripcion: Monitoreo de comunidades acuáticas y de peces del Magdalena Medio con eDNA multimarcador y secuenciación Nanopore.
-- nombre: Genómica de microorganismos con potencial biotecnológico
-  descripcion: Genomas y transcriptomas de hongos y bacterias que degradan plásticos o toleran radiación UV.
 - nombre: Ecología molecular y evolución
   descripcion: Marcadores genéticos, delimitación de especies, filogeografía y adaptación, y herramientas para la enseñanza de la evolución.
+- nombre: Diagnóstico molecular de plagas y patógenos agrícolas
+  descripcion: Identificación de bacterias, hongos, nematodos y artrópodos asociados a cultivos como la cebolla de bulbo de Ocaña, la guayaba y la piña.
+- nombre: Genómica de microorganismos con potencial biotecnológico
+  descripcion: Genomas y transcriptomas de hongos y bacterias que degradan plásticos o toleran radiación UV.
+- nombre: Nematología molecular
+  descripcion: Identificación, filogenia y diversidad genética de nematodos fitoparásitos (Globodera, Meloidogyne y otros Tylenchida) en cultivos de importancia económica en Colombia.
