@@ -2,7 +2,7 @@
 nombre: Sergio Marchant
 cargo: Profesor Asociado, Escuela de Biología, Universidad Industrial de Santander
 categoria: Investigador Asociado (I) y par evaluador reconocido por Minciencias
-grupo: Director del Grupo de Investigación en Biotecnología y Gestión Ambiental (iBGA)
+grupo: Grupo de Investigación en Biotecnología y Gestión Ambiental (iBGA)
 foto: ""   # p. ej. /assets/fotos/sergio.jpg
 bio:
   - Biólogo chileno interesado en aplicar herramientas genéticas y ecológicas a retos de conservación de la biodiversidad y agricultura sostenible. Se formó en Biología Marina en la Universidad Católica del Norte (Coquimbo, Chile) y obtuvo su doctorado en Ciencias Biológicas en Clemson University (Carolina del Sur, EE. UU.), donde estudió la biogeografía, la adaptación térmica y la distribución del percebe Pollicipes elegans.
@@ -11,16 +11,14 @@ bio:
 formacion:
   - Ph.D. en Ciencias Biológicas, Clemson University, EE. UU. (2008–2014)
   - Biólogo Marino, Universidad Católica del Norte, Chile (1999–2006)
-trayectoria:
+trayectoria:   # cargos UIS solo con soporte en la carga académica (reportes de actividad docente), periodos tal como figuran
   - Profesor Asociado, Escuela de Biología, UIS (2017–actual)
-  - Director del Grupo de Investigación en Biotecnología y Gestión Ambiental (iBGA), UIS (actual)
   - Estancia de investigación, University of California, Davis, EE. UU. (2024)
-  - Director de la Sala de Exhibición del Museo de Historia Natural, UIS (2025–actual)
-  - Integrante del Comité Curricular de la Escuela de Biología, UIS (2026–actual)
+  - Director de la Sala de Exhibición del Museo de Historia Natural, UIS (2025-2 a 2026-1)
+  - Integrante del Comité Curricular de la Escuela de Biología, UIS (2026-1)
   - Integrante del Consejo de Escuela de Biología, UIS (2026-1)
-  - Director de la Escuela de Biología, UIS (2023–2025)
-  - Coordinador académico del programa de Biología, UIS (2023)
-  - Director de las Colecciones de Ictiología e Hidrobiología, Escuela de Biología, UIS (2022–2025)
+  - Director de la Escuela de Biología, UIS (2023-1 a 2025-1)
+  - Director de las Colecciones de Ictiología e Hidrobiología, Escuela de Biología, UIS (2023-1, 2023-2 y 2025-1)
   - Docente de tiempo completo, Facultad de Ciencias Agropecuarias, Universidad Católica de Oriente (2016–2017)
   - Universidad Nacional de Colombia, sede Medellín (2016)
   - Clemson University (2012–2014)
