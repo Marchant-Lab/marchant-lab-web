@@ -67,7 +67,7 @@
     {% if site.flag_counter %}{% assign codigo_fc = site.flag_counter | split: "/" %}
     <div class="contenedor pie-visitas">
       <strong>{{ ui.visitas }}</strong>
-      <a href="https://info.flagcounter.com/{{ codigo_fc[4] }}"><img src="{{ site.flag_counter }}" alt="{{ ui.visitas_alt }}" loading="lazy"></a>
+      <a href="https://{{ codigo_fc[2] }}/more/{{ codigo_fc[4] }}"><img src="{{ site.flag_counter }}" alt="{{ ui.visitas_alt }}" loading="lazy"></a>
     </div>
     {% endif %}
   </footer>
