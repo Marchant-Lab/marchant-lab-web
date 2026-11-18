@@ -17,6 +17,8 @@
     <ul class="linea-tiempo">{% for t in i.trayectoria %}<li>{{ tr[t] | default: t }}</li>{% endfor %}</ul>
     <h3>{{ ui.distinciones }}</h3>
     <ul class="linea-tiempo">{% for d in i.distinciones %}<li>{{ tr[d] | default: d }}</li>{% endfor %}</ul>
+    <h3>{{ ui.formacion_docente }}</h3>
+    <ul class="linea-tiempo">{% for c in i.formacion_docente %}<li>{{ tr[c.nombre] | default: c.nombre }} <span class="nota">— {{ tr[c.nivel] | default: c.nivel }}, {{ tr[c.periodos] | default: c.periodos }}</span></li>{% endfor %}</ul>
   </div>
 </div>
 

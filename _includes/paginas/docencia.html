@@ -1,6 +1,6 @@
 {% include idioma.html %}
 {% assign d = site.data.docencia %}
-{% assign claves = "cursos,formacion_continua,divulgacion,formacion_docente" | split: "," %}
+{% assign claves = "cursos,formacion_continua,divulgacion" | split: "," %}
 {% for clave in claves %}
 <section class="contenedor seccion">
   <h2>{{ ui.secciones_docencia[forloop.index0] }}</h2>

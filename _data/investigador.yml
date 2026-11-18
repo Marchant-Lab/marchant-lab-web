@@ -26,6 +26,31 @@ distinciones:   # fuentes: CV de 2014 (soportes-academicos/hoja-de-vida/) y Res.
   - Alfred R. Wallace Fellowship, RC Edwards Fellowship y Dean's Fellowship, Clemson University (2008–2013)
   - Reconocimiento por desempeño destacado en docencia, UIS (2021–2023; Res. 1311 de 2026)
   - Presidente del capítulo Fulbright de Clemson University (2013)
+formacion_docente:   # cursos de formación docente que ha tomado (movido desde docencia.yml)
+  - nombre: "Ética Profesional Docente: Rutas al ser UIS. Estrategias docentes para una formación que contribuya al bienestar emocional"
+    nivel: CEDEDUIS
+    periodos: 2025 · 20 horas
+  - nombre: "Jornada Integral de Perfeccionamiento Docente: Hacia una docencia centrada en el estudiante"
+    nivel: CEDEDUIS
+    periodos: 2025 · 15 horas
+  - nombre: "Funcionalidades de la plataforma Moodle"
+    nivel: UIS
+    periodos: "2024"
+  - nombre: "Evaluación por competencias"
+    nivel: UIS
+    periodos: "2024"
+  - nombre: "Formación docente para la enseñanza apoyada con TIC"
+    nivel: UIS
+    periodos: "2024"
+  - nombre: "Proyecto institucional y modelo pedagógico"
+    nivel: UIS
+    periodos: "2024"
+  - nombre: "Formación por competencias y estrategias para el ejercicio de la docencia"
+    nivel: UIS
+    periodos: "2024"
+  - nombre: "Talleres de inducción sobre los lineamientos de procesos de la Vicerrectoría de Investigación y Extensión"
+    nivel: UIS
+    periodos: "2024"
 perfiles:
   - {nombre: ORCID, url: "https://orcid.org/0000-0002-7362-3626"}
   - {nombre: CvLAC, url: "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000034254"}

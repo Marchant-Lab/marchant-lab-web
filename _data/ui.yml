@@ -28,7 +28,8 @@ es:
   leer_resumen: Leer resumen
   modalidad_grado: Modalidad de grado
   area: Área
-  secciones_docencia: [Cursos en la UIS, Formación continua, Divulgación y museo, Formación docente]
+  secciones_docencia: [Cursos en la UIS, Formación continua, Divulgación y museo]
+  formacion_docente: Formación docente
   ver_curso: Ver página del curso →
   como_aplicar: ¿Cómo aplicar?
   aplicar_antes: Escribe a
@@ -85,7 +86,8 @@ en:
   leer_resumen: Read abstract
   modalidad_grado: Degree option
   area: Area
-  secciones_docencia: [Courses at UIS, Continuing education, Outreach and museum, Teacher training]
+  secciones_docencia: [Courses at UIS, Continuing education, Outreach and museum]
+  formacion_docente: Teacher training
   ver_curso: Course website →
   como_aplicar: How to apply
   aplicar_antes: Write to

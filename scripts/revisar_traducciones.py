@@ -33,6 +33,7 @@ usados |= set(textos(cargar("galeria"), ["pie"]))
 infra = cargar("infraestructura")
 usados |= set(textos([infra], ["sede", "espacios"])) | set(textos(infra["grupos"], ["nombre", "equipos"]))
 usados |= set(textos([inv], ["cargo", "categoria", "grupo", "bio", "formacion", "trayectoria", "distinciones"]))
+usados |= set(textos(inv["formacion_docente"], ["nombre", "nivel", "periodos"]))
 for seccion in doc.values():
     usados |= set(textos(seccion, ["nombre", "nivel", "periodos", "descripcion"]))
 
