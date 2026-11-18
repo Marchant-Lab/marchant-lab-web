@@ -1,4 +1,5 @@
-# Galerías de fotos. pagina: inicio (grupos, equipos y trabajo de campo) | investigador (fotos del PI) | equipo (varias personas trabajando).
+# Galerías de fotos. pagina: inicio (trabajo de campo y equipos) | investigador (fotos del PI) |
+# equipo (personal del laboratorio trabajando) | docencia (cursos y diplomados).
 # foto: ruta en assets/fotos/ (sin metadatos; ver README). pie: texto corto; su traducción va en traduccion_en.yml.
 # Las secciones sin fotos no se muestran.
 - foto: /assets/fotos/campo_cueva.jpg
@@ -30,10 +31,10 @@
 - foto: /assets/fotos/laboratorio_gradilla_pcr_2026.jpg
   pagina: inicio
   pie: Muestras rotuladas listas para PCR
-# --- Equipo: varias personas trabajando
+# --- Docencia: Diplomado UIS – AGROSAVIA (se muestra bajo «Formación continua»)
 - foto: /assets/fotos/guatiguara_practica_grupo_2026.jpg
-  pagina: equipo
+  pagina: docencia
   pie: Práctica del Diplomado en identificación de plagas y patógenos en plantas (UIS – AGROSAVIA), sede UIS Guatiguará, junio de 2026
 - foto: /assets/fotos/guatiguara_pipeteo_2026.jpg
-  pagina: equipo
+  pagina: docencia
   pie: Biología molecular en el Diplomado en identificación de plagas y patógenos en plantas (UIS – AGROSAVIA), sede UIS Guatiguará, junio de 2026
