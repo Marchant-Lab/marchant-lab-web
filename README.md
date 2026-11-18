@@ -22,6 +22,8 @@ Todo el contenido está en `_data/`. Se edita el YAML, se hace commit y push, y 
 | Docencia (cursos, diplomados, divulgación) | `_data/docencia.yml` | |
 | Cómo vincularse | `_data/vinculacion.yml` y `vinculate.md` | |
 | Correo, título, descripción | `_config.yml` | `contacto`, `title`, `description` |
+| Contador de visitas por país (pie de página) | `_config.yml` | `flag_counter`: URL de la imagen (`src`) del código de flagcounter.com; vacío = oculto |
+| Imagen al compartir el enlace (WhatsApp, redes) | `assets/compartir.jpg` | 1200×630, sin metadatos |
 
 ### Nombres científicos en cursiva
 

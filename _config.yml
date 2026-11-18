@@ -3,5 +3,10 @@ description: "Marchant Lab, Universidad Industrial de Santander (UIS): ADN ambie
 lang: es
 # Si el sitio se publica en https://marchant-lab.github.io/<repo>/, poner baseurl: /<repo>
 baseurl: /marchant-lab-web
+# Dominio, para enlaces absolutos (vista previa al compartir, sitemap, hreflang)
+url: https://marchant-lab.github.io
+# Contador de visitas por país: la URL de la imagen (src="...") del código que da flagcounter.com,
+# p. ej. https://s01.flagcounter.com/count2/AbCd/bg_0A3530/.../  Vacío = no se muestra.
+flag_counter:
 contacto: seanmaro@uis.edu.co
 exclude: [README.md, AGENTS.md, environment.yml, scripts]

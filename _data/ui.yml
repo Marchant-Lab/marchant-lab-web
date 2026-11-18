@@ -36,6 +36,8 @@ es:
   pie_lugar: Grupo iBGA · Escuela de Biología · Universidad Industrial de Santander<br>Sede Guatiguará, Piedecuesta · Bucaramanga, Colombia
   contacto: Contacto
   perfiles: Perfiles
+  visitas: Visitas por país
+  visitas_alt: Contador de visitas por país
   tipos: {}
   grupos_congresos: [Congresos internacionales, Congresos nacionales]
   noticias_recientes: Noticias recientes
@@ -91,6 +93,8 @@ en:
   pie_lugar: iBGA Research Group · School of Biology · Universidad Industrial de Santander<br>Guatiguará campus, Piedecuesta · Bucaramanga, Colombia
   contacto: Contact
   perfiles: Profiles
+  visitas: Visits by country
+  visitas_alt: Visitor counter by country
   grupos_congresos: [International conferences, National conferences]
   noticias_recientes: Latest news
   todas_noticias: All news →

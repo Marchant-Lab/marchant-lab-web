@@ -1,0 +1,13 @@
+---
+layout: default
+pid: error404
+permalink: /404.html
+sitemap: false
+---
+{% comment %} Una sola página para ES y EN: GitHub Pages sirve esta misma 404 para cualquier ruta inexistente. {% endcomment %}
+<section class="contenedor seccion">
+  <h2>Página no encontrada</h2>
+  <p>La página que buscas no existe o cambió de dirección. <a href="{{ '/' | relative_url }}">Volver a la portada</a>.</p>
+  <h2 lang="en">Page not found</h2>
+  <p lang="en">The page you are looking for does not exist or has moved. <a href="{{ '/en/' | relative_url }}">Go to the home page</a>.</p>
+</section>

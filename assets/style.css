@@ -141,6 +141,8 @@ details p { margin-top: .6rem; }
 .pie a { color: #f3d9a4; }
 .pie-interior { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; }
 .pie p { margin: .4rem 0 0; }
+.pie-visitas { margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid rgba(255, 255, 255, .15); }
+.pie-visitas img { display: block; max-width: 100%; height: auto; margin-top: .6rem; }
 
 @media (max-width: 800px) {
   .cifras { grid-template-columns: repeat(2, 1fr); }
