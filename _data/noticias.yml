@@ -1,4 +1,4 @@
-# Noticias del laboratorio, de la más reciente a la más antigua.
+# Orden: la página los ordena sola (más reciente primero); el orden en este archivo no importa.
 # Campos: fecha (AAAA-MM-DD), categoria (Publicación | Grado | Proyecto | Congreso), titulo, texto;
 # opcionales: enlace (URL externa o ruta interna como /proyectos/) y foto (ruta en assets/fotos/).
 # Cada titulo y texto nuevo necesita su traducción en _data/traduccion_en.yml.

@@ -1,6 +1,6 @@
 {% include idioma.html %}
 {% assign estados = "actual,pasado" | split: "," %}
-{% for e in estados %}{% assign lista = site.data.proyectos | where: "estado", e %}
+{% for e in estados %}{% assign lista = site.data.proyectos | where: "estado", e | sort: "anios" | reverse %}
 <section class="contenedor seccion">
   <h2>{{ ui.grupos_proyectos[forloop.index0] }} <span class="contador">{{ lista.size }}</span></h2>
   <div class="rejilla">

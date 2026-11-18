@@ -1,5 +1,5 @@
 {% include idioma.html %}
-{% assign actuales = site.data.proyectos | where: "estado", "actual" %}
+{% assign actuales = site.data.proyectos | where: "estado", "actual" | sort: "anios" | reverse %}
 {% assign egresados = site.data.personas | where: "estado", "egresado" %}
 {% assign integrantes = site.data.personas | where: "estado", "actual" %}
 {% assign n_pubs = site.data.publicaciones.size | plus: site.data.publicaciones_extra.size %}
@@ -25,7 +25,7 @@
 <section class="contenedor seccion">
   <div class="titulo-con-enlace"><h2>{{ ui.noticias_recientes }}</h2><a href="{{ ui.menu[1][0] | relative_url }}">{{ ui.todas_noticias }}</a></div>
   <div class="rejilla">
-    {% for n in site.data.noticias limit: 3 %}{% include tarjeta_noticia.html n=n %}{% endfor %}
+    {% assign noticias = site.data.noticias | sort: "fecha" | reverse %}{% for n in noticias limit: 3 %}{% include tarjeta_noticia.html n=n %}{% endfor %}
   </div>
 </section>
 

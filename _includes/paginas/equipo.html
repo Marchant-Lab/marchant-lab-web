@@ -1,6 +1,6 @@
 {% include idioma.html %}
 {% assign estados = "actual,egresado" | split: "," %}
-{% for e in estados %}{% assign lista = site.data.personas | where: "estado", e %}
+{% for e in estados %}{% assign lista = site.data.personas | where: "estado", e %}{% if e == "egresado" %}{% assign lista = lista | sort: "anio" | reverse %}{% endif %}
 <section class="contenedor seccion">
   <h2>{{ ui.grupos_equipo[forloop.index0] }} <span class="contador">{{ lista.size }}</span></h2>
   <div class="rejilla rejilla-personas">
