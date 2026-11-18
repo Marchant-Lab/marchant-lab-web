@@ -14,3 +14,5 @@ grupos:
     equipos: [Ultracongelador de −86 °C (728 L), Congeladores y neveras, Máquina de hielo]
   - nombre: Equipos generales
     equipos: [Balanza analítica (Ohaus Pioneer), pH-metro (Orion), Horno de secado]
+  - nombre: En alianza con AGROSAVIA (Parque Tecnológico Guatiguará)
+    equipos: ["Secuenciador Oxford Nanopore PromethION 2 Solo", "Estación de cómputo para basecalling: AMD Ryzen Threadripper PRO 5975WX (32 núcleos, 64 hilos)", 512 GB de memoria RAM, GPU NVIDIA GeForce RTX 4090 (24 GB), "24 TB de almacenamiento (SSD, HDD y NVMe)"]
