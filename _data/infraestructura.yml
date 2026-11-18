@@ -5,7 +5,7 @@ sede: Sede UIS Guatiguará, Piedecuesta (Santander)
 espacios: [Laboratorio de Microbiología con cuarto de PCR, Laboratorio de tesistas, Cuarto de ultracongeladores, Espacio de docencia]
 grupos:
   - nombre: Bioinformática y cómputo
-    equipos: ["Servidor de cómputo: 2 procesadores Intel Xeon Silver 4216 (32 núcleos, 64 hilos)", 512 GB de memoria RAM, 2 GPU NVIDIA RTX A5000 (24 GB cada una), 3,7 TB de almacenamiento, "Flujos reproducibles: Nextflow, conda, Apptainer y Docker"]
+    equipos: ["Servidor de cómputo: 2 procesadores Intel Xeon Silver 4216 (32 núcleos, 64 hilos)", 512 GB de memoria RAM, 2 GPU NVIDIA RTX A5000 (24 GB cada una), "3,7 TB de almacenamiento", "Flujos reproducibles: Nextflow, conda, Apptainer y Docker"]
   - nombre: Biología molecular
     equipos: [PCR en tiempo real (ESCO Swift Spectrum), Termociclador, Cámara de electroforesis y fuente de poder, Juegos de micropipetas]
   - nombre: Microbiología y cultivo
