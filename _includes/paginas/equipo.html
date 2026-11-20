@@ -19,6 +19,7 @@
       {% if resumen %}<details><summary>{{ ui.leer_resumen }}</summary><p>{% include cursiva.html t=resumen %}</p></details>{% endif %}
       {% elsif p.modalidad %}<p class="modalidad"><span class="etiqueta">{{ ui.modalidad_grado }}</span> {{ tr[p.modalidad] | default: p.modalidad }}{% if p.tesis %}. {{ ui.area }}: {% include cursiva.html t=p.tesis %}{% endif %}</p>
       {% elsif p.tesis %}<p class="tesis">{% include cursiva.html t=p.tesis %}</p>{% endif %}
+      {% if p.direccion or p.codireccion %}<p class="nota direccion">{% if p.direccion %}{{ ui.direccion }}: {{ p.direccion }}{% endif %}{% if p.direccion and p.codireccion %} · {% endif %}{% if p.codireccion %}{{ ui.codireccion }}: {{ p.codireccion | join: ", " }}{% endif %}</p>{% endif %}
     </article>
     {% endfor %}
   </div>

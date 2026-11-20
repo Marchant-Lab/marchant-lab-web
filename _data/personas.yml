@@ -4,6 +4,7 @@
 # Egresados: anio = año de grado. Con `noesis: <handle>` el título, resumen y enlace salen de
 # _data/tesis.json (scripts/actualizar_tesis.py); si la tesis no está en Noesis, poner `tesis:` a mano.
 # Campos opcionales: foto (ruta en assets/), enlace (ORCID, LinkedIn…), anio, tesis, noesis,
+# direccion (director/a si no es Sergio), codireccion (lista, sin Sergio). Fuentes: Noesis, Anexos 17/18, PRD de cada tesis.
 # modalidad (si el grado no fue por trabajo de investigación; `tesis` pasa a ser el área registrada).
 - nombre: Sergio Andrés Marchant Rojas
   rol: Investigador principal
@@ -15,30 +16,38 @@
 - nombre: Ashly Lisset Arévalo Rodríguez   # Anexo 17 (2026-06): director S. Marchant, codirectora C. Holguín (AGROSAVIA)
   rol: Doctorado en Ciencias Biológicas
   estado: actual
+  codireccion: [Claudia María Holguín Aranzazu]
 - nombre: María Andrea Reyes Reyes   # Anexo 17 (2026-11-10): directora C. I. Sánchez (Microbiología UIS), codirectores W. Hidalgo (Química UIS) y S. Marchant
   rol: Doctorado en Ciencias Biológicas (codirección)
   estado: actual
+  direccion: Clara Inés Sánchez Suárez
+  codireccion: [William Fernando Hidalgo Bucheli]
 - nombre: Jeysnner Arley Pinzón Bayona
   rol: Maestría en Biología
   estado: actual
 - nombre: María de los Ángeles Atehortúa Bueno
   rol: Maestría en Biología
   estado: actual
+  codireccion: [Genis Castillo Villamizar, Clara Inés Sánchez Suárez]
 - nombre: Lizeth Dayana Villamizar Leal
   rol: Maestría en Biología
   estado: actual
+  codireccion: [Claudia María Holguín Aranzazu]
 - nombre: David Alejandro Rivera Holguín
   rol: Maestría en Biología (codirección)
   estado: actual
+  direccion: José Mauricio Montes Rodríguez
 - nombre: Bianeth García Barrios
   rol: Maestría en Biología (codirección)
   estado: actual
+  direccion: Yeirme Yaneth Jaimes Suárez
 - nombre: Mateo Santiago Quesada Martínez
   rol: Maestría en Biología
   estado: actual
 - nombre: Julieth Camila Maldonado Pava   # Anexo 18 (2026-11-17): director S. Marchant, codirectora C. Holguín (AGROSAVIA)
   rol: Maestría en Biología
   estado: actual
+  codireccion: [Claudia María Holguín Aranzazu]
 - nombre: Santiago Javier Novoa Sanmiguel
   rol: Biología (pregrado)
   estado: actual
@@ -57,6 +66,7 @@
 - nombre: Leonardo Villalba Campos
   rol: Maestría en Biología (codirección)
   estado: egresado
+  direccion: Claudia María Holguín Aranzazu
   anio: 2026
   noesis: 20.500.14071/47668
 - nombre: Diana Carolina Torres Gómez
@@ -67,11 +77,13 @@
 - nombre: Sergio Andrés Sepúlveda Ortiz
   rol: Biología (pregrado)
   estado: egresado
+  codireccion: [María Andrea Reyes Reyes]
   anio: 2026
   noesis: 20.500.14071/47523
 - nombre: Katherin López Lizarazo
   rol: Biología (pregrado)
   estado: egresado
+  codireccion: [Dalia Barragán Barrera]
   anio: 2026
   noesis: 20.500.14071/47863
 - nombre: Marcela Judith Mantilla Martínez   # ORCID: Doctorado en Ingeniería UNAB 2018–2025; tesis no está en el repositorio UNAB ni en Noesis
@@ -82,26 +94,31 @@
 - nombre: Nicolle Alejandra Saavedra Valderrama
   rol: Biología (pregrado)
   estado: egresado
+  codireccion: [Dalia Barragán Barrera]
   anio: 2025
   noesis: 20.500.14071/46435
 - nombre: Silvia Juliana Corrales Murillo
   rol: Maestría en Química (codirección)
   estado: egresado
+  direccion: William Fernando Hidalgo Bucheli
   anio: 2025
   noesis: 20.500.14071/45280
 - nombre: Diego Alejandro Castro Blanco
   rol: Biología (pregrado)
   estado: egresado
+  codireccion: [Adriana Rocío Lizcano Dallos]
   anio: 2025
   noesis: 20.500.14071/46476
 - nombre: Isabella Valencia Rueda
   rol: Biología (pregrado, codirección)
   estado: egresado
+  direccion: Claudia María Holguín Aranzazu
   anio: 2023
   noesis: 20.500.14071/15072
 - nombre: Jesús David Rueda Reyes
   rol: Maestría en Biología
   estado: egresado
+  codireccion: [Claudia María Holguín Aranzazu, Tatiana Mallanin Rondón Sala]
   anio: 2023
   noesis: 20.500.14071/15544
 - nombre: Kevin Daniel Meza Avendaño
@@ -117,6 +134,7 @@
 - nombre: Vladimir Andrés Beltrán Tirado
   rol: Biología (pregrado)
   estado: egresado
+  codireccion: [Víctor Hugo Serrano Cardozo]
   anio: 2022
   noesis: 20.500.14071/12165
 - nombre: José Alejandro Becerra Ortiz
@@ -137,6 +155,7 @@
 - nombre: Pricelis Paulin Polanco Fontalvo
   rol: Maestría en Biología (codirección)
   estado: egresado
+  direccion: Carmenza Montoya Jaramillo
   anio: 2020
   noesis: 20.500.14071/40807
 - nombre: Harold Cardona Gutiérrez

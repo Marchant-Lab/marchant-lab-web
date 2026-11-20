@@ -28,6 +28,8 @@ es:
   leer_resumen: Leer resumen
   modalidad_grado: Modalidad de grado
   area: Área
+  direccion: Dirección
+  codireccion: Codirección
   secciones_docencia: [Cursos en la UIS, Formación continua, Divulgación y museo]
   formacion_docente: Formación docente
   ver_curso: Ver página del curso →
@@ -86,6 +88,8 @@ en:
   leer_resumen: Read abstract
   modalidad_grado: Degree option
   area: Area
+  direccion: Supervision
+  codireccion: Co-supervision
   secciones_docencia: [Courses at UIS, Continuing education, Outreach and museum]
   formacion_docente: Teacher training
   ver_curso: Course website →
