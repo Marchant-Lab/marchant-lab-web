@@ -25,6 +25,7 @@ es:
   financia: Financia
   perfil_orcid: Perfil completo en
   grupos_equipo: [Integrantes actuales, Egresados]
+  niveles: {doctorado: Doctorado, maestria: Maestría, pregrado: Pregrado}
   leer_resumen: Leer resumen
   modalidad_grado: Modalidad de grado
   area: Área
@@ -85,6 +86,7 @@ en:
   financia: Funded by
   perfil_orcid: Full profile on
   grupos_equipo: [Current members, Alumni]
+  niveles: {doctorado: PhD, maestria: Master's, pregrado: Undergraduate}
   leer_resumen: Read abstract
   modalidad_grado: Degree option
   area: Area

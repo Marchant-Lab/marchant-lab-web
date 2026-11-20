@@ -102,6 +102,7 @@ nav a[aria-current="page"] { background: var(--verde); color: #fff; }
 .persona h3 { font-size: 1.05rem; margin: 0; }
 .persona .nota { margin: 0; }
 .persona .direccion { margin-top: .7rem; font-size: .85rem; }
+.subgrupo { margin: 2rem 0 .8rem; }
 .avatar { flex: none; display: grid; place-items: center; width: 52px; height: 52px; border-radius: 50%; background: linear-gradient(135deg, var(--verde), #2a8a7b); color: #fff; font-weight: 600; letter-spacing: .03em; object-fit: cover; }
 .tesis { margin-top: 1rem; font-size: .93rem; font-style: italic; }
 .tesis a { text-decoration: none; }

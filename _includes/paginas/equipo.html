@@ -3,8 +3,11 @@
 {% for e in estados %}{% assign lista = site.data.personas | where: "estado", e %}{% if e == "egresado" %}{% assign lista = lista | sort: "anio" | reverse %}{% endif %}
 <section class="contenedor seccion">
   <h2>{{ ui.grupos_equipo[forloop.index0] }} <span class="contador">{{ lista.size }}</span></h2>
+  {% assign niveles = "investigador,doctorado,maestria,pregrado" | split: "," %}
+  {% for n in niveles %}{% assign sub = lista | where: "nivel", n %}{% if sub.size > 0 %}
+  {% if ui.niveles[n] %}<h3 class="subgrupo">{{ ui.niveles[n] }} <span class="contador">{{ sub.size }}</span></h3>{% endif %}
   <div class="rejilla rejilla-personas">
-    {% for p in lista %}
+    {% for p in sub %}
     <article class="tarjeta persona">
       <div class="persona-cabeza">
         {% include avatar.html nombre=p.nombre foto=p.foto %}
@@ -22,7 +25,7 @@
       {% if p.direccion or p.codireccion %}<p class="nota direccion">{% if p.direccion %}{{ ui.direccion }}: {{ p.direccion }}{% endif %}{% if p.direccion and p.codireccion %} · {% endif %}{% if p.codireccion %}{{ ui.codireccion }}: {{ p.codireccion | join: ", " }}{% endif %}</p>{% endif %}
     </article>
     {% endfor %}
-  </div>
+  </div>{% endif %}{% endfor %}
 </section>
 {% endfor %}
 
