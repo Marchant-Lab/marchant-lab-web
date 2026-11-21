@@ -8,5 +8,6 @@ url: https://marchant-lab.github.io
 # Contador de visitas por país: la URL de la imagen (src="...") del código que da flagcounter.com,
 # p. ej. https://s01.flagcounter.com/count2/AbCd/bg_0A3530/.../  Vacío = no se muestra.
 flag_counter: https://s05.flagcounter.com/count2/kBw/bg_0A3530/txt_FFFFFF/border_0A3530/columns_4/maxflags_12/viewers_0/labels_0/pageviews_1/flags_0/percent_0/
-contacto: seanmaro@uis.edu.co
+# Correo partido en dos para que no aparezca completo en el HTML (se arma con JS en _includes/correo.html; menos spam).
+contacto: {usuario: seanmaro, dominio: uis.edu.co}
 exclude: [README.md, AGENTS.md, environment.yml, scripts]

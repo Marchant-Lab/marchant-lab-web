@@ -57,7 +57,7 @@
       </div>
       <div>
         <strong>{{ ui.contacto }}</strong>
-        <p><a href="mailto:{{ site.contacto }}">{{ site.contacto }}</a></p>
+        <p>{% include correo.html %}</p>
       </div>
       <div>
         <strong>{{ ui.perfiles }}</strong>
@@ -71,5 +71,6 @@
     </div>
     {% endif %}
   </footer>
+  <script>document.querySelectorAll('a.correo').forEach(a => { const c = a.dataset.u + '@' + a.dataset.d; a.href = 'mailto:' + c; a.textContent = c; });</script>
 </body>
 </html>

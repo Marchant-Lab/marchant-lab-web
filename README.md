@@ -21,7 +21,7 @@ Todo el contenido está en `_data/`. Se edita el YAML, se hace commit y push, y 
 | Galerías de fotos (portada, investigador, equipo) | `_data/galeria.yml` + `assets/fotos/` | `pagina: inicio` (grupos y campo), `investigador` o `equipo`; quitar metadatos y GPS a las fotos antes de subirlas |
 | Docencia (cursos, diplomados, divulgación) | `_data/docencia.yml` | |
 | Cómo vincularse | `_data/vinculacion.yml` y `vinculate.md` | |
-| Correo, título, descripción | `_config.yml` | `contacto`, `title`, `description` |
+| Correo, título, descripción | `_config.yml` | `contacto` (`usuario` y `dominio` por separado, contra el spam), `title`, `description` |
 | Contador de visitas por país (pie de página) | `_config.yml` | `flag_counter`: URL de la imagen (`src`) del código de flagcounter.com; vacío = oculto |
 | Imagen al compartir el enlace (WhatsApp, redes) | `assets/compartir.jpg` | 1200×630, sin metadatos |
 

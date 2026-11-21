@@ -12,6 +12,6 @@
   </div>
   <div class="aviso">
     <h2>{{ ui.como_aplicar }}</h2>
-    <p>{{ ui.aplicar_antes }} <strong><a href="mailto:{{ site.contacto }}">{{ site.contacto }}</a></strong> {{ ui.aplicar_despues }}</p>
+    <p>{{ ui.aplicar_antes }} <strong>{% include correo.html %}</strong> {{ ui.aplicar_despues }}</p>
   </div>
 </section>
