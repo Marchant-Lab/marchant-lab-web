@@ -75,12 +75,18 @@
 "Reto Naturalista Urbano": "City Nature Challenge"
 
 # --- Vincúlate
-"Trabajo de grado de pregrado": "Undergraduate thesis"
-"Estudiantes de Biología y carreras afines de la UIS.": "Students of Biology and related programs at UIS."
-"Maestría y doctorado": "Master's and PhD"
-"Tesis en ADN ambiental, ecología molecular y evolución, genómica microbiana, sanidad vegetal o nematología.": "Theses in environmental DNA, molecular ecology and evolution, microbial genomics, plant health or nematology."
-"Pasantías y prácticas": "Internships"
-"Estancias cortas de laboratorio o de bioinformática.": "Short lab or bioinformatics stays."
+"Estudiantes": "Students"
+"Trabajos de grado de pregrado, maestría y doctorado en ADN ambiental, ecología molecular y evolución, genómica microbiana, sanidad vegetal o nematología, y pasantías cortas de laboratorio o de bioinformática.": "Undergraduate, master's and PhD theses in environmental DNA, molecular ecology and evolution, microbial genomics, plant health or nematology, and short lab or bioinformatics internships."
+"Hoja de vida, certificado de notas, línea de interés y disponibilidad.": "CV, transcript, research line of interest and availability."
+"Posdoctorados e investigadores visitantes": "Postdocs and visiting researchers"
+"Recibimos posdoctorados, estancias y sabáticos con financiación propia o de convocatorias (Minciencias, entre otras). Si aún no la tienes, escribimos juntos la propuesta.": "We host postdocs, research stays and sabbaticals with their own funding or funding from calls (Minciencias, among others). If you do not have funding yet, we write the proposal together."
+"Hoja de vida y una idea de proyecto en una página.": "CV and a one-page project idea."
+"Colaboraciones": "Collaborations"
+"Proyectos conjuntos con grupos de investigación, universidades, centros como AGROSAVIA y entidades públicas, y postulaciones conjuntas a convocatorias (Minciencias, Sistema General de Regalías).": "Joint projects with research groups, universities, research centers such as AGROSAVIA and public agencies, and joint applications to funding calls (Minciencias, Colombia's General Royalties System)."
+"Una breve descripción de la idea y de la convocatoria, si ya la hay.": "A short description of the idea and of the funding call, if there is one."
+"Servicios": "Services"
+"Para empresas, entidades y otros laboratorios, por medio de extensión UIS: secuenciación Nanopore, ADN ambiental (metabarcoding), identificación molecular de plagas, patógenos y nematodos, análisis bioinformático y asesoría.": "For companies, agencies and other laboratories, through UIS extension services: Nanopore sequencing, environmental DNA (metabarcoding), molecular identification of pests, pathogens and nematodes, bioinformatic analysis and consulting."
+"Tipo y número de muestras y la pregunta que quieres responder; te enviamos una cotización.": "Sample type and number and the question you want to answer; we will send you a quote."
 
 # --- Congresos (países)
 "Brasil": "Brazil"

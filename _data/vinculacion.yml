@@ -1,7 +1,13 @@
-# BORRADOR: ajustar a las modalidades reales.
-- modalidad: Trabajo de grado de pregrado
-  detalle: Estudiantes de Biología y carreras afines de la UIS.
-- modalidad: Maestría y doctorado
-  detalle: Tesis en ADN ambiental, ecología molecular y evolución, genómica microbiana, sanidad vegetal o nematología.
-- modalidad: Pasantías y prácticas
-  detalle: Estancias cortas de laboratorio o de bioinformática.
+# Formas de trabajar con el laboratorio (página Trabaja con nosotros). Traducciones en traduccion_en.yml.
+- modalidad: Estudiantes
+  detalle: "Trabajos de grado de pregrado, maestría y doctorado en ADN ambiental, ecología molecular y evolución, genómica microbiana, sanidad vegetal o nematología, y pasantías cortas de laboratorio o de bioinformática."
+  enviar: "Hoja de vida, certificado de notas, línea de interés y disponibilidad."
+- modalidad: Posdoctorados e investigadores visitantes
+  detalle: "Recibimos posdoctorados, estancias y sabáticos con financiación propia o de convocatorias (Minciencias, entre otras). Si aún no la tienes, escribimos juntos la propuesta."
+  enviar: "Hoja de vida y una idea de proyecto en una página."
+- modalidad: Colaboraciones
+  detalle: "Proyectos conjuntos con grupos de investigación, universidades, centros como AGROSAVIA y entidades públicas, y postulaciones conjuntas a convocatorias (Minciencias, Sistema General de Regalías)."
+  enviar: "Una breve descripción de la idea y de la convocatoria, si ya la hay."
+- modalidad: Servicios
+  detalle: "Para empresas, entidades y otros laboratorios, por medio de extensión UIS: secuenciación Nanopore, ADN ambiental (metabarcoding), identificación molecular de plagas, patógenos y nematodos, análisis bioinformático y asesoría."
+  enviar: "Tipo y número de muestras y la pregunta que quieres responder; te enviamos una cotización."

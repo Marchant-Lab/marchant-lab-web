@@ -1,11 +1,12 @@
 {% include idioma.html %}
 <section class="contenedor seccion">
-  <div class="rejilla">
+  <div class="rejilla rejilla-dos">
     {% for v in site.data.vinculacion %}
     <article class="tarjeta">
       <span class="numero">{{ forloop.index | prepend: "0" }}</span>
       <h3>{{ tr[v.modalidad] | default: v.modalidad }}</h3>
       <p>{{ tr[v.detalle] | default: v.detalle }}</p>
+      <p class="nota"><strong>{{ ui.enviar }}</strong> {{ tr[v.enviar] | default: v.enviar }}</p>
     </article>
     {% endfor %}
   </div>

@@ -44,7 +44,7 @@ p { margin: 0 0 .8rem; }
 .marca-logo { display: grid; place-items: center; width: 36px; height: 36px; border-radius: 10px; background: var(--verde); color: #fff; font-size: 1.1rem; }
 nav { display: flex; gap: .2rem; flex-wrap: wrap; }
 nav a { padding: .4rem .55rem; border-radius: 999px; color: var(--tinta); text-decoration: none; font-size: .9rem; font-weight: 500; }
-@media (max-width: 1200px) and (min-width: 801px) { .marca { font-size: 1.05rem; } .marca-logo { width: 30px; height: 30px; } nav a { padding: .35rem .4rem; font-size: .82rem; } .idioma { padding: .3rem .55rem; font-size: .8rem; } }
+@media (max-width: 1360px) and (min-width: 801px) { .marca { font-size: 1.05rem; } .marca-logo { width: 30px; height: 30px; } nav a { padding: .35rem .4rem; font-size: .82rem; } .idioma { padding: .3rem .55rem; font-size: .8rem; } }
 nav a:hover { background: var(--verde-claro); color: var(--verde); }
 nav a[aria-current="page"] { background: var(--verde); color: #fff; }
 
@@ -99,6 +99,7 @@ nav a[aria-current="page"] { background: var(--verde); color: #fff; }
 
 /* Equipo */
 .rejilla-personas { grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); }
+.rejilla-dos { grid-template-columns: repeat(auto-fill, minmax(min(100%, 420px), 1fr)); }
 .persona-cabeza { display: flex; gap: .9rem; align-items: center; }
 .persona h3 { font-size: 1.05rem; margin: 0; }
 .persona .nota { margin: 0; }

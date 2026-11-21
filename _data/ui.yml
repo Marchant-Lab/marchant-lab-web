@@ -1,6 +1,6 @@
 # Textos fijos de la interfaz en cada idioma. Las páginas en inglés viven en en/.
 es:
-  menu: [["/", "Inicio"], ["/noticias/", "Noticias"], ["/investigador/", "Investigador"], ["/proyectos/", "Proyectos"], ["/publicaciones/", "Publicaciones"], ["/congresos/", "Congresos"], ["/docencia/", "Docencia"], ["/equipo/", "Equipo"], ["/vinculate/", "Vincúlate"]]
+  menu: [["/", "Inicio"], ["/noticias/", "Noticias"], ["/investigador/", "Investigador"], ["/proyectos/", "Proyectos"], ["/publicaciones/", "Publicaciones"], ["/congresos/", "Congresos"], ["/docencia/", "Docencia"], ["/equipo/", "Equipo"], ["/vinculate/", "Trabaja con nosotros"]]
   cambiar_idioma: "EN"
   cambiar_idioma_titulo: "View this page in English"
   descripcion: "Marchant Lab, Universidad Industrial de Santander (UIS): ADN ambiental, ecología molecular y genómica para el conocimiento y el aprovechamiento sostenible de la biodiversidad en Colombia."
@@ -8,16 +8,16 @@ es:
   nombre_oficial: Laboratorio de Fisiología, Genómica y Transcriptómica
   lema: ADN ambiental, ecología molecular y genómica para el conocimiento y el aprovechamiento sostenible de la biodiversidad en Colombia.
   ver_proyectos: Ver proyectos
-  vinculate_boton: Vincúlate al laboratorio
+  vinculate_boton: Trabaja con nosotros
   cifras: [publicaciones, proyectos activos, integrantes, egresados]
   lineas: Líneas de investigación
   galerias: {inicio: El laboratorio en imágenes, investigador: En campo, equipo: El equipo en acción, docencia: Diplomado UIS – AGROSAVIA en imágenes}
   infraestructura: Infraestructura
   proyectos_activos: Proyectos activos
   todos_proyectos: Todos los proyectos →
-  banda_titulo: ¿Quieres hacer tu tesis con nosotros?
-  banda_texto: Recibimos estudiantes de pregrado, maestría y doctorado en ADN ambiental, ecología molecular y evolución, genómica microbiana, sanidad vegetal y nematología.
-  banda_boton: Cómo vincularse
+  banda_titulo: ¿Quieres trabajar con nosotros?
+  banda_texto: Recibimos estudiantes, posdoctorados e investigadores visitantes, buscamos colaboraciones y proyectos conjuntos, y ofrecemos servicios de secuenciación, ADN ambiental, diagnóstico molecular y bioinformática.
+  banda_boton: Ver opciones
   formacion: Formación
   trayectoria: Trayectoria
   distinciones: Becas y distinciones
@@ -35,9 +35,10 @@ es:
   secciones_docencia: [Cursos en la UIS, Formación continua, Divulgación y museo]
   formacion_docente: Formación docente
   ver_curso: Ver página del curso →
-  como_aplicar: ¿Cómo aplicar?
+  como_aplicar: ¿Cómo contactarnos?
+  enviar: "Qué enviar:"
   aplicar_antes: Escribe a
-  aplicar_despues: con tu hoja de vida, la línea de investigación que te interesa y tu disponibilidad.
+  aplicar_despues: indicando cuál de estas opciones te interesa e incluyendo lo que se pide en ella.
   pie_lugar: Grupo iBGA · Escuela de Biología · Universidad Industrial de Santander<br>Sede Guatiguará, Piedecuesta · Bucaramanga, Colombia
   contacto: Contacto
   perfiles: Perfiles
@@ -60,9 +61,9 @@ es:
     congresos: {titulo: Congresos, subtitulo: "Ponencias, pósteres y evaluación de resúmenes en congresos nacionales e internacionales."}
     docencia: {titulo: Docencia, subtitulo: "Cursos en la UIS, formación continua y divulgación científica."}
     equipo: {titulo: Equipo, subtitulo: Estudiantes e investigadores que forman o formaron parte del laboratorio.}
-    vinculate: {titulo: Vincúlate, subtitulo: Formas de sumarte al trabajo del laboratorio.}
+    vinculate: {titulo: Trabaja con nosotros, subtitulo: "Estudiantes, investigadores, aliados y servicios."}
 en:
-  menu: [["/en/", "Home"], ["/en/noticias/", "News"], ["/en/investigador/", "PI"], ["/en/proyectos/", "Projects"], ["/en/publicaciones/", "Publications"], ["/en/congresos/", "Conferences"], ["/en/docencia/", "Teaching"], ["/en/equipo/", "Team"], ["/en/vinculate/", "Join us"]]
+  menu: [["/en/", "Home"], ["/en/noticias/", "News"], ["/en/investigador/", "PI"], ["/en/proyectos/", "Projects"], ["/en/publicaciones/", "Publications"], ["/en/congresos/", "Conferences"], ["/en/docencia/", "Teaching"], ["/en/equipo/", "Team"], ["/en/vinculate/", "Work with us"]]
   cambiar_idioma: "ES"
   cambiar_idioma_titulo: "Ver esta página en español"
   descripcion: "Marchant Lab, Universidad Industrial de Santander (UIS): Environmental DNA, molecular ecology and genomics for the knowledge and sustainable use of biodiversity in Colombia."
@@ -70,16 +71,16 @@ en:
   nombre_oficial: Laboratory of Physiology, Genomics and Transcriptomics
   lema: Environmental DNA, molecular ecology and genomics for the knowledge and sustainable use of biodiversity in Colombia.
   ver_proyectos: See projects
-  vinculate_boton: Join the lab
+  vinculate_boton: Work with us
   cifras: [publications, active projects, members, alumni]
   lineas: Research lines
   galerias: {inicio: The lab in pictures, investigador: In the field, equipo: The team at work, docencia: UIS – AGROSAVIA diploma course in pictures}
   infraestructura: Facilities
   proyectos_activos: Active projects
   todos_proyectos: All projects →
-  banda_titulo: Want to do your thesis with us?
-  banda_texto: We welcome undergraduate, master's and PhD students in environmental DNA, molecular ecology and evolution, microbial genomics, plant health and nematology.
-  banda_boton: How to join
+  banda_titulo: Want to work with us?
+  banda_texto: We welcome students, postdocs and visiting researchers, seek collaborations and joint projects, and offer sequencing, environmental DNA, molecular diagnostics and bioinformatics services.
+  banda_boton: See options
   formacion: Education
   trayectoria: Career
   distinciones: Fellowships and awards
@@ -97,9 +98,10 @@ en:
   secciones_docencia: [Courses at UIS, Continuing education, Outreach and museum]
   formacion_docente: Teacher training
   ver_curso: Course website →
-  como_aplicar: How to apply
+  como_aplicar: How to get in touch
+  enviar: "What to send:"
   aplicar_antes: Write to
-  aplicar_despues: with your CV, the research line you are interested in and your availability.
+  aplicar_despues: saying which of these options interests you and including what it asks for.
   pie_lugar: iBGA Research Group · School of Biology · Universidad Industrial de Santander<br>Guatiguará campus, Piedecuesta · Bucaramanga, Colombia
   contacto: Contact
   perfiles: Profiles
@@ -122,4 +124,4 @@ en:
     congresos: {titulo: Conferences, subtitulo: "Talks, posters and abstract reviewing at national and international conferences."}
     docencia: {titulo: Teaching, subtitulo: "Courses at UIS, continuing education and science outreach."}
     equipo: {titulo: Team, subtitulo: Students and researchers who are or have been part of the lab.}
-    vinculate: {titulo: Join us, subtitulo: Ways to take part in the lab's work.}
+    vinculate: {titulo: Work with us, subtitulo: "Students, researchers, partners and services."}
