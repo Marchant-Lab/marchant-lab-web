@@ -2,4 +2,5 @@
 {%- for g in site.data.especies.generos -%}{%- capture r -%}<em>{{ g }}</em>{%- endcapture -%}{%- assign cv = cv | replace: g, r -%}{%- endfor -%}
 {%- for e in site.data.especies.especies -%}{%- assign pe = e | split: " " -%}{%- assign resto = e | remove_first: pe[0] | strip -%}{%- capture de -%}<em>{{ pe[0] }}</em> {{ resto }}{%- endcapture -%}{%- capture a -%}<em>{{ e }}</em>{%- endcapture -%}{%- assign cv = cv | replace: de, a -%}{%- endfor -%}
 {%- for e in site.data.especies.abreviados -%}{%- capture a -%}<em>{{ e }}</em>{%- endcapture -%}{%- assign cv = cv | replace: e, a -%}{%- endfor -%}
+{%- for e in site.data.especies.cf -%}{%- capture b -%}cf. {{ e }}{%- endcapture -%}{%- capture a -%}cf. <em>{{ e }}</em>{%- endcapture -%}{%- assign cv = cv | replace: b, a -%}{%- endfor -%}
 {{- cv -}}

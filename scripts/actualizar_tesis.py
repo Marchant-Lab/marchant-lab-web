@@ -13,6 +13,19 @@ def valor(meta, campo):
     v = meta.get(campo)
     return " ".join(v[0]["value"].split()) if v else None
 
+# Erratas de Noesis en nombres científicos (género con mayúscula, epíteto bien escrito, autor con mayúscula).
+CORRECCIONES = {
+    "elaeis oleifera (kunth) cortes": "Elaeis oleifera (Kunth) Cortés",
+    "Astaena pygidialis kirsch": "Astaena pygidialis Kirsch",
+    "A. pygydialis": "A. pygidialis",
+    "A. pyidialis": "A. pygidialis",
+}
+
+def corregir(texto):
+    for mal, bien in CORRECCIONES.items():
+        texto = texto.replace(mal, bien) if texto else texto
+    return texto
+
 tesis, pagina = [], 0
 while True:
     url = API + "?" + urllib.parse.urlencode(
@@ -26,13 +39,13 @@ while True:
             continue
         tesis.append({
             "handle": it["handle"],
-            "titulo": valor(m, "dc.title"),
+            "titulo": corregir(valor(m, "dc.title")),
             "autor": valor(m, "dc.contributor.author"),
             "anio": int(valor(m, "dc.date.issued")[:4]),
             "grado": valor(m, "dc.description.degreename"),
             "directores": directores,
-            "resumen": valor(m, "dc.description.abstract"),
-            "resumen_en": valor(m, "dc.description.abstractenglish"),
+            "resumen": corregir(valor(m, "dc.description.abstract")),
+            "resumen_en": corregir(valor(m, "dc.description.abstractenglish")),
         })
     pagina += 1
     if pagina >= res["page"]["totalPages"]:

@@ -22,6 +22,14 @@ for f in glob.glob("_site/**/*.html", recursive=True):
         for m in re.finditer(r"(?<!<em>)\b" + g + r"\b", s):
             print("SIN CURSIVA  :", f, "|", s[max(0, m.start() - 40):m.end() + 30].replace("\n", " "))
             problemas += 1
+    for g in esp["generos"]:  # género escrito en minúscula (p. ej. "elaeis oleifera")
+        for m in re.finditer(r"(?<![\w/])" + g.lower() + r"\s+[a-z]{4,}", s):
+            print("MINÚSCULA    :", f, "|", m.group(0))
+            problemas += 1
+    for e in esp.get("cf", []):
+        if f"cf. {e}" in s:
+            print("CF SIN CURSIVA:", f, "|", e)
+            problemas += 1
     for e in esp["especies"]:
         g, resto = e.split(" ", 1)
         if f"<em>{g}</em> {resto}" in s:

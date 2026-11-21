@@ -2,6 +2,7 @@
 # Solo género y especie: los taxones superiores (Tylenchida, Symphyla, Peripatidae…) NO van en cursiva.
 # 1) generos: cada aparición del género se pone en cursiva ("Globodera spp." → solo el género).
 # 2) especies: nombre completo; amplía la cursiva al epíteto (y subespecie si está en la lista).
+# 4) cf: epítetos que aparecen como "Género cf. epíteto" (el epíteto también va en cursiva).
 # 3) abreviados: formas como "G. pallida", tal cual aparecen en los textos.
 # Al agregar un texto con una especie nueva, agregarla aquí.
 generos: [Artemia, Astaena, Astroblepus, Ceratitis, Dendrobates, Elaeis, Excirolana, Fusarium, Globodera,
@@ -13,4 +14,5 @@ especies: [Haliotis discus hannai, Artemia salina, Astaena pygidialis, Astroblep
   Haliotis discus, Hemibrycon colombianus, Kocuria marina, Kronoheros umbrifer, Lippia origanoides,
   Pollicipes elegans, Psidium guajava, Rhincodon typus, Saccodon dariensis, Trichodorus obtusus,
   Trichomycterus ruitoquensis]
-abreviados: [A. pygidialis, A. pygydialis, A. pyidialis, C. capitata, E. guineensis, E. oleifera, G. pallida, R. typus]
+abreviados: [A. pygidialis, C. capitata, E. guineensis, E. oleifera, G. pallida, R. typus]
+cf: [ruitoquensis]
