@@ -201,3 +201,19 @@ details p { margin-top: .6rem; }
 .galeria a { display: block; overflow: hidden; }
 .galeria a:hover img { transform: scale(1.04); }
 .galeria figcaption { padding: .7rem 1rem; font-size: .9rem; color: var(--gris); }
+
+/* Afinado tipográfico e interacción (ideas de la skill apple-design, adaptadas a un sitio de contenido) */
+/* Interletrado según tamaño: negativo en títulos grandes, neutro en el cuerpo */
+.heroe h1, .cabecera h1 { letter-spacing: -.025em; line-height: 1.05; }
+h2 { letter-spacing: -.015em; line-height: 1.15; }
+.cifras strong { letter-spacing: -.02em; }
+/* Respuesta inmediata al presionar */
+.boton:active, nav a:active, .idioma:active { transform: scale(.97); transition-duration: .08s; }
+.tarjeta a:active { opacity: .7; }
+/* Accesibilidad: respetar las preferencias del sistema */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; scroll-behavior: auto !important; }
+  .tarjeta:hover, .boton:hover, .galeria a:hover img { transform: none; }
+}
+@media (prefers-reduced-transparency: reduce) { .barra { background: #fff; backdrop-filter: none; } }
+@media (prefers-contrast: more) { .barra { background: #fff; backdrop-filter: none; border-bottom-color: var(--verde-oscuro); } .nota, .tipo { color: var(--tinta); } }
