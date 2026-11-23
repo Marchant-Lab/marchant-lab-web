@@ -113,7 +113,7 @@ en:
   noticias_recientes: Latest news
   todas_noticias: All news →
   meses: [Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec]
-  categorias: {Publicación: Publication, Grado: Graduation, Proyecto: Project, Congreso: Conference}
+  categorias: {Publicación: Publication, Grado: Graduation, Proyecto: Project, Congreso: Conference, Distinción: Award}
   grupos_publicaciones: [Journal articles, Books and chapters, Conference proceedings]
   titulo_categorias: Publication types
   tipos_trabajo: {Ponencia: Talk, Póster: Poster, Conferencia magistral: Keynote, Coautoría: Co-author, Evaluador de resúmenes: Abstract reviewer}

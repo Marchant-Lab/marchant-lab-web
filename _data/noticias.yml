@@ -1,8 +1,14 @@
 # Orden: la página los ordena sola (más reciente primero); el orden en este archivo no importa.
-# Campos: fecha (AAAA-MM-DD), categoria (Publicación | Grado | Proyecto | Congreso), titulo, texto;
+# Campos: fecha (AAAA-MM-DD), categoria (Publicación | Grado | Proyecto | Congreso | Distinción), titulo, texto;
 # opcionales: enlace (URL externa o ruta interna como /proyectos/) y foto (ruta en assets/fotos/).
 # Cada titulo y texto nuevo necesita su traducción en _data/traduccion_en.yml.
 # Fuente de las fechas: Crossref (artículos), Noesis (grados), actas y certificados (proyectos y congresos).
+
+- fecha: 2026-11-22
+  categoria: Distinción
+  titulo: Premio Reinhard Rieger 2026 para el artículo de José Luis Poveda Cuéllar
+  texto: La revista Zoomorphology otorgó el Reinhard Rieger Award 2026 al artículo de José Luis Poveda Cuéllar, estudiante de doctorado, y sus coautores sobre el uso de aprendizaje profundo en fotografías de campo para medir la diversidad morfométrica de los peces de agua dulce de Colombia. Tras las nominaciones del comité editorial, un grupo de revisores externos lo calificó como el mejor estudio entre los nominados.
+  enlace: https://link.springer.com/collections/ajcggdgjdf
 
 - fecha: 2026-09-18
   categoria: Proyecto
