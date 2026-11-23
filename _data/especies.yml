@@ -6,13 +6,15 @@
 # 3) abreviados: formas como "G. pallida", tal cual aparecen en los textos.
 # Al agregar un texto con una especie nueva, agregarla aquí.
 generos: [Artemia, Astaena, Astroblepus, Ceratitis, Dendrobates, Elaeis, Excirolana, Fusarium, Globodera,
-  Haliotis, Hemibrycon, Kocuria, Kronoheros, Lasiodiplodia, Limnoria, Lippia, Meloidogyne, Pollicipes,
-  Psidium, Rhincodon, Saccodon, Trichodorus, Trichomycterus]
+  Haliotis, Hanseniella, Hemibrycon, Kocuria, Kronoheros, Lasiodiplodia, Limnoria, Lippia, Marisora, Meloidogyne, Pollicipes,
+  Psidium, Rhincodon, Saccodon, Solanum, Symphylella, Trichodorus, Trichomycterus]
 especies: [Haliotis discus hannai, Artemia salina, Astaena pygidialis, Astroblepus micrescens, Astroblepus pradai,
   Ceratitis capitata, Dendrobates truncatus, Elaeis guineensis, Elaeis oleifera, Excirolana hirsuticauda,
-  Fusarium incarnatum, Fusarium oxysporum, Fusarium solani, Globodera pallida, Globodera rostochiensis,
+  Fusarium incarnatum, Fusarium oxysporum, Fusarium solani, Globodera pallida, Globodera rostochiensis, Globodera tabacum,
+  Haliotis rufescens, Hanseniella chocoita, Hanseniella lebrijana,
   Haliotis discus, Hemibrycon colombianus, Kocuria marina, Kronoheros umbrifer, Lippia origanoides,
-  Pollicipes elegans, Psidium guajava, Rhincodon typus, Saccodon dariensis, Trichodorus obtusus,
+  Pollicipes elegans, Psidium guajava, Rhincodon typus, Saccodon dariensis, Solanum tuberosum, Trichodorus obtusus,
   Trichomycterus ruitoquensis]
-abreviados: [A. pygidialis, C. capitata, E. guineensis, E. oleifera, G. pallida, R. typus]
-cf: [ruitoquensis]
+abreviados: [A. pygidialis, C. capitata, E. guineensis, E. hirsuticauda, E. oleifera, G. pallida, G. rostochiensis,
+  G. tabacum, H. discus hannai, H. rufescens, P. elegans, R. typus, T. obtusus]
+cf: [ruitoquensis, unguiculata]

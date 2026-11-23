@@ -20,6 +20,10 @@
         <span class="tipo">{{ ui.tipos[p.tipo] | default: p.tipo }}</span>
         {% if p.doi %}<a href="https://doi.org/{{ p.doi }}">{% include cursiva.html t=p.titulo %}</a>{% else %}<span class="titulo">{% include cursiva.html t=p.titulo %}</span>{% endif %}
         {% if p.revista %}<em>{{ p.revista }}</em>{% endif %}
+        {% if p.doi %}{% assign k = p.doi | downcase %}{% assign res = site.data.resumenes[k] %}{% assign trad = site.data.resumenes_traduccion[k] %}
+        {% if res.resumen %}{% if res.idioma == lang or trad == nil %}{% assign texto = res.resumen %}{% else %}{% assign texto = trad %}{% endif %}
+        <details><summary>{{ ui.leer_resumen }}</summary><p>{% include cursiva.html t=texto %}</p>{% if texto == trad %}<p class="nota">{{ ui.resumen_traducido }}</p>{% endif %}</details>{% endif %}
+        <p class="enlaces-pub">{% if res.pdf %}<a class="boton-pdf" href="{{ res.pdf }}">{{ ui.pdf }}</a>{% endif %}<a href="https://doi.org/{{ p.doi }}">{{ ui.ver_revista }}</a>{% if res.abierto %}<span class="etiqueta">{{ ui.acceso_abierto }}</span>{% endif %}</p>{% endif %}
       </li>
       {% endfor %}
     </ul>

@@ -28,6 +28,10 @@ es:
   grupos_equipo: [Integrantes actuales, Egresados]
   niveles: {doctorado: Doctorado, maestria: Maestría, pregrado: Pregrado}
   leer_resumen: Leer resumen
+  pdf: Descargar PDF
+  ver_revista: Ver en la revista
+  acceso_abierto: Acceso abierto
+  resumen_traducido: Traducción del resumen original en inglés.
   modalidad_grado: Modalidad de grado
   area: Área
   direccion: Dirección
@@ -92,6 +96,10 @@ en:
   grupos_equipo: [Current members, Alumni]
   niveles: {doctorado: PhD, maestria: Master's, pregrado: Undergraduate}
   leer_resumen: Read abstract
+  pdf: Download PDF
+  ver_revista: View at publisher
+  acceso_abierto: Open access
+  resumen_traducido: Translated from the original Spanish abstract.
   modalidad_grado: Degree option
   area: Area
   direccion: Supervision

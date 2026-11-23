@@ -1,0 +1,248 @@
+# Traducción de los resúmenes de _data/resumenes.json (que vienen de OpenAlex en su idioma original).
+# Clave: DOI en minúsculas. Valor: el resumen en el otro idioma (español si el original está en inglés,
+# inglés si está en español). La página marca el texto como traducción. Sin traducción se muestra el original.
+
+10.1016/j.mtcomm.2026.116369: >-
+  El uso creciente de polímeros y materiales compuestos en aplicaciones críticas de ingeniería, como tuberías,
+  estructuras aeroespaciales, sistemas de transporte y componentes industriales, ha hecho más necesario entender
+  los procesos que determinan su durabilidad y su falla a largo plazo. Estos materiales están expuestos a
+  condiciones ambientales y de operación diversas que pueden desencadenar rutas de degradación complejas y afectar
+  su desempeño estructural y funcional. Esta revisión examina los principales mecanismos de degradación de los
+  sistemas poliméricos y compuestos, y analiza críticamente las técnicas de diagnóstico usadas para detectar y
+  evaluar el deterioro. Se hizo una revisión bibliométrica estructurada de publicaciones indexadas en Scopus y Web
+  of Science entre 2020 y 2025. El polietileno es el material más estudiado, seguido de los polímeros reforzados
+  con fibra de vidrio. La degradación de estos materiales involucra varios procesos que interactúan (químicos,
+  físicos, mecánicos y biológicos) y que a menudo actúan en sinergia en condiciones reales de servicio, una
+  complejidad que los estudios de un solo mecanismo rara vez capturan. Se emplea una amplia gama de métodos de
+  diagnóstico, entre ellos técnicas espectroscópicas, térmicas, microscópicas, mecánicas y no destructivas; las más
+  usadas son la espectroscopía infrarroja por transformada de Fourier (FTIR) y la microscopía electrónica de
+  barrido (SEM). Los resultados muestran que integrar técnicas analíticas complementarias con modelos predictivos y
+  enfoques basados en datos es cada vez más necesario para evaluar la degradación de forma confiable. Se espera
+  que los avances en aprendizaje automático aplicados a datos de emisión acústica y de sensores de rejilla de
+  Bragg en fibra, junto con los gemelos digitales y las tecnologías de sensado inteligente, mejoren mucho la
+  predicción de la vida útil y permitan un uso más seguro y sostenible de estos materiales en aplicaciones críticas.
+
+10.1002/jez.b.23325: >-
+  En los vertebrados, la provisión de nutrientes a los embriones en desarrollo varía mucho: desde estrategias que
+  dependen del vitelo hasta formas muy especializadas de nutrición placentaria. Las vitelogeninas (VTG) son
+  proteínas esenciales para la formación del vitelo en especies ovíparas y lecitotróficas. En cambio, en los
+  mamíferos euterios la pérdida de las VTG se asocia con la evolución de la matrotrofia (placentotrofia y
+  lactancia), en la que la nutrición materna a través de la placenta reemplaza la necesidad de grandes reservas
+  de vitelo durante el desarrollo embrionario. Marisora sp., un lagarto vivíparo placentotrófico con la placenta
+  más compleja conocida en reptiles, presenta una vitelogénesis truncada que produce huevos microlecíticos. Este
+  estudio buscó VTG en Marisora sp. con RNA-seq de hígado y ovario en las etapas de previtelogénesis y
+  vitelogénesis. No se encontraron anotaciones correspondientes a VTG. Esta ausencia puede estar asociada con la
+  nutrición placentotrófica del embrión y sugiere cambios en la producción y el transporte de lípidos hacia los
+  folículos ováricos. Se identificaron la apolipoproteína B (ApoB) y la proteína de transferencia de
+  triglicéridos microsomal (MTP), muy relacionadas con las VTG y que podrían cumplir su función, en especial la
+  ApoB, que participa en la formación del vitelo en especies lecitotróficas que carecen de VTG. La ausencia de VTG
+  en el transcriptoma de Marisora sp. es un hallazgo clave para entender la evolución de la viviparidad
+  placentotrófica obligada en reptiles y muestra rasgos convergentes con los mamíferos. Se necesitan estudios
+  genómicos para saber si cambios en los genes de VTG impiden o modifican su expresión, y estudios proteómicos
+  para entender el papel de otras proteínas de transporte de lípidos en los folículos ováricos preovulatorios de
+  estos lagartos.
+
+10.3897/zookeys.1268.159237: >-
+  Los sinfílidos son artrópodos del suelo que pueden causar daños importantes en cultivos, en especial en la
+  piña. A pesar de su importancia económica, su taxonomía y biodiversidad son poco conocidas en Colombia y en el
+  Neotrópico. Aquí se estudiaron las especies de sinfílidos asociadas al cultivo de piña en Santander, la mayor
+  región productora de piña del país. Se muestrearon cuatro cultivos comerciales con trampas de caída cebadas. Los
+  especímenes se identificaron por examen morfológico y por código de barras de ADN del gen mitocondrial citocromo
+  c oxidasa subunidad I (COI). Se identificaron seis morfoespecies: cuatro de Hanseniella y dos de Symphylella. El
+  análisis molecular mostró cuatro clados genéticos distintos. Integrar los datos morfológicos y moleculares
+  resolvió las dudas taxonómicas iniciales e indicó que algunas morfoespecies separadas al principio corresponden a
+  variación morfológica dentro de una misma especie. Hanseniella cf. unguiculata es la especie predominante en los
+  cultivos de piña, con el 95,9 % de los registros. Además, se describen dos especies nuevas: Hanseniella chocoita
+  sp. nov. y Hanseniella lebrijana sp. nov., y se presenta una clave dicotómica revisada para identificar las
+  especies de Hanseniella de Suramérica. El estudio aporta información valiosa sobre los sinfílidos de los cultivos
+  de piña de Colombia y muestra la necesidad de seguir investigando su diversidad y sus relaciones evolutivas.
+
+10.1007/s00435-025-00747-x: >-
+  Los peces neotropicales de agua dulce están entre los vertebrados más diversos en forma; sin embargo, su estudio
+  ha dependido de especímenes preservados, que se deforman con la preservación y limitan lo que sabemos de su
+  forma natural. La fotografía de campo es una alternativa no invasiva que captura la morfología de los peces tal
+  como se ve en la naturaleza, pero extraer de forma automática y precisa la forma a partir de esas imágenes sigue
+  siendo difícil, sobre todo en grupos muy diversos. Presentamos un flujo de trabajo basado en inteligencia
+  artificial que integra Segment Anything y Grounding DINO para automatizar la segmentación de los peces y la
+  extracción de su forma en fotografías de campo. Lo aplicamos a CavFish-Colombia, un conjunto curado de 1749
+  imágenes que representan el 78 % de los órdenes (n = 11), el 82 % de las familias (n = 48), el 41 % de los
+  géneros (n = 189) y el 25 % de las especies o morfoespecies (n = 428) de peces de agua dulce de Colombia,
+  tomadas con el sistema estandarizado PhotaFish. Con más del 97 % de precisión en la segmentación, el método
+  extrae la forma natural del cuerpo de manera precisa y consistente. Presentamos el primer morfoespacio
+  estructurado de los peces de agua dulce de Colombia basado en su forma natural, cuantificada con descriptores
+  como área, perímetro y momentos invariantes. Este morfoespacio muestra gradientes claros de tamaño y contorno
+  relacionados con la locomoción y el uso del hábitat, desde especies grandes y redondeadas hasta especies pequeñas
+  y alargadas. La mayoría de los peces de agua dulce de Colombia comparte un morfotipo predominante: cuerpo pequeño
+  y comprimido lateralmente. Las desviaciones dependen del orden: los Synbranchiformes son alargados y delgados;
+  los Characiformes van de cuerpos altos a alargados e hidrodinámicos, y los Siluriformes incluyen formas pequeñas,
+  hidrodinámicas o acorazadas y aplanadas dorsoventralmente. El análisis de fotografías de campo con inteligencia
+  artificial permite estudios morfológicos a gran escala con datos precisos, rápidos y escalables para evaluar la
+  biodiversidad, analizar rasgos funcionales e investigar en ecología. Este monitoreo morfológico no invasivo abre
+  nuevas posibilidades para estudiar la variación de forma tal como ocurre en la naturaleza, con representaciones
+  más fieles de los animales vivos.
+
+10.21930/agrosavia.manual.7407907: >-
+  This manual is a complete guide to recognizing and diagnosing dieback of avocado, a disease that limits this
+  crop in Santander, Colombia, caused by the fungus Lasiodiplodia spp. Accurate diagnosis is crucial for managing
+  the disease effectively, and this document provides the tools to achieve it. It details how to isolate the
+  fungus, from collecting plant tissue samples to the macroscopic and microscopic description of the pathogen. It
+  also includes the procedure for pathogenicity tests, which confirm that the fungus can cause the disease. In
+  addition, it describes the PCR technique for the molecular identification of Lasiodiplodia spp.: DNA
+  extraction, amplification of three gene regions (ITS, tef1-α and tub2) and multilocus sequence analysis for
+  accurate species identification. Sharing this information among technicians and scientists is key to promoting
+  knowledge and prevention of avocado dieback in Santander and other avocado-producing departments of Colombia.
+
+# Resumida: el original es una nota completa; se omiten medidas, coordenadas y números de acceso.
+10.1094/pdis-04-23-0751-pdn: >-
+  Los nematodos quiste de la papa (NQP; Globodera spp.) causan pérdidas importantes en los cultivos de papa
+  (Solanum tuberosum) en todo el mundo. En Colombia, el NQP se reportó por primera vez en 1970 (Baeza 1972),
+  aunque ese reporte no incluyó una descripción ni un diagnóstico completos de la especie. Desde entonces, G.
+  pallida ha sido la única especie de NQP reportada en las principales regiones productoras de papa de Colombia
+  (Evans et al. 1975; Nieto et al. 1983; Vallejo et al. 2021). Sin embargo, en el muestreo de Vallejo et al.
+  (2021), una sola muestra de Chocontá, Cundinamarca, en el centro del país, mostró caracteres moleculares
+  similares a G. rostochiensis. Como la identificación correcta es esencial para el manejo de la plaga, el sitio
+  se volvió a muestrear en septiembre de 2022. De las muestras de suelo se recuperaron quistes (método de Fenwick)
+  y juveniles de segundo estadio (J2, por centrifugación). La morfometría de los quistes (n = 53) coincidió con G.
+  rostochiensis, y la de los juveniles (n = 90) también. Los análisis moleculares confirmaron la identificación
+  morfológica: las secuencias del segmento D2-D3 del ADNr 28S y de la región del gen mitocondrial COI fueron
+  idénticas o casi idénticas a las de G. rostochiensis de otros países, y el análisis filogenético de ambas
+  regiones respaldó con fuerza esa especie. Además, una prueba de patogenicidad en invernadero con plantas de papa
+  criolla mostró que el nematodo se reproduce en ellas (factor de reproducción de 4,54 ± 0,86), mientras que las
+  plantas control no tuvieron hembras ni quistes. Hasta donde sabemos, este es el primer reporte de G.
+  rostochiensis en Colombia. Es una plaga importante que causa graves pérdidas de rendimiento en papa y es un
+  nematodo cuarentenario en muchos países (EPPO 2017). Se necesitan más estudios para evitar su dispersión a las
+  principales regiones productoras de papa de Colombia.
+
+10.1080/10496475.2022.2121351: >-
+  Se buscaron secuencias microsatélite polimórficas en los genomas de dos especímenes silvestres de Lippia
+  origanoides de localidades separadas. Se diseñaron 23 pares de cebadores que flanquean los marcadores candidatos
+  y se evaluó su utilidad para la genética de poblaciones en plantas de cuatro municipios de Colombia. Un conjunto
+  final de 10 pares de cebadores sirvió para los análisis de diversidad, que indicaron la existencia de tres
+  linajes genéticos en Colombia. Se validó la amplificación cruzada en cinco especies relacionadas de Lippia. Los
+  resultados respaldan la eficiencia de los enfoques in silico para generar nuevos recursos genéticos para la
+  investigación en especies de Lippia.
+
+10.1371/journal.pone.0241256: >-
+  Los nematodos quiste de la papa (NQP) del género Globodera spp. causan grandes pérdidas en el cultivo de papa
+  (Solanum tuberosum) en todo el mundo. A pesar de su importancia, se sabe poco sobre la situación de este
+  patógeno en los cultivos de papa de Colombia. En este estudio se analizaron 589 muestras de 75 localidades en
+  nueve regiones productoras de papa del país (Cundinamarca, Boyacá, Antioquia, Nariño, Santander, Norte de
+  Santander, Tolima, Caldas y Cauca) para detectar nematodos quiste. El 57 % de las muestras fue positivo. Según
+  el análisis filogenético de la región espaciadora transcrita interna (ITS1-5.8S-ITS2) del gen de ARNr y de los
+  segmentos de expansión D2-D3 del gen de ARNr 28S, todas las poblaciones menos una se identificaron como
+  Globodera pallida. Las secuencias de G. pallida de Colombia formaron un grupo monofilético cercano a las
+  poblaciones de Perú, con el menor número promedio de sustituciones nucleotídicas por sitio (Dxy = 0,002) y de
+  sustituciones netas por sitio (Da = 0,001) en comparación con poblaciones de G. pallida de Europa, Suramérica y
+  Norteamérica. Una sola muestra formó un subclado bien sustentado junto con G. rostochiensis y G. tabacum de
+  Japón, Estados Unidos y Argentina. Hasta donde sabemos, este es el primer estudio amplio de las poblaciones de
+  Globodera de Colombia que incluye datos genéticos. Los resultados sobre la diversidad de especies y las
+  relaciones filogenéticas de estas poblaciones pueden ayudar a aclarar la situación y la distribución de las
+  especies de Globodera y a desarrollar estrategias de manejo precisas para los nematodos quiste de la papa.
+
+10.1163/15685411-00002944: >-
+  El nematodo de raíz achaparrada Trichodorus obtusus se identificó recientemente en pasto zoysia en Carolina del
+  Sur, Estados Unidos. En Florida, T. obtusus causa más daño que otros nematodos de raíz achaparrada presentes en
+  céspedes. El objetivo de este estudio fue usar análisis morfológicos y secuencias de ADN mitocondrial (COI:
+  citocromo oxidasa 1) y nuclear (ARNr 18S) para estudiar la estructura genética y la diversidad de haplotipos de
+  poblaciones recolectadas en céspedes de Carolina del Sur. Se observaron numerosas diferencias morfológicas entre
+  poblaciones. Tres haplotipos de 18S se compartieron entre poblaciones de Carolina del Sur y Florida, y se
+  identificaron seis haplotipos mitocondriales en las muestras de Carolina del Sur. De los seis haplotipos de COI,
+  cuatro estuvieron restringidos a una población de pasto San Agustín. La menor diversidad de haplotipos se
+  encontró en las muestras de pasto zoysia. Las secuencias del gen mitocondrial COI de T. obtusus se publicaron en
+  GenBank y son las primeras secuencias de ADN mitocondrial del género Trichodorus.
+
+10.1186/s12983-015-0131-z: >-
+  Antecedentes: estudiar especies con distribuciones disyuntas permite a los biogeógrafos evaluar qué factores
+  controlan los rangos de las especies, limitan el flujo génico y producen especiación alopátrica. Aquí usamos
+  estudios filogeográficos y de genética de poblaciones del percebe Pollicipes elegans para distinguir entre dos
+  hipótesis sobre el origen de las poblaciones extratropicales disyuntas: colonización transtropical por
+  escalones frente a un origen "fuera de los trópicos". Resultados: la diversidad nucleotídica fue máxima en el
+  centro del rango de la especie, en El Salvador, y menor en las latitudes más altas, en México y Perú. Los
+  haplotipos de El Salvador también tuvieron una coalescencia más profunda, es decir, un ancestro común más
+  reciente más antiguo. Existe una ruptura filogeográfica profunda entre México y todas las muestras del sur (El
+  Salvador y Perú). Los análisis de aislamiento con migración no mostraron flujo génico significativo entre
+  ninguna de las tres regiones, lo que indica que las diferencias en la diferenciación genética se explican sobre
+  todo por diferencias en los tiempos de separación de las poblaciones. La comparación de modelos con computación
+  bayesiana aproximada respaldó con fuerza un origen "fuera de los trópicos" de las poblaciones extratropicales
+  de P. elegans. Conclusiones: encontramos poca evidencia de una colonización transtropical por escalones y, en
+  cambio, fuerte evidencia de un origen tropical de la distribución en gran parte disyunta de P. elegans. La
+  temperatura superficial del mar y la disponibilidad de hábitat son los mecanismos probables del declive de las
+  poblaciones en las regiones tropicales, que causa la distribución disyunta.
+
+10.1111/ivb.12104: >-
+  A medida que la temperatura ambiental aumenta y varía más entre estaciones, la capacidad de los individuos de
+  ajustar de forma plástica su respuesta fisiológica a la temperatura (aclimatarse) puede influir en la
+  persistencia de las especies. En los organismos marinos, la larva suele ser la etapa más sensible
+  fisiológicamente y, a menudo, la principal etapa de dispersión del ciclo de vida. Sin embargo, son raros los
+  estudios sobre la aclimatación de larvas marinas. Investigamos si las larvas del percebe Pollicipes elegans de
+  dos poblaciones templadas, una del hemisferio norte (México) y otra del hemisferio sur (Perú), muestran
+  aclimatación estacional a la temperatura. Comparamos el efecto de la temperatura sobre la actividad de nado, el
+  consumo de oxígeno y la mortalidad de las larvas de ambas poblaciones en las estaciones cálida y fría. Las
+  larvas de México tuvieron mayor tolerancia térmica cuando se recolectaron en el verano boreal que en el invierno
+  boreal, mientras que en las larvas de Perú no hubo indicios de aclimatación estacional. Esa falta de
+  aclimatación en las larvas de P. elegans de Perú puede deberse a su historia térmica reciente, a una baja
+  selección para la aclimatación por los cambios estacionales irregulares de temperatura durante los eventos ENSO,
+  o a historias filogeográficas distintas de las poblaciones de los hemisferios norte y sur.
+
+10.1111/j.1365-2109.2008.02089.x: >-
+  Uno de los retos del cultivo de cualquier especie es controlar la pérdida de variabilidad genética, que puede
+  disminuir la calidad de rasgos de importancia comercial. El objetivo de este estudio fue evaluar la diversidad
+  genética de una población de criadero del abalón japonés (Haliotis discus hannai) del Centro de Producción de
+  Abalón de la Universidad Católica del Norte (CAP-UCN), mantenida bajo un programa de reproducción. Usamos seis
+  marcadores microsatélite polimórficos. Los loci Awb033 y Awb079 tuvieron el mayor número de alelos (11 y 10) y
+  los loci Awb022 y Awb026 el menor (dos y cuatro). El número medio de alelos por locus fue 6,83. Las
+  heterocigosidades observada y esperada promedio fueron 0,71 y 0,70, y el índice F(IS) (f) promedio fue -0,023.
+  Comparamos los parámetros genéticos de la población del CAP-UCN con datos publicados de poblaciones silvestres y
+  de criadero de la misma especie. La población introducida tiene menor diversidad genética, medida como riqueza
+  alélica, con una pérdida del 11 al 58 % de los alelos por locus. A pesar de esa pérdida, el coeficiente de
+  endogamia estimado sugiere que el programa de reproducción del CAP-UCN ha mantenido con éxito los niveles de
+  heterocigosidad. Se necesita un estudio temporal para saber si la pérdida de diversidad se produjo durante la
+  introducción inicial de los reproductores o por el programa de reproducción actual.
+
+10.1111/j.1755-0998.2008.02186.x: >-
+  El isópodo chileno Excirolana hirsuticauda es un incubador bentónico marino de amplia distribución y bajo
+  potencial de dispersión a larga distancia. Se desarrollaron once marcadores microsatélite para E. hirsuticauda
+  con bibliotecas enriquecidas. La caracterización de esos loci en 35 individuos de la playa Playa Blanca mostró
+  alta diversidad alélica, con un promedio de 10,9 alelos por locus. Las heterocigosidades esperada y observada
+  promedio fueron 0,65 y 0,41. Son los primeros loci microsatélite publicados para una especie de Excirolana y
+  deberían servir para estudiar la estructura genética de E. hirsuticauda.
+
+10.2983/0730-8000(2007)26[833:mmutas]2.0.co;2: >-
+  El abalón japonés (Haliotis discus hannai) y el abalón rojo de California (Haliotis rufescens) se distinguen
+  con facilidad por su concha y por el epipodio. Se encontraron unos pocos individuos de H. rufescens con una
+  coloración del epipodio parecida a la de H. discus hannai, lo que sugería que podían ser híbridos de las dos
+  especies, ya que en criaderos locales se ha reportado de manera informal su hibridación. Este estudio usa
+  métodos genéticos moleculares para saber si esas variantes de color eran híbridos. Se probaron 200 cebadores
+  RAPD por PCR en dos mezclas de ADN de ocho individuos de cada especie. Los cebadores que dieron perfiles
+  distintos entre especies se probaron en 27 individuos tomados al azar de cada especie para comprobar los
+  polimorfismos. Dos cebadores diferencian las especies: el cebador 356 amplificó fragmentos específicos de unos
+  450 y 460 pb en H. discus hannai que no aparecen en el abalón rojo, y el cebador 368 amplificó fragmentos
+  específicos de 750, 850, 860 y 1190 pb en H. rufescens que no aparecen en H. discus hannai. El patrón de
+  amplificación de los individuos de morfología ambigua fue, con ambos cebadores, el característico del abalón
+  rojo. Los resultados sugieren con fuerza que los ejemplares con coloración inusual no eran híbridos sino
+  variantes fenotípicas de H. rufescens. Futuros estudios deberían buscar la causa de la variación de color del
+  epipodio en H. rufescens, que puede ser polimorfismo genético o plasticidad fenotípica.
+
+10.1111/j.1471-8286.2007.01845.x: >-
+  Se aislaron y caracterizaron nueve loci microsatélite del isópodo marino Limnoria sp., una especie modelo de
+  invertebrado para estudiar la conectividad de los incubadores marinos con alto potencial de dispersión por
+  balsas flotantes. El análisis de 35 individuos de una población mostró un número medio de alelos de 12,66 y una
+  heterocigosidad esperada media de 0,83, lo que indica alta variabilidad en la mayoría de los loci. Estos loci
+  polimórficos deberían servir para estudiar la distribución geográfica de la diversidad genética de esta especie
+  de Limnoria.
+
+10.1038/s41597-026-08706-x: >-
+  Las síntesis de biodiversidad a gran escala de los peces neotropicales de agua dulce se ven limitadas por la
+  escasez de datos de rasgos funcionales. Los rasgos morfológicos sirven como indicadores prácticos de funciones
+  ecológicas, pero solo están disponibles para cerca del 18 % de las especies válidas de la región. Para cubrir
+  ese vacío presentamos CaVFish-MORPH, un conjunto de datos generado con inteligencia artificial que aporta 13
+  rasgos morfológicos mediante la estimación automática de puntos clave. Las fotografías de campo de animales
+  vivos reducen las deformaciones causadas por la preservación. El conjunto tiene 2910 registros de 526 especies:
+  cubre el 8,5 % de todas las especies de peces neotropicales descritas y el 31 % de la ictiofauna de los Andes
+  colombianos. Casi un tercio de las especies está representado por más de cinco individuos, lo que permite
+  evaluar la variación de rasgos dentro de cada especie. Los rasgos se extrajeron con un modelo Vision Transformer
+  (ViTPose) combinado con una función de pérdida que tiene en cuenta el fenotipo (PhenoLoss) para mejorar la
+  precisión morfométrica en formas corporales diversas. El conjunto viene con un flujo de inferencia reproducible y
+  aplicaciones web y de escritorio de libre acceso (https://bivl2ab.uis.edu.co/cavmorph-ai-web/). Estos recursos
+  apoyan la investigación ecológica basada en rasgos y la evaluación para la conservación en regiones
+  hiperdiversas y con pocos datos.

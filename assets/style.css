@@ -135,6 +135,11 @@ details p { margin-top: .6rem; }
 .publicaciones a, .publicaciones .titulo { display: block; font-weight: 600; text-decoration: none; color: var(--tinta); }
 .publicaciones a:hover { color: var(--verde); }
 .publicaciones em { color: var(--gris); font-size: .92rem; }
+.publicaciones details { margin-top: .5rem; }
+.publicaciones .enlaces-pub { display: flex; flex-wrap: wrap; align-items: center; gap: .4rem 1rem; margin: .6rem 0 0; font-size: .85rem; }
+.publicaciones .enlaces-pub a { display: inline; font-weight: 600; color: var(--verde); }
+.publicaciones .enlaces-pub .boton-pdf { padding: .25rem .8rem; border-radius: 999px; background: var(--verde); color: #fff; }
+.publicaciones .enlaces-pub .boton-pdf:hover { background: var(--verde-oscuro); color: #fff; }
 .tipo { float: right; font-size: .72rem; font-weight: 600; text-transform: uppercase; letter-spacing: .05em; color: var(--gris); margin-left: .8rem; }
 
 .aviso { margin-top: 2.5rem; background: var(--verde-claro); border-radius: var(--radio); padding: 1.8rem; }
