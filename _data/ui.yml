@@ -19,6 +19,7 @@ es:
   banda_texto: Recibimos estudiantes, posdoctorados e investigadores visitantes, buscamos colaboraciones y proyectos conjuntos, y ofrecemos servicios de secuenciación, ADN ambiental, diagnóstico molecular y bioinformática.
   banda_boton: Ver opciones
   formacion: Formación
+  tesis: Tesis
   trayectoria: Trayectoria
   distinciones: Becas y distinciones
   grupos_proyectos: [Proyectos activos, Proyectos finalizados]
@@ -87,6 +88,7 @@ en:
   banda_texto: We welcome students, postdocs and visiting researchers, seek collaborations and joint projects, and offer sequencing, environmental DNA, molecular diagnostics and bioinformatics services.
   banda_boton: See options
   formacion: Education
+  tesis: Thesis
   trayectoria: Career
   distinciones: Fellowships and awards
   grupos_proyectos: [Active projects, Completed projects]

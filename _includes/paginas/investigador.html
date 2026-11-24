@@ -12,7 +12,8 @@
   <div class="perfil-cuerpo">
     {% for p in i.bio %}{% assign tx = tr[p] | default: p %}<p>{% include cursiva.html t=tx %}</p>{% endfor %}
     <h3>{{ ui.formacion }}</h3>
-    <ul class="linea-tiempo">{% for f in i.formacion %}<li>{{ tr[f] | default: f }}</li>{% endfor %}</ul>
+    <ul class="linea-tiempo">{% for f in i.formacion %}<li>{{ tr[f.grado] | default: f.grado }}
+      {% if f.tesis %}<p class="nota tesis-grado">{{ ui.tesis }}: {% if f.enlace %}<a href="{{ f.enlace }}">{% include cursiva.html t=f.tesis %}</a>{% else %}{% include cursiva.html t=f.tesis %}{% endif %}{% if f.pdf %} · <a href="{{ f.pdf }}">{{ ui.pdf }}</a>{% endif %}</p>{% endif %}</li>{% endfor %}</ul>
     <h3>{{ ui.trayectoria }}</h3>
     <ul class="linea-tiempo">{% for t in i.trayectoria %}<li>{{ tr[t] | default: t }}</li>{% endfor %}</ul>
     <h3>{{ ui.distinciones }}</h3>

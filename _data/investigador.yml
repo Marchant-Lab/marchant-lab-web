@@ -8,10 +8,14 @@ bio:
   - Biólogo chileno interesado en aplicar herramientas genéticas y ecológicas al conocimiento y el aprovechamiento sostenible de la biodiversidad. Se formó en Biología Marina en la Universidad Católica del Norte (Coquimbo, Chile) y obtuvo su doctorado en Ciencias Biológicas en Clemson University (Carolina del Sur, EE. UU.), donde estudió la biogeografía, la adaptación térmica y la distribución del percebe Pollicipes elegans.
   - Ha desarrollado marcadores genómicos en plantas, isópodos marinos y abalones para delimitar especies y medir diversidad genética. Hoy su trabajo se centra en el ADN ambiental y la ecología molecular para estudiar y conservar la biodiversidad, en la genómica de microorganismos con potencial biotecnológico y en el diagnóstico molecular de plagas y patógenos agrícolas, este último en colaboración con AGROSAVIA.
   - En la UIS ha dirigido numerosos trabajos de grado de pregrado y posgrado, desde el diagnóstico molecular de fitopatógenos hasta el estudio de comunidades de peces. Como profesor de planta, es responsable de las asignaturas Fisiología Animal, en el pregrado de Biología, y Análisis de Datos de Secuenciación Masiva en Células, Organismos y Especies, en el posgrado, y desarrolla herramientas para la enseñanza de la fisiología y la evolución.
-formacion:
-  - Ph.D. en Ciencias Biológicas, Clemson University, EE. UU. (2008–2014)
-  - Biólogo Marino, Universidad Católica del Norte, Coquimbo, Chile (1999–2006)
-  - Licenciado en Ciencias del Mar, Universidad Católica del Norte, Coquimbo, Chile (1999–2004)
+formacion:   # tesis: TigerPrints (Clemson) y CV de 2014 (soportes-academicos/hoja-de-vida/); la de pregrado no está en línea
+  - grado: Ph.D. en Ciencias Biológicas, Clemson University, EE. UU. (2008–2014)
+    tesis: Phylogenomics and Historical Biogeography of the Gooseneck Barnacle Pollicipes elegans
+    enlace: https://open.clemson.edu/all_dissertations/1539/
+    pdf: https://open.clemson.edu/cgi/viewcontent.cgi?article=2540&context=all_dissertations
+  - grado: Biólogo Marino, Universidad Católica del Norte, Coquimbo, Chile (1999–2006)
+    tesis: "Uso de microsatélites en el cultivo del abalón del Pacífico, Haliotis discus hannai: estimación de parámetros genéticos en poblaciones de cultivo (2005)"
+  - grado: Licenciado en Ciencias del Mar, Universidad Católica del Norte, Coquimbo, Chile (1999–2004)
 trayectoria:   # cargos UIS con soporte en la carga académica o en resoluciones (soportes-academicos/resoluciones/)
   - Profesor Asociado, Escuela de Biología, UIS (2017–actual)
   - Director de la Sala de Exhibición del Museo de Historia Natural, UIS (2025-2–actual)
