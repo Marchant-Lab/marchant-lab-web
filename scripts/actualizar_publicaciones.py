@@ -16,6 +16,9 @@ grupos = json.load(urllib.request.urlopen(req, timeout=30))["group"]
 pubs = []
 for g in grupos:
     w = g["work-summary"][0]  # ORCID ordena primero la versión preferida
+    # Ponencias: ya están en _data/congresos.yml (página Congresos). Preprints: se lista la versión publicada.
+    if w["type"] in ("conference-paper", "conference-abstract", "conference-poster", "preprint"):
+        continue
     ids = (w.get("external-ids") or {}).get("external-id", [])
     doi = next((i["external-id-value"] for i in ids if i["external-id-type"] == "doi"), None)
     pubs.append({
