@@ -16,7 +16,7 @@ Todo el contenido está en `_data/`. Se edita el YAML, se hace commit y push, y 
 | Tesis de egresados (título y resumen) | `_data/tesis.json` | se regenera con `python3 scripts/actualizar_tesis.py` (lee Noesis); se enlaza con `noesis:` en `personas.yml` |
 | Publicaciones que no están en ORCID | `_data/publicaciones_extra.yml` | se suman a la lista de ORCID |
 | Publicaciones | `_data/publicaciones.json` | se regenera con `python3 scripts/actualizar_publicaciones.py` (lee ORCID) |
-| Resúmenes y PDF de las publicaciones | `_data/resumenes.json` + `_data/resumenes_traduccion.yml` | el JSON se regenera con `python scripts/actualizar_resumenes.py` (lee OpenAlex); la traducción de cada resumen nuevo se escribe a mano en el YAML (clave = DOI en minúsculas) |
+| Resúmenes y PDF de las publicaciones | `_data/resumenes.json` + `_data/resumenes_traduccion.yml` | el JSON se regenera con `python scripts/actualizar_resumenes.py` (lee OpenAlex); la traducción de cada resumen nuevo se escribe a mano en el YAML (clave = DOI en minúsculas); PDF que OpenAlex no tiene: `_data/pdf_extra.yml` |
 | Congresos (ponencias y pósteres) | `_data/congresos.yml` | `ambito: internacional` o `nacional`; países se traducen en `traduccion_en.yml` |
 | Infraestructura (portada) | `_data/infraestructura.yml` | sede, espacios y equipos del iBGA en Guatiguará; sin números de inventario |
 | Galerías de fotos (portada, investigador, equipo) | `_data/galeria.yml` + `assets/fotos/` | `pagina: inicio` (grupos y campo), `investigador` o `equipo`; quitar metadatos y GPS a las fotos antes de subirlas |
